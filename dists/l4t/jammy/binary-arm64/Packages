@@ -343,6 +343,80 @@ Description: Foreign Function Interface library runtime
  language.
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 
+Package: libsdl2-2.0-0
+Source: libsdl2
+Version: 2.26.1+dfsg-1
+Architecture: arm64
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 1484
+Depends: libasound2 (>= 1.0.27), libc6 (>= 2.27), libdrm2 (>= 2.4.47), libgbm1 (>= 8.1~0), libpulse0 (>= 0.99.1), libsamplerate0 (>= 0.1.7), libx11-6 (>= 2:1.2.99.901), libxcursor1 (>> 1.1.2), libxext6, libxfixes3 (>= 1:5.0), libxi6 (>= 2:1.6.99.1), libxrandr2 (>= 2:1.2.99.3), libxss1
+Suggests: xdg-utils
+Conflicts: libsdl-1.3-0
+Replaces: libsdl-1.3-0
+Filename: pool/jammy/libsdl2-2.0-0_2.26.1+dfsg-1_arm64.deb
+Size: 469616
+MD5sum: b353dd7e2869ab3b4a3e9ba4ee9ff271
+SHA1: 01401c2557378963849e32ac0ff4e02baa5ac18a
+SHA256: 28991104c68249c8de3675c912f27a564776a3b1d1d17b7bb11c60c762b0adc8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.libsdl.org/
+Description: Simple DirectMedia Layer
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
+ .
+ This version of SDL is compiled with X11 graphics drivers and OSS,
+ ALSA, sndio and PulseAudio sound drivers.
+
+Package: libsdl2-dev
+Source: libsdl2
+Version: 2.26.1+dfsg-1
+Architecture: arm64
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 5448
+Depends: libasound2-dev, libdbus-1-dev, libdrm-dev, libegl1-mesa-dev, libgbm-dev, libgl-dev, libglu1-mesa-dev, libibus-1.0-dev, libpulse-dev, libsamplerate0-dev, libsdl2-2.0-0 (= 2.26.1+dfsg-1), libsndio-dev, libudev-dev, libx11-dev, libxcursor-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxrandr-dev, libxss-dev, libxt-dev, libxv-dev, libxxf86vm-dev
+Conflicts: libsdl-1.3-dev
+Replaces: libsdl-1.3-dev
+Filename: pool/jammy/libsdl2-dev_2.26.1+dfsg-1_arm64.deb
+Size: 894576
+MD5sum: eea745c38a3318342711545b72f01ff0
+SHA1: e5b400eaab2efde07254e3aa0ac84c61abe82a27
+SHA256: e1efa2d14270b86ffd5c4900fd0b8ad183a8efb5cef7e478b48d44e4802ca374
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.libsdl.org/
+Description: Simple DirectMedia Layer development files
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains the files needed to compile and link programs which
+ use SDL.
+
+Package: libsdl2-doc
+Source: libsdl2
+Version: 2.26.1+dfsg-1
+Architecture: all
+Maintainer: Debian SDL packages maintainers <pkg-sdl-maintainers@lists.alioth.debian.org>
+Installed-Size: 32976
+Breaks: libsdl2-dev (<< 2.0.4+dfsg-1)
+Replaces: libsdl2-dev (<< 2.0.4+dfsg-1)
+Filename: pool/jammy/libsdl2-doc_2.26.1+dfsg-1_all.deb
+Size: 14287808
+MD5sum: 46aff14a92a07516499cccd10d6417af
+SHA1: fd93abbcbbc8ccf74ed49e6a6318910264c2b09b
+SHA256: 6d26c0bc0299bb06ebd5c95418ce94c44020e0128059066a0f19a6d78f99d8eb
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.libsdl.org/
+Description: Reference manual for libsdl2
+ SDL is a library that allows programs portable low level access to a video
+ framebuffer, audio output, mouse, and keyboard.
+ .
+ This package contains the reference manual and examples.
+
 Package: locales
 Source: glibc
 Version: 2.35-9ubuntu3.1
