@@ -73,6 +73,202 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
+Package: libc-bin
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Essential: yes
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1612
+Depends: libc6 (>> 2.35), libc6 (<< 2.36)
+Suggests: manpages
+Filename: pool/jammy/libc-bin_2.35-9ubuntu3.1_armhf.deb
+Size: 784664
+MD5sum: 75aad3a17828a4117d37d193b6af88e8
+SHA1: 57c26485ba481bce968906320eb9f39d2d1ab8b3
+SHA256: 9fefc631194e0bc0e864168dd616cbe374325f1ecbf8641eb0fc8df752d7c1cd
+Section: libs
+Priority: required
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Binaries
+ This package contains utility programs related to the GNU C Library.
+ .
+  * getconf: query system configuration variables
+  * getent: get entries from administrative databases
+  * iconv, iconvconfig: convert between character encodings
+  * ldd, ldconfig: print/configure shared library dependencies
+  * locale, localedef: show/generate locale definitions
+  * tzselect, zdump, zic: select/dump/compile time zones
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libc-dev-bin
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 289
+Depends: libc6 (>> 2.35), libc6 (<< 2.36)
+Recommends: manpages, manpages-dev, libc-devtools (>> 2.35)
+Filename: pool/jammy/libc-dev-bin_2.35-9ubuntu3.1_armhf.deb
+Size: 256610
+MD5sum: f5c08af6e949fdf2ddb5f83676efef16
+SHA1: 9b381fa198f67dfc414df9547f4ca5a95f0c0e14
+SHA256: 8b6db850cbc6b9d3210e00bf38c9d27f1cb456ae0d783d6088fe1b4fe6c77302
+Section: libdevel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Development binaries
+ This package contains utility programs related to the GNU C Library
+ development package.
+ .
+  * gencat: generate message catalogs
+  * rpcgen: compile RPC protocols to C
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libc-devtools
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 328
+Depends: libc6 (>= 2.34), libgd3 (>= 2.1.0~alpha~)
+Recommends: manpages, manpages-dev
+Breaks: libc-dev-bin (<< 2.31-8)
+Replaces: libc-dev-bin (<< 2.31-8)
+Filename: pool/jammy/libc-devtools_2.35-9ubuntu3.1_armhf.deb
+Size: 267686
+MD5sum: c78a91b54eaed0b8768fbe637888aaea
+SHA1: c107dd26bc1a6c46c283acb0c31736e3bdc0bd16
+SHA256: 8dd07e69a8e10b947d9e138b28bebf33092f1d09bfbf608fe06201a255904837
+Section: devel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Development tools
+ This package contains development tools shipped by the GNU C
+ Library.
+ .
+  * memusage, memusagestat: profile a program's memory usage
+  * mtrace: interpret the malloc trace log
+  * sotruss: trace shared library calls
+  * sprof: display shared object profiling data
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libc6
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 8231
+Depends: libgcc-s1, libcrypt1 (>= 1:4.4.10-10ubuntu4)
+Recommends: libidn2-0 (>= 2.0.5~), libnss-nis, libnss-nisplus
+Suggests: glibc-doc, debconf | debconf-2.0, locales
+Breaks: busybox (<< 1.30.1-6), fakeroot (<< 1.25.3-1.1ubuntu2~), hurd (<< 1:0.9.git20170910-1), ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~), iraf-fitsutil (<< 2018.07.06-4), libgegl-0.4-0 (<< 0.4.18), libtirpc1 (<< 0.2.3), locales (<< 2.35), locales-all (<< 2.35), macs (<< 2.2.7.1-3~), nocache (<< 1.1-1~), nscd (<< 2.35), openarena (<< 0.8.8+dfsg-4~), openssh-server (<< 1:8.2p1-4), r-cran-later (<< 0.7.5+dfsg-2), wcc (<< 0.0.2+dfsg-3)
+Provides: libc6-armhf
+Filename: pool/jammy/libc6_2.35-9ubuntu3.1_armhf.deb
+Size: 2750264
+MD5sum: 4ff32af6f06d4258e02848a9811cd1cf
+SHA1: 7e88615f48b5c31bb9d21fc46531ded17022a97e
+SHA256: 1f986392a891eddb2f02d1adff3b46d6a22d83ac21955ce48ef62493002252cf
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libc6-dbg
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 15697
+Depends: libc6 (= 2.35-9ubuntu3.1)
+Provides: libc-dbg, libc6-dbgsym
+Filename: pool/jammy/libc6-dbg_2.35-9ubuntu3.1_armhf.deb
+Size: 12346376
+MD5sum: de95e2f9ee6799ab04dd78ea1c71faf4
+SHA1: 52872a2a1c25003b4644a918fa1b8f5af873a79b
+SHA256: 333e07fcb58da544c78f4e46b3582999c222ef16f37efa919fe7df1687e8e4ed
+Section: debug
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: detached debugging symbols
+ This package contains the detached debugging symbols for the GNU C
+ library.
+Build-Ids: 0011ae9b57e0bb3ac872ab3ee3b745cc9af4b37c 005ca4422d39d5410c2b265be7c96443be6831bf 032e3a933b33397609acc2767c70e349fbd64267 0443e95058abc6a6e9abd15455ef48580726a96e 05768d1de40f0e32ccb9f133531f4fd0b08a9296 075ad56a46cc2926e5fff4e0bb772cab19971334 0a578b717bc76649677adef6d1e05a0df0b3c7f3 0cc410b9a99bb51bd0e0c47bbed9e5ff1751b8a3 0cefc4d30a99a0bea1eb649cf65a32dc37386975 0edf40f624b09369707c6cbd581a3a1dc9c87555 100686bae136963c621c6db12628537e7b673f1a 10095b5a3a00518dfd3ff0b29a5a47ba9c694ccf 102afa5c0ee264a9654c68e968f1112a8758ebf0 13f8efb5d47cfc11d8840491c9ba925c07753469 1468c29349572426b3600fab6a55066acc2f8c71 14765efa41b9396fd4f116a5916b0df9726d0bdd 15745835de8214718331d71e40f9aea65b59cf77 15b10e568a0eaffbad148ea7842c67ad98b9f8d4 161dcfdce6db6601dc088306bb021e593f1ae256 168723a6ac84b99e7fc308fac4fcc190e46b1c4e 1716770cba355c2a3a7f9b970a5ecdd2eb14a704 19721092f5c83f33be30e31762436aeceaf97759 198dc478fbba1f61afea2c1c35dd3ae122e80a0d 1a1f727411fa80c8bcf73688d39c88d198b2cdbb 1a4f008feea37368b58ff08725e17939811a32ac 1aee3952d95a0c581e986498c9ac1289dae5270a 1c5f8a6e62878960a5366f463d790d747ddada9e 1c8dff44b4abc7da0983fb6bed1478464f2b5bbd 1ceb7dc901c02cb6901b0d75cf2ab86a996e9c93 1ecc19af7ae2f868daab85333425a9c98ccdc9ec 209b59096334d297f49614a7756478296be47048 20b6ecec7d40a202dc7cda8a39de4bc49818ef95 20c28c1abaf98c3bbf7015009544b3a620c386bf 223fae09754e881abb45b9cb5d5a65330b9a9562 253d80710d90e06f5eb10bac09a9164b2e156695 25a7991f31983817b62c491d9ccf21b3889d377e 26714919a3a6e3a6efdf06e7eb46f03c3f633f93 282f5d5d28f32f8abba507d042c17d1e161e211d 2960eaf67477e4eb8ceaff60235c86b9f4811a32 2a29638774b6f60089b12c05e90a6171c2b0c607 2a8781d7a585c12acf0dd4badcea349841fe131b 2a881927aa46b5190b76480daedab2a1d408a1c7 2ab878df62ed725b68d74bc1244f3e654d1bc076 2b20225845447e14199d8f8211617cacd8f406c2 2b7c0141cac9389e34b6360d16b478c35425453b 2cc5a7985722b2061248c8c563de148b08a863cb 2cd0a1370fe05d1cd7e8242f75b34c43c396cc71 2dacc1074d99d69c07990fcc5a5e561f9800e713 2fbd81bc123e3e9fe3eef054ca21f88e15dab2d1 2fc7751be5ab6339c6ff09eeecadecad75420cfb 30f559b2a024af76f0fe60eaa8e1214edd05bc47 313bb2addf1ac0b5ab195e7f40e2dec522035d46 313c986ee86d979a47175fb4820977c37899d001 322857b3a41bc2aa1ed508016d341a1436d67f34 328159d5f19dc4896e800c705631bff8b5a0d022 329ddf500f9aa9691dd2f68525d68671285e1cb9 32ce84b68ebbbb0616c502fafe00e6edb445376b 32e062c9062637789dcb878be23a9804306f0211 34e9339add836bb5e7229c6e2c8bc087cf6a6154 34f0424cc5c50fd5b32bdf9709948bd94ee60fa7 35b3dfa41acede5e0ec7ecd9e42d1088a221c6f8 35dcdba3fb2a0ad98fbc0522f18b07c231d7bded 37db0633de29615771fb340b5818e3b44df55c0d 38927f7de4b33201efe44687cb6fe26f2155efdc 38b0e2a5fdcc6d0865f76ac008ff2897cb0b227f 3a29a088e34c505f2a7d6e59fe1097680fbae8c4 3b0b742709a10ebdf6d9581597bc9f4de1e91b7a 3bbe0070b93a39c610d58cda1bc6001974f5900f 3c3a659bf32d4bc9bb581b9f31d67eca1f6ae1ef 3ca9f562580d0d22b0e93bd94b5fc79381eebd85 3dec1d5231fbbed84ba2202522459bcc7eb49764 3f2fa2f8f9535bf79a7598dd515ef16b97e2f9d6 3f7bcc86745b05152d13a0a3005720195384034b 3f8bb32b9fdca63025778d2426e2a92c4ffdf0f4 40f10ed98f039bc8d857e0c4ad4541a6303c2853 417ccf35aebe6cebd16311f510c6b95bfe22c940 41a057c250b731a050df7f7a1ce87f32bdb0d075 4215c5172b48aee7e9b5140d47e0c9ebb6584fdd 42520b88ac708d0ead878e6682f5e1a2c00d98ec 42f2dd779df7744851b5203619094497087b5fe6 436d9e4de6279c91c17a1ec9dae91df0503c0591 439b68d0792f4074d94ec7ce941ef3c90f78ed4b 439d3e24718b54c798df6306bef632bb1598671d 43de070c621eb3c2b49cb1bae11bc944cdd786f3 442e67d1a16d592353a79bf4e8151ada78469ce2 44ddf383b269b302294f3a68c78760c84dfd7d14 47fa599d89321ddd027d7726ec0128d07672f7d8 4851d25ed494fa16d5d5a272c7388a8eab5843ce 48d473b562bf9a867222aa0aa1c58ba26e593c45 4913c716e400854ecd3608ad6a1a44d59a1d54ef 4a55f4b72aa62eb95e466130db557692d03737f7 4b1eca81ef927d7fb30038a36306b48500b9d7ed 4b6173d48cdfdb04ca5649a880473cd7b5d7e026 4c52fe582046dbbcd7d0e13901e8c3135d40aa9f 4c78da89d6f47c2f371a1fc2c664e1a2b3884384 4cbf943cefaac095b2010bca980785102f49a374 4edb428d04082938bca287e7ea1d2026e1f62066 4faf709c3cce22540730c99be86434acbe68fe2c 504719d5f6c50eb21174b10e6d2a61c074fc985b 50fcf472c8a6e2137e79a585a8f986764cb4c455 526382ded55a5486678c35fce0417c4eaaaf60c6 52f0167a4a46a7a44d388f62a73729d6803ea78a 5380e27380fb0f9a4859fbd001825ca2be83495b 54c478b371ad8486e7ef755eef0c730be34802ca 556e05112b7bd3d248ffd742e1d82f57aa12f722 55b113f327c06823b5f1f390c24f77f2b867df17 5622cc7d0aac14f713335f194af372a0fb969baa 5641041901f0461c60f5bc2ee1d1bfc51af54b0d 58d28198bd5cef0cab49cbcce55b15e449364a45 593d119f45bad0f15a37a7c0c885e3840d5c6644 5a0997c7993857fd3ca5ea4a1d7b3e88b6375e96 5dad4e8aedf742fac0f262aae0e563d90701d072 5eafbbfa3a069583543da82592bcf419b3aa3148 5f57c58a3b1f3291a837659aa5f01a12cea153ad 5ff4ff58631b0f00503685b1f1ea5800b278ed64 607657ead91f6017bfd4dfb15c36da62284f1699 614c328fd114249494fd3b17a833159d8535d4c1 6179244be6ce28e1aa041287feaa972324186145 62173f84febf0c724e8727216c03ac5b8b11e3d9 64a6edfbb34eb89d8608239406fb8d2ad3094df6 66baae34347fcf23547be9102c0d14755ac214ca 66c376a5241f91334348d12559847bf36ea604fb 67f3fcf2c4b2ea0f066871295943e214e96a0ad8 68c12f2e2d242ab9e0856d95048a1a7882739530 698d86e962126a1ffd06beb8eb64b8a328f55be1 69e1c227bef21bf983f368b710548674ee26e6eb 6b8d7d35542cb3e4b143074c806bdd636e5d2b7b 6c45c0dae9323b37d8532ab2c304b685c9042553 6d54723554275dc40706b814c6cd4704628a93f8 6e94a54055aa46d37d3714a5f9fce810d5f6269d 6f4e88eb35553986434f88a3381640fa9dbf623b 6fdbda8345e66fa0f9ea7957d48c67090f559590 703d4abdd8d112bb43b6ec3f1a013fd39afc3193 740146808af1f63ed12920a684aa60ac31edc209 75cd4dcc2aa910501ea56fd0c03a97f96c205bff 76596e9f3673c0bc6c5fa64d541d39f78a8a55f2 765ad2e6c9647379a2da5a19628ba59121ec86e5 76ea77ec78de24dbb2c54aa19f9f5eebd41abd32 773bfc2d1d230dd8d9a22a1c962d8fc201f5dbae 781adbf7fa8bd808e361b1cf0c22f9fb164591c4 79d0b9f19bd80c995ca6cc50c7b4db8bac4d5bd0 7b7a4a41216815a0a63c02c9d1206563e995f2d2 7d21c74e83a2a97e2be45415e3bbe0998f857bca 7d516f4ff97536c1328f997a67a20e527c5b1e34 7e3d549f72dfa8b3dba4bd7db93828a6fbbeca21 7ee097102be971a1d0657c3e7ee23bd9ac885454 7f9d62b2ee4f16754e0f695606f19a6cb9860725 8042fa4a62e72687382f9fcea0dbcb4d4d71e834 8070b06f427c3b41abe9ab5f6b3d04a50c5d2566 80cf26f3739a5c218c353be14ebb8d4e6ecafbb6 8465ba27affa9564f86d1d5912d3d0f32b9a97ab 87acdff59b86458a8edc8906c9705ec0e536c87f 8a75da2671a53ba960c8d4365ee73795c6239c4d 8a9006433ac85d1b72828c9fb5e9ad804276d7dd 8ae3b28d5586c1909c839ded32f99781e7cfce84 8c0c8c7d76301667001f2c67c7aed196dc5d9f55 91b993bd5369b58d3ab67b5336ffa33ad90939a1 924c714498bddf63194aed6ef11611a9c64e2f35 92fcd2c9831b25a92312a3145d50166ca20bdfd6 93b98e6cab76fa932f86e3a049a9a0b6e74eb273 9756186956a21389aefc17f8c218f11735b460dd 979f10c603296428d3a45d23be60359ae5757305 991dc5fd0339f3a85fcc70b3fda67a52a957264e 99414303f584939605b315351ab36e216eeaa78a 9a3d0c3c06fdd378cb2fc02d12b7442b776559ac 9ad3060a497499f2b1b03f42c054f73753984d38 9cd86d2add23027fa028415f5bad6bd13dbf16c3 9d21e73406a3ce88aa82237318693055472b6713 9d97148028cdc3968c14cd5fc276fee07d179b78 9dcb3bd31765bf2312c4747ac5b96708fffe19ee 9e25c75400cddca082b5098e255d15a24d0a6786 9fbd7768e77e1104f56507abd19d6149c5153edb a0beaeca9698756989bfdb0d5762ff9a77e59453 a153a0167ea4f64b2e47962b84b980855b54c426 a17d78d650fa62de6ae3a22c7b4f5cd9d4e4c98f a267ec76a3f8d9eb6e8214beeffc97973638816e a315cfec1791a8752aa91d4e553c2cf4487e37cd a3d906d2962df8336731b5e0d602d4b0bcd9bfee a513fff18b2a1fba8bb341e3f91a5fa7534498fc a56254648c4922b9190a9bc5e0f81b66aca73dbb a5bca16fcd34f9259e54ea9961fc3c9eb987429e a659fcf6f3d3911e9832b075086104c8981cb101 a77d236763c7aaa48ae4d3e7483d06ccc5f8def8 a88ec0612afc782f1eb015ee51bc2ad1c8cdcaa7 a9de60ceff0a38d9f2aa3c5dc8988b589fb31061 aa79615cb172c5fc29285a3dec2b1a7fe3d3d59b ab7b596650a7ad115fce43f57d829bfd63c0f096 abf1d0f805af6f4a9550235b32534c4ea03c3474 acecd86c55f7ae629fd6eae029a1c1edfee2f58c af6dde00fbd33cf7da1635b9ef0b0bb64a68733d af8e6c6088b0b9c761cbb733882594e27d549d19 af97627851ebc2aaf4e136ad8146785a44fd7b0d afb97e7ccd2e64e89340c37dfa453ef6837d8c4b b1d070116c3bcab46b59861bda76b6841cd7facc b2b97150a9b8866cfe35ae32cb8f5d77694652a3 b3b3c486cadd2782383e0c13a16c7dfed59abeb0 b4910e2da385590cab5a1ce29497ddfa758fc0be b4a071c277b21e5d009f1d13a236d541d4677dd6 b64396e40f7f2dfc93aeea3c58332f769b8d6748 b71dff4d5a01ab632b6a3c3a94046d1a07869f70 b8626e1547117c61d6bd936ea8dd4973b2f291dc b9ee325cb7a7badb818314287cb1d1f9aa4351a3 ba9835a3698e37b3bb825fe21c0c810c2842c379 bb463ed1115cbce5aee164e995a44d09300436be bb51907d992c94411578661d08baeacb1c427006 bcac1f633c2152b32dd0f9689ea3afae983ddd7f bdc0e030d9d8dd8f1c3fe6b022eba059fcef59a5 be4a52ec02d75fd7a062c28ec34cd973aa0d1ce5 bf102cb1678869e25fb316ba3378bbfa77127b2c bfd8c1b0bab32f37b92e28d584dae6ecff485f49 c0f1e44d5681569a8987da7b222327c336deece9 c296cafd41a3747ddaf9122187fa8807d9a1cb59 c2fcc956c0cd241efd7838443fe2d447b0cf0938 c364f6cf310d1283b1c6f5823a76b41a8dbbce54 c57ae30454b98ee28b8f4984385666653d537654 c634d0899fbe8baac0dc3d1a37da360dfcb0f370 c6826c4742c135d8e22bde29c745001d3717eb8b c6ca01e0d54e83b1b50253e1bb6bbf4892090003 c7dea366749e7dc6dbd3d688e38873c85c478d6a c87eada6aa5c827b125a228451f6a023235e5e7b c96ea7470ee5c28a00de71032e21b971f148e20f ca03196f309824ace258d7f80d16856a7e511713 ce2ee3a53a38df56d26379a2895c3d6e64c6bfc8 d0627fc300026e29c57e3b43c0a20e4aeb86331e d1b1c19b3050207bda3d81c27e9ac63aa81a923f d1b9001e5fb7a6911f5a0501662c7a668429bc17 d41926710e54a4c8c6defd1396cbb97d572c4f30 d445838d562f4ce91c00c221a9e7a98446f5b2d6 d478f61a8ad9a5b7361cce32db75b7a41718a0b6 d5b6aa620a322736eb1426f1dc2ba787c1d99502 d5dc224f46919637283b9feed91aa838daa9169e d6a21c4048568b2e28f282bec7f84d7a6cc3ccd2 d8efca258d6e7485de2c9182b537fd3d72e8c7d9 db04e4800b67101336e94377c4d6333dca65dd1b dd3b10b6882fcac43517306c963a901a17b11b3d ddb327faf3e868edda49d4342d38173bc864f1b3 de42b20620ac1764f4f54d72881c931006c0ff90 de8bc35109e9b96a70997740867e670bfcc3e80c dee36b235c9d7386842ba5671a805f8bf88a46ad df850f165e80dbd176d7fb9dccf1c8fff05f6725 e27d14d5f0bfae3ef4bec4ecf5626df2a6fd7087 e38fac3aa7b88c80b34dda2322313a0d903cf30d e44e17dd4a9c3216907466a2543da2a755d9a831 e7a568f18f0ad9247fbc60327cd9a184eb1981d0 e7d22b78b2c9da19d1c9742f186e56e12ed91f8e e7f7e76b2f589ba8f3e501c18085bc6753dd616f e833d838e22c1fadc33c7f61a7089fe42ee726da e9bb0f07ab58d815707f6dc2e22c7fcca582b56d e9e872af8dcecccfe508f34e61b001e8f7e10d95 eb51bd282f9555497d52e00f76b32ccffeda4bc5 eb625b81b2d524ba04c2bbf663c9904283394500 ec856b799ab4147e0851cf59e8b55409c7ff72c6 ef15c1284cb5ffc3d7ceee39a96cb4b69e69e338 f09c107ee14f99734b5c3714081832f19842919c f1d5fad61ddee226b8af377ee2a04eb0537257fd f5075f2820b05c8a1758b1da4e808059498460f6 f672e4eb72866f0eeec2495acc0ab48fddc36706 f69d8c144f0acd28cea672c0577c2f39c6a87afb f87f9f94c24858d75f3cf4c91aab4e34c1249182 f8ba2f9cfde2adf10a07754e9c8af8954b98e62e f8e86565641312902a341f0be589e2545bd08244 f9c4ea1e46c052cb8a9b7e363c2e2b9c0b139be6 fb66076e65281523942b95a00d829b1d00ad869f fb8b3853e222998c5a88b883c1edc9097b6f410c fbc399ea4555ae4d7b41158d416cd09f0791dac1 fc4744c281f0b9e3e5531554acc5f386e868e379 fc7b4ed7240975a11acbbb16e7f5e25b7fe0a584 fcbad53954a6144a8729a0eea527a36d4e889f46 fd46da27b1dc7433d7e7fe1516591e21df81b8c2 fd913e03ac44e3f795b9fa412c01d0ab7d233f11 fe21a7f97f27af279d37c0063b358d25f74a3a08 fe41d95bcc7e374daa76b139049d38a03c3b434a 003ddce986d2b02624c660c0f02167745bebe7b8 0e0315bfa3be6afd0833fe4bef1c73f345151f78 13f901394a7c3c30d2e3d4fd9f60406101dffead 187a8d132012be67ae3fe0f0aa3341350be0cc1b 2c1e4e5584a1d2297772f4580af5d4b2666a625c 34c71b423865e989bd863be16493c6db5b8010bc 3597edaa27f79a9ba48a5789966c55740e8072df 43828e6a22031b18bafefa3d12066b319307b083 799e2c944b3ce392203789d34773c0799261abb8 7b0d0ec9dc0062b684fb0758eadc708f785f94a0 85d8e97d026f746a5e9215a7514dc9cbc91f3156 8f447cf5723cceb93ec8284bd93f7d34db29131d 9172d451d582ff51a528f2c6970e4c6a52699c83 94e909827015d9869425a9f7af14f37ac238ca7a 9ff294cb488a88657e1e392e54fb62f0528e30df bcbbbcdfd7036df2a07547d2940251fe0460b378 da42ad30e2935e11d4e0852d844575daf4c251a7 e8bda7f72bc39b94bbc16a86cdb8ebb20bf85f9f
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libc6-dev
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6560
+Depends: libc6 (= 2.35-9ubuntu3.1), libc-dev-bin (= 2.35-9ubuntu3.1), linux-libc-dev, libcrypt-dev, rpcsvc-proto, libtirpc-dev, libnsl-dev
+Suggests: glibc-doc, manpages-dev
+Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
+Breaks: libc6-dev-armhf-cross (<< 2.35~), libgcc-10-dev (<< 10-20200321-1~), libgcc-7-dev (<< 7.5.0-6~), libgcc-8-dev (<< 8.4.0-2~), libgcc-9-dev (<< 9.3.0-5~), libperl5.26 (<< 5.26.1-3), python3.7 (<< 3.7.7-1+b1), python3.8 (<< 3.8.2-1+b1)
+Provides: libc-dev, libc6-dev-armhf
+Filename: pool/jammy/libc6-dev_2.35-9ubuntu3.1_armhf.deb
+Size: 1569438
+MD5sum: e08a017455819e1a841e06286215a45a
+SHA1: 16d5805d3929a49b52650a8ef6eab25bf5ac13c4
+SHA256: 800a23924d9e94ff0c8646f5dc302360c794da72010652c2bda0c91db715d52c
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Development Libraries and Header Files
+ Contains the symlinks, headers, and object files needed to compile
+ and link programs which use the standard C library.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: libc6-prof
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2082
+Depends: libc6 (= 2.35-9ubuntu3.1)
+Suggests: bpftrace
+Filename: pool/jammy/libc6-prof_2.35-9ubuntu3.1_armhf.deb
+Size: 1198204
+MD5sum: fc883d489b7b0849e5928d80af62abe5
+SHA1: d5a7bfde2d43e367895c5d462c5d860416665d4c
+SHA256: 630c2a670e508524778c73957471c03cd0b3e7bd6d3e9463b5b4b21a087c606f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Shared Libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+ .
+ This package contains all libraries compiled for profiling.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
 Package: locales
 Source: glibc
 Version: 2.35-9ubuntu3.1
@@ -97,6 +293,55 @@ Description: GNU C Library: National Language (locale) data [support]
  definitions actually get generated. This is a space-saver over how this
  package used to be, with all locales generated by default. This created
  a package that unpacked to an excess of 30 megs.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: locales-all
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 227249
+Filename: pool/jammy/locales-all_2.35-9ubuntu3.1_armhf.deb
+Size: 10948720
+MD5sum: 32c6caeca82e4641f16d6230e3ac562c
+SHA1: 45a9eec1d212faef49fe1cbba882f62ec49e159c
+SHA256: a13929719ef7056e1734a10f425075d6d9777334d612e29f1a8973f62264a1bf
+Section: localization
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Precompiled locale data
+ This package contains the precompiled locale data for all supported locales.
+ A better alternative is to install the locales package and only select
+ desired locales, but it can be useful on a low-memory machine because some
+ locale files take a lot of memory to be compiled.
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
+Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
+
+Package: nscd
+Source: glibc
+Version: 2.35-9ubuntu3.1
+Architecture: armhf
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 400
+Depends: lsb-base (>= 3.0-6), libaudit1 (>= 1:2.2.1), libc6 (>> 2.35), libc6 (<< 2.36), libcap2 (>= 1:2.10), libselinux1 (>= 3.1~)
+Filename: pool/jammy/nscd_2.35-9ubuntu3.1_armhf.deb
+Size: 312680
+MD5sum: 6d3d868365d0af463337fa448d935871
+SHA1: 2062ed1d57d2f6d199c0a59835d6b70c73ae1064
+SHA256: aa1e47e8c16b0ac66e22a2f5b82e955465e43fc91b1587ae38fb649e2f61f7a3
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Name Service Cache Daemon
+ A daemon which handles passwd, group and host lookups
+ for running programs and caches the results for the next
+ query. You should install this package only if you use
+ slow services like LDAP, NIS or NIS+.
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
