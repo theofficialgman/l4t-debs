@@ -394,6 +394,23 @@ Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Scripts to switch display and audio source when docked
 
+Package: switch-joystick-mouse
+Version: 1.1-1
+Architecture: all
+Maintainer: CTCaer <ctcaer@gmail.com>
+Pre-Depends: xserver-xorg-input-joystick (>= 2:1.6.4)
+Filename: pool/jammy/switch-joystick-mouse_1.1-1_all.deb
+Size: 2528
+MD5sum: 7e19c0c29d9e104b50b6461e5c889eeb
+SHA1: 04845faed4c0422bd04e69d6bd2fcf6e733d01e7
+SHA256: 29988cf4ca31b1d3ceec1ef9cd65a778b6d70d1ef8143ae37856d50f9c9ebebe
+Section: embedded
+Priority: required
+Description: Mouse/Keyboard mappings for Nintendo Switch
+ Add supports for mapping Joycon/Procon/Xbox/PS/GC to Mouse/Keyboard.
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+
 Package: switch-l4t-configs
 Version: 1.4-1
 Architecture: all
@@ -432,21 +449,6 @@ Section: unknown
 Priority: optional
 Homepage: https://gitlab.com/switchroot
 Description: Udev rules to rotate touchscreen on the Nintendo Switch
-
-Package: switchroot-newrepo
-Version: 1.4-1
-Architecture: all
-Maintainer: Ave Satanas <ave@switchroot.org>
-Installed-Size: 14
-Filename: pool/jammy/switchroot-newrepo_1.4-1_all.deb
-Size: 2164
-MD5sum: 4f83ace0ebe497d9b5713d7a921664af
-SHA1: bdae17a8ac5d645bcfe43a44841e06f2c39e6d89
-SHA256: 781b23848f85547e7e2129de005849aa67ba953f38d524bbd60409b0b9ed4a4d
-Section: embedded
-Priority: required
-Multi-Arch: foreign
-Description: Adds switchroot's new repo to apt sources
 
 Package: xserver-xorg-core
 Source: xorg-server
