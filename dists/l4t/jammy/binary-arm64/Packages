@@ -774,6 +774,37 @@ Description: Xorg X server - core server
  This package is built from the X.org xserver module.
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:1.20.13-1ubuntu1~20.04.8
+Architecture: arm64
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Installed-Size: 1442
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2018.4), libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Filename: pool/jammy/xserver-xorg-dev_1.20.13-1ubuntu1~20.04.8_arm64.deb
+Size: 201252
+MD5sum: cab625e5a6e06801b4c537f22a4f2346
+SHA1: d58016f6de58a0d9783baa2b3772f04d3ff6d29b
+SHA256: 14b9c704e38330c1ffaf05dd75a6b14af2c76936fb4070f946a15c851eb26a45
+Section: x11
+Priority: optional
+Homepage: https://www.x.org/
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
 Package: xserver-xorg-video-fbdev
 Version: 1:0.5.0-1ubuntu1
 Architecture: arm64
