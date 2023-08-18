@@ -1,0 +1,30 @@
+Origin: theofficialgman-L4T
+Label: L4T
+Suite: l4t
+Codename: l4t
+Version: 1.0
+Architectures: arm64 armhf
+Components: jammy
+Description: L4T Debian Packages Repo
+Date: Fri, 18 Aug 2023 16:33:50 +0000
+MD5Sum:
+ d84f6d1bd51ff6329d884954b1b329ec 866 Release.gpg
+ 48978f8cf1b061516e1352e99529ad41 16941 jammy/binary-arm64/Packages.gz
+ bd109e1350ac190da3b82e8c88ed2d7c 45495 jammy/binary-arm64/Packages
+ 902a881f9a27c4bde320f15dff0ae113 3069 jammy/binary-armhf/Packages.gz
+ 9c8e99da85b92dff411e815c3e244526 7851 jammy/binary-armhf/Packages
+ 75a5a0e900ce1b5ab0c852d53bcd374f 2485 InRelease
+SHA1:
+ a19138bd3cc67e77cebe4d902cbe3971e37a9aa2 866 Release.gpg
+ 54a24224ad49b7687fc02eed5353f7f2a1d29ee9 16941 jammy/binary-arm64/Packages.gz
+ 42f910c1b39e56f3f9b72ec420375ba540e4d0f2 45495 jammy/binary-arm64/Packages
+ 2740609242bca9c414aea6d01074aec835dbb6e9 3069 jammy/binary-armhf/Packages.gz
+ 31d4dd5be15ca6b34cf7b1aafc8d9595032ac265 7851 jammy/binary-armhf/Packages
+ 9fefcda244308b81a9bd436dbbd6c0a54104ed56 2485 InRelease
+SHA256:
+ 2f9e62facd8d4a5705d2d42c5b73fad9449284e2cb5853ed8a62362ff7c50db5 866 Release.gpg
+ 4e0f01698df7bf5977de9f7af4d8fa5affde75ce6efb302e1e0bf9d11114b3fe 16941 jammy/binary-arm64/Packages.gz
+ bf675071f6a08ba5e98fd67103f00cfd6a9fc0a2838078cddfc385e1030f77fb 45495 jammy/binary-arm64/Packages
+ c8142daf2a20751b56f59a08be5a6ca5aebd4bdb96882a9695d291a16c32f329 3069 jammy/binary-armhf/Packages.gz
+ cf5b9eff8d87223c1cc8ec0bb6047c677ec017c330abecafc30c5d6d74d7c884 7851 jammy/binary-armhf/Packages
+ 899bb8d76fdfb00f908cea4f9d2e3614da02e8d68cd551ef2ea621e49b1af86d 2485 InRelease

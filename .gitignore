@@ -1,0 +1,5 @@
+pgp-key-generator.batch
+pgp-key.private
+generate-release.sh
+pgpkeys-*
+update-repo.sh
