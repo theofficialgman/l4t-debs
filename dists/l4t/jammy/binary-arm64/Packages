@@ -1771,16 +1771,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Scripts to switch display and audio source when docked
 
 Package: switch-flatpak
-Version: 1.0-1
+Version: 1.0-2
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Pre-Depends: flatpak
 Depends: gnome-software-plugin-flatpak | plasma-discover-backend-flatpak
-Filename: pool/jammy/s/switch-flatpak/switch-flatpak_1.0-1_arm64.deb
-Size: 17838438
-MD5sum: 6f7f2444a10ef9f1e92bc9c90aa21209
-SHA1: ba597808293f9f9265dc4053aa1bae6b9ffa6c71
-SHA256: c536f7cea7dc1b79f23a52393fa6f7e6bf486a77f872aa156b2c478507574105
+Filename: pool/jammy/s/switch-flatpak/switch-flatpak_1.0-2_arm64.deb
+Size: 17838480
+MD5sum: 69f5003c6cfebc1818b34d02b2fe0c57
+SHA1: bd875b3945646415b79127efb6bdd1aae2816e88
+SHA256: 662eab64e100949eede7403c19a84b08a1b027d3ac4edf88acc754a3b2ae72b9
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
