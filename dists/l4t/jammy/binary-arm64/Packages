@@ -180,6 +180,19 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
+Package: joycond
+Version: 0.6-0
+Architecture: arm64
+Maintainer: Daniel J. Ogorchock, CTCaer
+Depends: libevdev2, libudev1
+Filename: pool/jammy/j/joycond/joycond_0.6-0_arm64.deb
+Size: 39072
+MD5sum: 6bf31754ad8b4a5a14b24dbfd0b8cb04
+SHA1: 11f36870bd32706413452491cf72f20b0eabf4e1
+SHA256: 8b715d42d62364add01da52a1cb77d0703d50d0b8ab73f03f086e69db8fcc010
+Priority: important
+Description: Pairs joy-cons together into a virtual controller
+
 Package: libavcodec-dev
 Source: ffmpeg
 Version: 9:4.4.2-0ubuntu0.22.04.1l4t
