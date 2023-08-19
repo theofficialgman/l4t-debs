@@ -422,6 +422,21 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
+Package: nintendo-switch-meta
+Version: 1.0-1
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-joystick-mouse, switch-bsp
+Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-1_all.deb
+Size: 1914
+MD5sum: 2e0ce8a670830e720d47282041738126
+SHA1: a66a7023393f9996c4b32f7e3b70c0cad1860a1e
+SHA256: fc47297cc03f0af9229afaf5d501c7770329f8b6dfea690a88244b4548a9ff45
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for all Nintendo Switch configuration packages
+
 Package: nscd
 Source: glibc
 Version: 2.35-9ubuntu3.1
@@ -463,17 +478,17 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.1-1
+Version: 5.1.1-2
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Installed-Size: 33200
-Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-x11, nvidia-l4t-firmware, nvidia-l4t-core
+Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-x11, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, nvidia-l4t-tools
 Suggests: switch-kernel-headers
-Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.1-1_all.deb
-Size: 29553416
-MD5sum: 308eb8e51bbf084c25cb1ff9941ec4f1
-SHA1: 4fafa883f268e10491738c17a290bf646ca65616
-SHA256: e07fa207abf29cd7988bcce111279dd36d90415e8dff04d1f67f63cc08159a8e
+Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.1-2_all.deb
+Size: 29553442
+MD5sum: 63e929043abb6c9e0e40b942df07f34f
+SHA1: d00d9656a6675af422d7e0df3e74caccfaa422f4
+SHA256: 6867208a63360e71df3a14a22687e016b6914f587101facb78bd03c75df62a73
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
