@@ -1538,17 +1538,17 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.1-2
+Version: 5.1.1-3
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Installed-Size: 33200
 Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-x11, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, nvidia-l4t-tools
 Suggests: switch-kernel-headers
-Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.1-2_all.deb
-Size: 29553442
-MD5sum: 63e929043abb6c9e0e40b942df07f34f
-SHA1: d00d9656a6675af422d7e0df3e74caccfaa422f4
-SHA256: 6867208a63360e71df3a14a22687e016b6914f587101facb78bd03c75df62a73
+Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.1-3_all.deb
+Size: 29552980
+MD5sum: ac4ac4597fa3e28e9f5294fbaddfe468
+SHA1: fbba2c86ba5de245a3990335f93527a53a2394a2
+SHA256: 7bb85f1244bc6f4e2aa7151fbaa8134d2849d96ae4e08d390961d748888ed74b
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
