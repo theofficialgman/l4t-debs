@@ -52,6 +52,135 @@ Description: Documentation of the FFmpeg multimedia framework
  for the libraries.
 Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
+Package: flatpak
+Version: 1.14.4-1~flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 5678
+Depends: adduser, default-dbus-system-bus | dbus-system-bus, fuse3, libappstream4 (>= 0.10.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcap2 (>= 1:2.10), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libfuse3-3 (>= 3.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-agent-1-0 (>= 0.105), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0)
+Recommends: ca-certificates, desktop-file-utils, hicolor-icon-theme, gtk-update-icon-cache, libpam-systemd, p11-kit, polkitd | policykit-1, shared-mime-info, xdg-desktop-portal (>= 1.6), xdg-desktop-portal-gtk (>= 1.6) | xdg-desktop-portal-backend, xdg-user-dirs
+Suggests: avahi-daemon, malcontent-gui
+Conflicts: xdg-app
+Replaces: xdg-app
+Filename: pool/jammy/f/flatpak/flatpak_1.14.4-1~flatpak1~22.04.1_armhf.deb
+Size: 1535384
+MD5sum: 04b6d749d2a93bf50e5219e45b59ffe9
+SHA1: 98d584de8a43103b4b28e82c24d9cf46ba98efe1
+SHA256: b0fc5d953fd263109db11fe2bbc44d3971d97fa7898e13ed16a15492ed2456bc
+Section: admin
+Priority: optional
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ Application bundles run partially isolated from the wider system, using
+ containerization techniques such as namespaces to prevent direct access
+ to system resources. Resources from outside the sandbox can be accessed
+ via "portal" services, which are responsible for access control; for
+ example, the Documents portal displays an "Open" dialog outside the
+ sandbox, then allows the application to access only the selected file.
+ .
+ Each application uses a specified "runtime", or set of libraries, which is
+ available as /usr inside its sandbox. This can be used to run application
+ bundles with multiple, potentially incompatible sets of dependencies within
+ the same desktop environment.
+ .
+ This package contains the services and executables needed to install and
+ launch sandboxed applications, and the portal services needed to provide
+ limited access to resources outside the sandbox.
+
+Package: flatpak-builder
+Version: 1.2.3-1flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 345
+Depends: debugedit (>= 1:5.0), gir1.2-flatpak-1.0 (>= 1.12.4), flatpak (>= 1.12.4), ostree (>= 2017.14), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libelf1 (>= 0.131), libglib2.0-0 (>= 2.44), libjson-glib-1.0-0 (>= 1.5.2), libostree-1-1 (>= 2018.6), libsoup2.4-1 (>= 2.41.90), libxml2 (>= 2.7.4), libyaml-0-2
+Recommends: binutils, elfutils, git, patch, unzip, xz-utils, zstd
+Suggests: brz, p7zip-full, subversion
+Replaces: flatpak (<< 0.9.8-1~)
+Filename: pool/jammy/f/flatpak-builder/flatpak-builder_1.2.3-1flatpak1~22.04.1_armhf.deb
+Size: 160844
+MD5sum: 5fd9afee042d4a63efbeaccd8b0c350b
+SHA1: e83ef290d95292142624b5ea034465da02531e15
+SHA256: b728d2622a25a45b76ddc81857662d32136c598ff5ddf551288baa14b160df47
+Section: devel
+Priority: optional
+Homepage: https://flatpak.org/
+Description: Flatpak application building helper
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ flatpak-builder is a tool that makes it easy to build applications and their
+ dependencies by automating the configure && make && make install steps.
+
+Package: flatpak-builder-tests
+Source: flatpak-builder
+Version: 1.2.3-1flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 134
+Depends: attr, ca-certificates, desktop-file-utils, flatpak-builder (= 1.2.3-1flatpak1~22.04.1), hicolor-icon-theme, git, gtk-update-icon-cache, make, ostree (>= 2017.14), shared-mime-info
+Suggests: python2
+Breaks: flatpak-tests (<< 0.9.12)
+Replaces: flatpak-tests (<< 0.9.12)
+Filename: pool/jammy/f/flatpak-builder/flatpak-builder-tests_1.2.3-1flatpak1~22.04.1_armhf.deb
+Size: 48768
+MD5sum: 10f9a8bad09f4e77659537bdc87d1999
+SHA1: cd14aa15c16562dd575791defcefca13836d8e86
+SHA256: 7c29248757283d171f2975b66bd05b61cfeb9dcae0da12217e33feeeb7b6fcf0
+Section: misc
+Priority: optional
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (tests)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains automated tests.
+
+Package: flatpak-tests
+Source: flatpak
+Version: 1.14.4-1~flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 4972
+Depends: attr, ca-certificates, dbus-daemon, desktop-file-utils, flatpak (= 1.14.4-1~flatpak1~22.04.1), gnupg, gtk-update-icon-cache, hicolor-icon-theme, ostree (>= 2020.8), polkitd | policykit-1, shared-mime-info, socat, libappstream4 (>= 0.10.0), libarchive13 (>= 3.0.4), libc6 (>= 2.34), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libflatpak0 (>= 1.13.3), libfuse3-3 (>= 3.2.3), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0)
+Recommends: python3
+Filename: pool/jammy/f/flatpak/flatpak-tests_1.14.4-1~flatpak1~22.04.1_armhf.deb
+Size: 1260940
+MD5sum: 2bceb9301ea65db88326d5d7ff79eda2
+SHA1: f910464cc0cb1320e75ffed37e521db6dda725f2
+SHA256: df9c5ce9d9dcbc279636c2f0ae98c78425db7bacc1829b7b135def0ed2bad4d4
+Section: misc
+Priority: optional
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (tests)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains automated tests.
+
+Package: gir1.2-flatpak-1.0
+Source: flatpak
+Version: 1.14.4-1~flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 83
+Depends: gir1.2-glib-2.0, libflatpak0 (>= 1.13.3)
+Filename: pool/jammy/f/flatpak/gir1.2-flatpak-1.0_1.14.4-1~flatpak1~22.04.1_armhf.deb
+Size: 43744
+MD5sum: bbf6485ce5472c54ca449b23abf2a1f1
+SHA1: a807e5865eab02d0a82ec759b3ac1aa67ea5b3dc
+SHA256: 154ac86a76523c594db4205d98a72de4038e506f9b54fd3e7d66a016fa58f3cd
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (introspection)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings for libflatpak0.
+
 Package: glibc-doc
 Source: glibc
 Version: 2.35-9ubuntu3.1
@@ -296,6 +425,77 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
+Package: libflatpak-dev
+Source: flatpak
+Version: 1.14.4-1~flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 639
+Depends: gir1.2-glib-2.0, gir1.2-flatpak-1.0 (= 1.14.4-1~flatpak1~22.04.1), libflatpak0 (= 1.14.4-1~flatpak1~22.04.1), libglib2.0-dev, libostree-dev (>= 2020.8), libxml2-dev (>= 2.4), pkg-config, python3:any
+Recommends: flatpak
+Suggests: gdb, ostree, python3-gi, systemd-coredump
+Filename: pool/jammy/f/flatpak/libflatpak-dev_1.14.4-1~flatpak1~22.04.1_armhf.deb
+Size: 86230
+MD5sum: f04d3fc4c3654208f6e56d96b9a6eb50
+SHA1: e57244d5a2570b63fdbe6ac98e87de95984aaf36
+SHA256: bd5d3e9da793bb2de052138217327c16c9e6dfba18a1ae3583debdea2eaf6bf8
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (development)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains development headers and pkg-config metadata
+ for libflatpak0, and the flatpak-coredump and flatpak-bisect scripts used
+ to debug Flatpak applications.
+
+Package: libflatpak-doc
+Source: flatpak
+Version: 1.14.4-1~flatpak1~22.04.1
+Architecture: all
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 1131
+Suggests: devhelp
+Filename: pool/jammy/f/flatpak/libflatpak-doc_1.14.4-1~flatpak1~22.04.1_all.deb
+Size: 144240
+MD5sum: 8fc71a34b89f479067ffb4fe03b2eb33
+SHA1: 9ea9203b1a0e5e9e5b44d225ef924db42a13b8f9
+SHA256: baeb31be77714c3767ca43bbb046835f8a9c219135354833d691f50474c4493d
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (documentation)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains reference documentation for libflatpak0.
+
+Package: libflatpak0
+Source: flatpak
+Version: 1.14.4-1~flatpak1~22.04.1
+Architecture: armhf
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Installed-Size: 661
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.33), libcurl3-gnutls (>= 7.16.2), libdconf1 (>= 0.26.0), libglib2.0-0 (>= 2.67.3+git20210214), libgpgme11 (>= 1.1.8), libjson-glib-1.0-0 (>= 1.5.2), libmalcontent-0-0 (>= 0.6.0), libostree-1-1 (>= 2020.8), libpolkit-gobject-1-0 (>= 0.101), libseccomp2 (>= 2.5.2), libsystemd0, libxau6 (>= 1:1.0.9), libxml2 (>= 2.7.4), libzstd1 (>= 1.4.0)
+Filename: pool/jammy/f/flatpak/libflatpak0_1.14.4-1~flatpak1~22.04.1_armhf.deb
+Size: 367916
+MD5sum: 1c76855e0f6b0caa0c10771ddb48f455
+SHA1: 3f414462097df80999f930df174ad9d4b866de24
+SHA256: 1753b72e1b13d39217ec3ec452ad2733154390a33159ab8f397483ff58e3e52f
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://flatpak.org/
+Description: Application deployment framework for desktop apps (library)
+ Flatpak installs, manages and runs sandboxed desktop application bundles.
+ See the flatpak package for a more comprehensive description.
+ .
+ This package contains the flatpak shared library, used by higher level
+ package management tools like gnome-software.
+
 Package: libsdl2-2.0-0
 Source: libsdl2
 Version: 2.26.1+dfsg-1
@@ -421,21 +621,6 @@ Description: GNU C Library: Precompiled locale data
 Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
-
-Package: nintendo-switch-meta
-Version: 1.0-1
-Architecture: all
-Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-joystick-mouse, switch-bsp
-Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-1_all.deb
-Size: 1914
-MD5sum: 2e0ce8a670830e720d47282041738126
-SHA1: a66a7023393f9996c4b32f7e3b70c0cad1860a1e
-SHA256: fc47297cc03f0af9229afaf5d501c7770329f8b6dfea690a88244b4548a9ff45
-Section: embedded
-Priority: required
-Homepage: https://gitlab.com/switchroot
-Description: Metapackage for all Nintendo Switch configuration packages
 
 Package: nscd
 Source: glibc
