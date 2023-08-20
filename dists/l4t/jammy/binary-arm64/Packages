@@ -1480,15 +1480,15 @@ Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
 Package: nintendo-switch-meta
-Version: 1.0-2
+Version: 1.0-3
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-joystick-mouse, switch-bsp, switch-flatpak
-Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-2_arm64.deb
-Size: 1920
-MD5sum: 39faec372644f567ae4e826debc69294
-SHA1: 0f39c02cb478b51e2b0efdace33810b5f2eb5eb3
-SHA256: 7f7ce0c33986b8d36c1b171f6505fb06b72d05fed491ff31830fb37c6b76cf83
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, gnome-shell-extension-improved-osk, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak
+Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-3_arm64.deb
+Size: 1960
+MD5sum: 58ac2ea7d2999c18d8678dc570a43227
+SHA1: e40a8e7552e83dc35573bd77dc5fe8b10506487e
+SHA256: 8c600d047cea9ee1fcaadb2f2a2a1b1c8ac00eca7cd0bc4ebdaa225af69d0b4e
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
