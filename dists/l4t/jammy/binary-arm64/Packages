@@ -309,6 +309,21 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
+Package: gnome-shell-extension-improved-osk
+Version: 42-0
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: gnome-shell (>= 42), gnome-shell (<< 43~), dconf-gsettings-backend | gsettings-backend
+Filename: pool/jammy/g/gnome-shell-extension-improved-osk/gnome-shell-extension-improved-osk_42-0_all.deb
+Size: 444034
+MD5sum: 74f077c297bca17924cb09000c203a5d
+SHA1: 5abb3e1cb1e0c1d19e0f6b6522df9316e660ed9e
+SHA256: b68b5ed61fb0bd7dccd1609910119c5ca44de4351a32ef2ce7fd4fe46d94d706
+Section: gnome
+Priority: optional
+Homepage: https://github.com/theofficialgman/improved-osk-gnome-ext/tree/gnome_42
+Description: improved onscreen keyboard for gnome
+
 Package: joycond
 Version: 0.6-0
 Architecture: arm64
