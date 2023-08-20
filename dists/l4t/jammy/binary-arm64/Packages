@@ -1769,6 +1769,21 @@ Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Bootstack and Kernel Support
 
+Package: switch-dconf-customizations
+Version: 1.0-0
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: dconf-cli
+Filename: pool/jammy/s/switch-dconf-customizations/switch-dconf-customizations_1.0-0_all.deb
+Size: 2308
+MD5sum: 77c2bbc1a6d26548c2b6110ac130ec9e
+SHA1: eb991d948173c5dc05dd8d5ad2e5da02696ace9e
+SHA256: 6a6ff001771ae4132cab041c6f028566d53f0450700a602666b0499f6e7e438d
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot/
+Description: Application configs for the Nintendo Switch
+
 Package: switch-dock-handler
 Version: 2.1-1
 Architecture: all
