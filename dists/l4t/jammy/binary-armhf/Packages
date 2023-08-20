@@ -230,15 +230,15 @@ Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
 Package: gnome-shell-extension-improved-osk
-Version: 42-0
+Version: 42-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: gnome-shell (>= 42), gnome-shell (<< 43~), dconf-gsettings-backend | gsettings-backend
-Filename: pool/jammy/g/gnome-shell-extension-improved-osk/gnome-shell-extension-improved-osk_42-0_all.deb
-Size: 444034
-MD5sum: 74f077c297bca17924cb09000c203a5d
-SHA1: 5abb3e1cb1e0c1d19e0f6b6522df9316e660ed9e
-SHA256: b68b5ed61fb0bd7dccd1609910119c5ca44de4351a32ef2ce7fd4fe46d94d706
+Filename: pool/jammy/g/gnome-shell-extension-improved-osk/gnome-shell-extension-improved-osk_42-1_all.deb
+Size: 444340
+MD5sum: 5efe488bfb83730a0be51b20fa613dc7
+SHA1: e9c6a3f6ce9cd0fea93cf9303517b1d7b83f9e6c
+SHA256: 6198e0b9dfe38314e2c5d533017f5ef626b0ab88358f15a3d65a0c83d55b066e
 Section: gnome
 Priority: optional
 Homepage: https://github.com/theofficialgman/improved-osk-gnome-ext/tree/gnome_42
