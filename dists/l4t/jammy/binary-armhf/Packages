@@ -766,6 +766,20 @@ Description: L4T Configs for Nintendo Switch
 Changed-By: theofficialgman <dofficialgman@gmail.com>
 Standards-Version: 4.1.2
 
+Package: switch-l4t-repo
+Version: 1.0-0
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Filename: pool/jammy/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
+Size: 2030
+MD5sum: f84cd5d3faade3caa67cefabbe6beb50
+SHA1: b99d737a6050857e8f7044420821cbeb80aa06d5
+SHA256: 776151bc71e72db19eaad7dfbd223359f7dbe541bc6d6485f8601433c2918bdb
+Section: embedded
+Priority: required
+Homepage: https://github.com/theofficialgman/l4t-debs
+Description: L4T Apt Repo and Key
+
 Package: switch-touch-rules
 Version: 1.3-0ubuntu2
 Architecture: all
