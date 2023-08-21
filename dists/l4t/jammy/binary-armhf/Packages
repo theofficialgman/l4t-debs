@@ -743,15 +743,15 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-l4t-configs
-Version: 1.4-1
+Version: 1.4-2
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0
-Filename: pool/jammy/s/switch-l4t-configs/switch-l4t-configs_1.4-1_all.deb
-Size: 465936
-MD5sum: 4069833304cb946f17cee8b9d6a2a5e7
-SHA1: 48158d07b61031afedba73666df9f1a5f0e33cde
-SHA256: 13382285d5a846b69745510dd7d24ebf603b98cc9b08ddb1ef9ca36fdae97b4c
+Filename: pool/jammy/s/switch-l4t-configs/switch-l4t-configs_1.4-2_all.deb
+Size: 501906
+MD5sum: 0fe4d6cd238372102d169105876a2424
+SHA1: 011d62ac6fbd4ee0d7bcfd17af9dca4b3b3de171
+SHA256: 8978821edfaf4d6325e6e9d5a03e14f5deab89251b665b13e9344174332f1e90
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
@@ -763,6 +763,7 @@ Description: L4T Configs for Nintendo Switch
  - BSP apt restrictions
  - L4T Megascript App
  - Switchroot wallpaper
+Changed-By: theofficialgman <dofficialgman@gmail.com>
 Standards-Version: 4.1.2
 
 Package: switch-touch-rules
