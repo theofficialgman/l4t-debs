@@ -1846,21 +1846,22 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.1-4
+Version: 5.1.2-1
 Architecture: all
-Maintainer: theofficialgman <dofficialgman@gmail.com>
+Maintainer: CTCaer <ctcaer@gmail.com>
 Installed-Size: 33200
-Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-x11, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, nvidia-l4t-tools
+Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-x11, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, nvidia-l4t-tools, notify-osd
 Suggests: switch-kernel-headers
-Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.1-4_all.deb
-Size: 29547376
-MD5sum: 66ed0a64b1f0b6ae19db634d3607dceb
-SHA1: c53d8ac288ab7c24873ecdf6ec526571de9ef9e7
-SHA256: 912c365f3c3b37229fd393a0eba1bdd9c2a142c25fbfc6ad0b1d001c201be1ab
+Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.2-1_all.deb
+Size: 29560080
+MD5sum: 970ee5005eccde4b708272c0218978b3
+SHA1: 1395ae0ec1d70633dfc3a521d4618d7e927bf0c8
+SHA256: 0feb1b17bef41018bf9c1974beb2b9540b4b0c1b67e714ebd1f6a7ad8fa26424
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Bootstack and Kernel Support
+Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-dconf-customizations
 Version: 1.0-2
@@ -1910,15 +1911,15 @@ Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
 Package: switch-joystick-mouse
-Version: 1.1-1
+Version: 1.2-1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: xserver-xorg-input-joystick (>= 2:1.6.4)
-Filename: pool/jammy/s/switch-joystick-mouse/switch-joystick-mouse_1.1-1_all.deb
-Size: 2528
-MD5sum: 7e19c0c29d9e104b50b6461e5c889eeb
-SHA1: 04845faed4c0422bd04e69d6bd2fcf6e733d01e7
-SHA256: 29988cf4ca31b1d3ceec1ef9cd65a778b6d70d1ef8143ae37856d50f9c9ebebe
+Filename: pool/jammy/s/switch-joystick-mouse/switch-joystick-mouse_1.2-1_all.deb
+Size: 2480
+MD5sum: 2e2af670989ab3d669282f1eb4f9d4ad
+SHA1: 0bc14f405fc86f8799314f0fd8c2c05d503cbd3e
+SHA256: 580e21ed0475032e4ac8e11eb08dbbdbff01136c98a62b1e6cce10187c022020
 Section: embedded
 Priority: required
 Description: Mouse/Keyboard mappings for Nintendo Switch
@@ -1946,15 +1947,15 @@ Homepage: http://developer.nvidia.com/jetson
 Description: Switch L4T Kernel Headers Package
 
 Package: switch-l4t-configs
-Version: 1.4-3
+Version: 1.5-1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/jammy/s/switch-l4t-configs/switch-l4t-configs_1.4-3_all.deb
-Size: 501914
-MD5sum: e3533236ae373e6ce7af0eb1bdd48e74
-SHA1: 8e8caff59e7f17da791395e062227eea2cfd91fe
-SHA256: 30b385a37a1933a06c9886e1c8da87d6ce192f567308924a328c2000d42bbdda
+Filename: pool/jammy/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
+Size: 519950
+MD5sum: 389be75b18f74fb94a3439d6563f1dc0
+SHA1: 50174cab192408f70dc4c599d25f9e51aedfed23
+SHA256: ab7d01c8a5a8f485d8e804680beee0dd19eca54d0009c78d021631049e5c62f5
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
