@@ -1737,6 +1737,99 @@ Priority: standard
 Homepage: http://developer.nvidia.com/jetson
 Description: NVIDIA X11 Package
 
+Package: smplayer
+Version: 23.6.0-1~jammy1
+Architecture: arm64
+Maintainer: Ricardo Villalba <ricardo@smplayer.info>
+Installed-Size: 16282
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.14.1), libqt5widgets5 (>= 5.15.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5), libx11-6, zlib1g (>= 1:1.1.4), mplayer | mplayer-nogui | mpv (>= 0.6.2)
+Recommends: smplayer-themes, smplayer-skins, smtube, alsa-utils, x11-utils, pulseaudio-utils, youtube-dl, python-is-python2 | python-is-python3
+Replaces: smplayer-l10n, smplayer-translations
+Provides: smplayer-l10n, smplayer-translations
+Filename: pool/jammy/s/smplayer/smplayer_23.6.0-1~jammy1_arm64.deb
+Size: 3741380
+MD5sum: 9d79982e60dc45ca77cd137617e210eb
+SHA1: 0a1b4f22e749d166fe32ea9827d77312eecdbe7b
+SHA256: adbbaecfbf2e5dcd9f47a827317a2540b811f9437549d875c43fb59a83ab470e
+Section: graphics
+Priority: extra
+Description: A great media player
+ SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
+ and also for mpv. But apart from providing access for the most common
+ and useful options of mplayer and mpv, SMPlayer adds other interesting features
+ like the possibility to play Youtube videos or search and download subtitles.
+ One of the main features is the ability to remember the state of a
+ played file, so when you play it later it will be resumed at the same point
+ and with the same settings.
+
+Package: smplayer-skins
+Version: 2:20.11.0-1~jammy2
+Architecture: all
+Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
+Installed-Size: 1029
+Depends: smplayer (>= 14.9.0)
+Filename: pool/jammy/s/smplayer/smplayer-skins_20.11.0-1~jammy2_all.deb
+Size: 486528
+MD5sum: 927ba9c108b1b0b7ef19e24c9f717ffb
+SHA1: 17f09d8298cad03821406f0935787390f54e69d0
+SHA256: ca909d0a93835e95cfd18ddb74ed1eba0db3d08f20d38461ea3a2754c39aeb37
+Section: graphics
+Priority: extra
+Description: Skin themes for SMPlayer
+ SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
+ and also for mpv. But apart from providing access for the most common
+ and useful options of mplayer and mpv, SMPlayer adds other interesting features
+ like the possibility to play Youtube videos or search and download subtitles.
+ One of the main features is the ability to remember the state of a
+ played file, so when you play it later it will be resumed at the same point
+ and with the same settings.
+ .
+ This package provides skins for SMPlayer.
+
+Package: smplayer-themes
+Version: 2:20.11.0-1~jammy1
+Architecture: all
+Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
+Installed-Size: 4171
+Depends: smplayer (>= 14.9.0)
+Filename: pool/jammy/s/smplayer/smplayer-themes_20.11.0-1~jammy1_all.deb
+Size: 2646168
+MD5sum: e8e36f9a6c83336d67f204ecfa813052
+SHA1: cdddb2acddd2ecd33e66ff1b08dcf0d22bfcdf14
+SHA256: 8a82b1e915c759c2bbc6dd4a45aed0279ddf64ddccc51994e6c11777ccdb978f
+Section: graphics
+Priority: extra
+Description: Icon themes for SMPlayer
+ SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
+ and also for mpv. But apart from providing access for the most common
+ and useful options of mplayer and mpv, SMPlayer adds other interesting features
+ like the possibility to play Youtube videos or search and download subtitles.
+ One of the main features is the ability to remember the state of a
+ played file, so when you play it later it will be resumed at the same point
+ and with the same settings.
+ .
+ This package provides icon themes for SMPlayer.
+
+Package: smtube
+Version: 21.10.0-1~jammy1
+Architecture: arm64
+Maintainer: Ricardo Villalba <ricardo@smplayer.info>
+Installed-Size: 914
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5webkit5 (>= 5.212.0~alpha3), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 5), smplayer (>= 0.7.0) | mplayer | mpv | vlc | dragonplayer | totem | gnome-mplayer
+Recommends: youtube-dl, python-is-python2 | python-is-python3
+Filename: pool/jammy/s/smtube/smtube_21.10.0-1~jammy1_arm64.deb
+Size: 303180
+MD5sum: 7c636933d221a13418c5a84f6aff8b45
+SHA1: c29af5e201ea168e1efa21e74a5fc5dc223c7850
+SHA256: 7a574e9100fbd92ffd58f5b03012484259da2583548b70a7f4b04e883a360d33
+Section: graphics
+Priority: extra
+Homepage: http://smtube.sourceforge.net/
+Description: YouTube browser for SMPlayer
+ This is a YouTube browser for SMPlayer. You can browse, search
+ and play YouTube videos.
+
 Package: switch-alsa-ucm2
 Version: 1.0-1
 Architecture: all
@@ -2017,4 +2110,277 @@ Description: X.Org X server -- fbdev display driver
  .
  This package is built from the X.org xf86-video-fbdev driver module.
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: yt-dlp
+Version: 2023.07.06-1~bpo22.04.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10260
+Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-websockets, python3:any, python3-pkg-resources
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg, python3-pyxattr, rtmpdump
+Suggests: libfribidi-bin | bidiv, mpv | mplayer, phantomjs
+Filename: pool/jammy/y/yt-dlp/yt-dlp_2023.07.06-1~bpo22.04.1_all.deb
+Size: 1801974
+MD5sum: 4d3c5702b9f8b75ca24836700736feb8
+SHA1: 63207b2fb65eae453db9ae4dc7d34acd03fe941e
+SHA256: 740e642b05a0f90e4cc9720a27f6266f6bcb6a9428e9c83e1c3c12cb50a32d94
+Section: web
+Priority: optional
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: downloader of videos from YouTube and other sites
+ yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+ The main focus of this project is adding new features and patches
+ while also keeping up to date with the original project.
+ .
+ yt-dlp is a small command-line program to download videos from
+ YouTube.com and other sites that don't provide direct links to the
+ videos served.
+ .
+ yt-dlp allows the user, among other things, to choose a specific video
+ quality to download (if available) or let the program automatically
+ determine the best (or worst) quality video to grab. It supports
+ downloading entire playlists and all videos from a given user.
+ .
+ Currently supported sites (or features of sites) are:
+ .
+ 17live, 1News, 1tv, 20min, 23video, 247sports, 24tv.ua, 24video,
+ 3qsdn, 3sat, 4tube, 56.com, 6play, 7plus, 8tracks, 91porn, 9c9media,
+ 9gag, 9now.com.au, abc.net.au, abcnews, abcotvs, AbemaTV, AbemaTVTitle,
+ acast, AcFunBangumi, AcFunVideo, ADN, AdobeConnect, adobetv, AdultSwim,
+ aenetworks, AeonCo, afreecatv, AirMozilla, AirTV, AitubeKZVideo,
+ AliExpressLive, AlJazeera, Allocine, AlphaPorno, Alsace20TV,
+ Alsace20TVEmbed, Alura, AluraCourse, Amara, AmazonMiniTV, AmazonReviews,
+ AmazonStore, AMCNetworks, AmericasTestKitchen, AmericasTestKitchenSeason,
+ AmHistoryChannel, AnchorFMEpisode, anderetijden, Angel, AnimalPlanet,
+ Anvato, aol.com, APA, Aparat, AppleConnect, AppleDaily, ApplePodcasts,
+ appletrailers, archive.org, ArcPublishing, ARD, ARDBetaMediathek, Arkena,
+ arte.sky.it, ArteTV, ArteTVCategory, ArteTVEmbed, ArteTVPlaylist,
+ AsianCrush, AsianCrushPlaylist, AtresPlayer, AtScaleConfEvent,
+ ATTTechChannel, ATVAt, AudiMedia, AudioBoom, audiomack, Audius, AWAAN,
+ AZMedien, BaiduVideo, BanBye, BanByeChannel, bandaichannel, Bandcamp,
+ BannedVideo, bbc, bbc.co.uk, BBVTV, BBVTVLive, BBVTVRecordings,
+ BeatBumpPlaylist, BeatBumpVideo, Beatport, Beeg, BehindKink, Bellator,
+ BellMedia, BerufeTV, Bet, bfmtv, Bigflix, Bigo, Bild, BiliBili,
+ Bilibili category extractor, BilibiliAudio, BilibiliAudioAlbum,
+ BiliBiliBangumi, BiliBiliBangumiMedia, BiliBiliPlayer, BiliBiliSearch,
+ BilibiliSpaceAudio, BilibiliSpacePlaylist, BilibiliSpaceVideo, BiliIntl,
+ BiliLive, BioBioChileTV, Biography, BIQLE, BitChute, BitChuteChannel,
+ BlackboardCollaborate, BleacherReport, BleacherReportCMS, blerp,
+ blogger.com, Bloomberg, BokeCC, BongaCams, BostonGlobe, Box, BoxCastVideo,
+ Bpb, BR, BrainPOP, BrainPOPELL, BrainPOPEsp, BrainPOPFr, BrainPOPIl,
+ BrainPOPJr, BravoTV, Break, BreitBart, BRMediathek, Bundesliga,
+ BusinessInsider, BuzzFeed, BYUtv, CableAV, Callin, Caltrans, CAM4,
+ Camdemy, CamdemyFolder, CamFMEpisode, CamFMShow, CamModels, Camsoda,
+ CamtasiaEmbed, CamWithHer, CanalAlpha, canalc2.tv, Canalplus, CarambaTV,
+ CarambaTVPage, CartoonNetwork, cbc.ca, CBS, CBSInteractive, CBSLocal,
+ CBSLocalArticle, CBSLocalLive, cbsnews, cbssports, CCMA, CCTV, CDA,
+ Cellebrite, CeskaTelevize, CGTN, channel9, CharlieRose, Chaturbate,
+ Chilloutzone, Chingari, ChingariUser, chirbit, cielotv.it, Cinchcast,
+ Cinemax, CinetecaMilano, CiscoLiveSearch, CiscoLiveSession, ciscowebex,
+ CJSW, Clipchamp, cliphunter, Clippit, ClipRs, Clipsyndicate, ClipYouEmbed,
+ CloserToTruth, CloudflareStream, Cloudy, Clubic, Clyp, cmt.com, CNBC,
+ CNBCVideo, CNN, CNNArticle, CNNBlogs, CNNIndonesia, ComedyCentral,
+ ComedyCentralTV, ConanClassic, CondeNast, CONtv, CookingChannel, Corus,
+ Coub, CozyTV, cp24, cpac, Cracked, Crackle, Craftsy, CrooksAndLiars,
+ CrowdBunker, CrowdBunkerChannel, Crtvg, crunchyroll, CSpan, CSpanCongress,
+ CtsNews, CTV, CTVNews, cu.ntv.co.jp, CultureUnplugged, curiositystream,
+ CWTV, Cybrary, CybraryCourse, DacastPlaylist, DacastVOD, Daftsex,
+ DagelijkseKost, DailyMail, dailymotion, DailyWire, DailyWirePodcast,
+ daum.net, DBTV, DctpTv, DeezerAlbum, DeezerPlaylist, defense.gouv.fr,
+ democracynow, DestinationAmerica, DetikEmbed, DeuxM, DeuxMNews, DHM, Digg,
+ DigitalConcertHall, DigitallySpeaking, Digiteka, DiscogsReleasePlaylist,
+ Discovery, DiscoveryLife, DiscoveryNetworksDe, DiscoveryPlus,
+ DiscoveryPlusIndia, DiscoveryPlusIndiaShow, DiscoveryPlusItaly,
+ DiscoveryPlusItalyShow, Disney, DIYNetwork, dlf, Dotsub, Douyin,
+ DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble, Dropbox, Dropout,
+ DropoutSeason, DrTuber, drtv, DTube, duboku, Dumpert, dvtv, dw,
+ EaglePlatform, EbaumsWorld, Ebay, EchoMsk, ehftv, eHow, EinsUndEinsTV,
+ EinsUndEinsTVLive, EinsUndEinsTVRecordings, Einthusan, eitb.tv,
+ ElevenSports, EllenTube, EllenTubePlaylist, EllenTubeVideo, Elonet,
+ ElPais, Embedly, EMPFlix, Engadget, Epicon, EpiconSeries, Epoch, Eporner,
+ EroProfile, ertflix, Escapist, ESPN, ESPNArticle, ESPNCricInfo, EsriVideo,
+ EttuTv, Europa, EuroParlWebstream, EuropeanTour, Eurosport, EUScreen,
+ EWETV, EWETVLive, EWETVRecordings, ExpoTV, Expressen, ExtremeTube,
+ EyedoTV, facebook, FacebookPluginsVideo, faz.net, fc2, Fczenit, Fifa,
+ Filmmodu, filmon, Filmweb, FiveThirtyEight, FiveTV, Flickr, Folketinget,
+ FoodNetwork, FootyRoom, Formula1, FOX, FOX9, FOX9News, Foxgay, foxnews,
+ FoxNewsVideo, FoxSports, fptplay, FranceCulture, FranceInter, FranceTV,
+ francetvinfo.fr, FranceTVSite, Freesound, freespeech.org, FreeTvMovies,
+ FrontendMasters, FrontendMastersCourse, FrontendMastersLesson,
+ FujiTVFODPlus7, Funimation, Funk, Funker530, Fusion, Fux, FuyinTV, Gab,
+ GabTV, Gaia, GameInformer, GameJolt, GameJoltCommunity, GameJoltGame,
+ GameJoltGameSoundtrack, GameJoltSearch, GameJoltUser, GameSpot,
+ GameStar, Gaskrank, Gazeta, GDCVault, GediDigital, gem.cbc.ca, generic,
+ Genius, GeniusLyrics, Gettr, GettrStreaming, Gfycat, GiantBomb, Giga,
+ GlattvisionTV, GlattvisionTVLive, GlattvisionTVRecordings, Glide,
+ GlobalCyclingNetworkPlus, GlobalPlayerAudio, GlobalPlayerAudioEpisode,
+ GlobalPlayerLive, GlobalPlayerLivePlaylist, GlobalPlayerVideo, Globo,
+ GloboArticle, glomex, GMANetworkVideo, Go, GoDiscovery, GodTube, Gofile,
+ Golem, GoogleDrive, GoPlay, GoPro, Goshgay, GoToStage, GPUTechConf,
+ Gronkh, Groupon, Harpodeon, hbo, HearThisAt, Heise, HellPorno,
+ Helsinki, hetklokhuis, HGTVDe, HGTVUsa, HiDive, HistoricFilms, hitbox,
+ HitRecord, hketv, HollywoodReporter, HollywoodReporterPlaylist, Holodex,
+ HotNewHipHop, hotstar, Howcast, HowStuffWorks, hrfernsehen, HRTi,
+ HRTiPlaylist, HSEProduct, HSEShow, html5, Huajiao, HuffPost, Hungama,
+ HungamaAlbumPlaylist, HungamaSong, Hypem, Hytale, Icareus, IdolPlus,
+ IflixSeries, ign.com, IGNArticle, IGNVideo, IHeartRadio, Iltalehti,
+ imdb, Imgur, Ina, Inc, IndavideoEmbed, InfoQ, Instagram, InstagramIOS,
+ Internazionale, InternetVideoArchive, InvestigationDiscovery,
+ IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel, IslamChannelSeries,
+ IsraelNationalNews, ITProTV, ITProTVCourse, ITTF, ITV, ITVBTCC, ivi,
+ ivideon, IVXPlayer, iwara, Ixigua, Izlesene, Jable, JablePlaylist,
+ Jamendo, JamendoAlbum, JeuxVideo, Joj, Jove, JStream, JWPlatform,
+ Kakao, Kaltura, Kanal2, KankaNews, Karaoketv, KarriereVideos,
+ Katsomo, KeezMovies, KelbyOne, Ketnet, khanacademy, Kick, Kicker,
+ KickStarter, KickVOD, KinjaEmbed, KinoPoisk, Kommunetv, KompasVideo,
+ KonserthusetPlay, Koo, KrasView, KTH, Ku6, KUSI, la7.it, laola1tv, LastFM,
+ LastFMPlaylist, LastFMUser, lbry, LCI, Lcp, LcpPlay, Le, Lecture2Go,
+ Lecturio, LecturioCourse, LecturioDeCourse, LeFigaroVideoEmbed,
+ LeFigaroVideoSection, LEGO, Lemonde, Lenta, LePlaylist, LetvCloud,
+ Libsyn, life, likee, limelight, LinkedIn, LinuxAcademy, Liputan6,
+ ListenNotes, LiTV, LiveJournal, livestream, Livestreamfails, Lnk,
+ LnkGo, loc, LocalNews8, LoveHomePorn, LRTStream, LRTVOD, Lumni, lynda,
+ m6, MagentaMusik360, mailru, MainStreaming, MallTV, MangoTV, ManotoTV,
+ ManotoTVLive, ManotoTVShow, ManyVids, MaoriTV, Markiza, MarkizaPage,
+ massengeschmack.tv, Masters, MatchTV, MDR, MedalTV, media.ccc.de,
+ Mediaite, MediaKlikk, Medialaan, Mediaset, MediasetShow, Mediasite,
+ MediasiteCatalog, MediasiteNamedCatalog, MediaStream, MediaWorksNZVOD,
+ Medici, megaphone.fm, megatvcom, Meipai, MelonVOD, META, metacafe,
+ Metacritic, mewatch, Mgoon, MiaoPai, MicrosoftEmbed, microsoftstream,
+ mildom, minds, MinistryGrid, Minoto, miomio.tv, mirrativ, MirrorCoUK,
+ MiTele, mixch, mixcloud, MLB, MLBArticle, MLBTV, MLBVideo, MLSSoccer,
+ Mnet, MNetTV, MNetTVLive, MNetTVRecordings, MochaVideo, MoeVideo,
+ Mofosex, MofosexEmbed, Mojvideo, MonsterSirenHypergryphMusic,
+ Morningstar, Motherless, MotherlessGallery, MotherlessGroup,
+ Motorsport, MotorTrend, MotorTrendOnDemand, MovieClips, MovieFap,
+ Moviepilot, MoviewPlay, Moviezine, MovingImage, MSN, mtg, mtv, mtv.de,
+ mtv.it, mtvjapan, MTVUutisetArticle, MuenchenTV, MujRozhlas, Murrtube,
+ MurrtubeUser, MuseScore, MusicdexAlbum, MusicdexArtist, MusicdexPlaylist,
+ MusicdexSong, mva, Mwave, MwaveMeetGreet, Mxplayer, MxplayerShow,
+ MyChannels, MySpace, MySpass, Myvi, MyVideoGe, MyVidster, MyviEmbed,
+ Mzaalo, n-tv.de, N1InfoAsset, Nate, NateProgram, NationalGeographicTV,
+ Naver, navernow, NBA, NBAChannel, NBAEmbed, NBAWatchEmbed, NBC, NBCNews,
+ nbcolympics, NBCSports, NBCSportsStream, NBCSportsVPlayer, NBCStations,
+ ndr, NDTV, Nebula, NekoHacker, NerdCubedFeed, NetPlusTV, NetPlusTVLive,
+ NetPlusTVRecordings, Netverse, NetversePlaylist, NetverseSearch, Netzkino,
+ Newgrounds, NewsPicks, Newstube, Newsy, NextMedia, NextMediaActionNews,
+ NextTV, Nexx, NexxEmbed, NFB, NFHSNetwork, nfl.com, NhkForSchoolBangumi,
+ NhkForSchoolProgramList, NhkForSchoolSubject, NhkRadioNewsPage, NhkRadiru,
+ NhkRadiruLive, NhkVod, NhkVodProgram, nhl.com, nick.com, nick.de,
+ nickelodeonru, nicknight, niconico, NiconicoUser, Nintendo, Nitter,
+ njoy, NJPWWorld, NobelPrize, NoicePodcast, NonkTube, NoodleMagazine,
+ Noovo, Normalboots, NOSNLArticle, NosVideo, Nova, NovaEmbed, NovaPlay,
+ nowness, Noz, npo, Npr, NRK, NRKPlaylist, NRKRadioPodkast, NRKSkole,
+ NRKTV, NRKTVDirekte, NRKTVEpisode, NRKTVEpisodes, NRKTVSeason,
+ NRKTVSeries, NRLTV, ntv.ru, NubilesPorn, Nuvid, NYTimes, NYTimesArticle,
+ NYTimesCooking, nzherald, NZOnScreen, NZZ, ocw.mit.edu, OdaTV,
+ Odnoklassniki, OfTV, OfTVPlaylist, OktoberfestTV, OlympicsReplay, on24,
+ OnDemandChinaEpisode, OnDemandKorea, OneFootball, OnePlacePodcast,
+ onet.pl, onet.tv, OnetMVP, OnionStudios, Ooyala, OoyalaExternal,
+ Opencast, OpencastPlaylist, openrec, OraTV, OsnatelTV, OsnatelTVLive,
+ OsnatelTVRecordings, OutsideTV, OwnCloud, PacktPub, PacktPubCourse,
+ pandora.tv, Panopto, PanoptoList, PanoptoPlaylist, ParamountNetwork,
+ ParamountPlus, ParamountPlusSeries, ParamountPressExpress, Parler,
+ parliamentlive.tv, Parlview, Patreon, PatreonCampaign, pbs, PearVideo,
+ PeekVids, peer.tv, PeerTube, peloton, People, PerformGroup, periscope,
+ PGATour, PhilharmonieDeParis, phoenix.de, Photobucket, Piapro, Picarto,
+ PicartoVod, Piksel, Pinkbike, Pinterest, PinterestCollection, Pladform,
+ PlanetMarathi, Platzi, PlatziCourse, play.fm, player.sky.it, PlayPlusTV,
+ PlayStuff, PlaysTV, PlaySuisse, Playtvak, Playvid, PlayVids, Playwire,
+ pluralsight, PlutoTV, PodbayFM, PodbayFMChannel, Podchaser, podomatic,
+ Pokemon, PokemonWatch, PokerGo, PokerGoCollection, PolsatGo, PolskieRadio,
+ Popcorntimes, PopcornTV, PornCom, PornerBros, Pornez, PornFlip,
+ PornHd, PornHub, PornHubPagedVideoList, PornHubPlaylist, PornHubUser,
+ PornHubUserVideosUpload, Pornotube, PornoVoisines, PornoXO, PornTop,
+ PornTube, Pr0gramm, Pr0grammStatic, PrankCast, PremiershipRugby, PressTV,
+ ProjectVeritas, prosiebensat1, PRXAccount, PRXSeries, PRXStory, puhutv,
+ Puls4, Pyvideo, QDance, QingTing, qqmusic, QuantumTV, QuantumTVLive,
+ QuantumTVRecordings, Qub, R7, R7Article, Radiko, RadikoRadio, radio.de,
+ radiobremen, radiocanada, radiofrance, RadioJavan, radiokapital,
+ RadioZetPodcast, radlive, Rai, RaiCultura, RaiNews, RaiPlay, RaiPlayLive,
+ RaiPlayPlaylist, RaiPlaySound, RaiPlaySoundLive, RaiPlaySoundPlaylist,
+ RaiSudtirol, RayWenderlich, RayWenderlichCourse, RbgTum, RbgTumCourse,
+ RBMARadio, RCS, RCSEmbeds, RCSVarious, RCTIPlus, RCTIPlusSeries,
+ RCTIPlusTV, RDS, Recurbate, RedBull, RedBullEmbed, RedBullTV,
+ RedBullTVRrnContent, Reddit, RedGifs, RedGifsSearch, RedGifsUser,
+ RedTube, RegioTV, RENTV, RENTVArticle, Restudy, Reuters, ReverbNation,
+ RheinMainTV, RICE, RMCDecouverte, RockstarGames, Rokfin, RoosterTeeth,
+ RoosterTeethSeries, RottenTomatoes, Rozhlas, RozhlasVltava, RTBF,
+ RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl, rtl2, RTLLuLive,
+ RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVCKaltura, RTVCPlay, RTVCPlayEmbed,
+ RTVNH, RTVS, rtvslo.si, RUHD, Rule34Video, Rumble, RumbleChannel,
+ RumbleEmbed, Ruptly, rutube, RUTV, Ruutu, Ruv, safari, Saitosan, SAKTV,
+ SAKTVLive, SAKTVRecordings, SaltTV, SaltTVLive, SaltTVRecordings,
+ SampleFocus, Sangiin, Sapo, savefrom.net, SBS, schooltv, ScienceChannel,
+ Screen9, Screencast, Screencastify, ScreencastOMatic, ScrippsNetworks,
+ Scrolller, SCTE, SCTECourse, Seeker, SenalColombiaLive, SenateGov,
+ SenateISVP, SendtoNews, Servus, Sexu, SeznamZpravy, SeznamZpravyArticle,
+ Shahid, ShahidShow, Shared, ShareVideosEmbed, ShemarooMe, ShowRoomLive,
+ ShugiinItvLive, ShugiinItvLiveRoom, ShugiinItvVod, SibnetEmbed,
+ simplecast, Sina, Skeb, sky.it, SkylineWebcams, SkyNewsAU, Slideshare,
+ SlidesLive, Slutload, Smotrim, Snotr, Sohu, SonyLIV, SonyLIVSeries,
+ soundcloud, SoundcloudEmbed, soundgasm, southpark.cc.com, southpark.de,
+ southpark.lat, southpark.nl, southparkstudios.dk, SovietsCloset,
+ SovietsClosetPlaylist, SpankBang, SpankBangPlaylist, Spankwire, Spiegel,
+ Sport5, SportBox, SportDeutschland, spotify, Spreaker, SpreakerPage,
+ SpreakerShow, SpreakerShowPage, SpringboardPlatform, Sprout, SRGSSR,
+ SRGSSRPlay, StacommuLive, StacommuVOD, StagePlusVODConcert, stanfordoc,
+ StarTrek, startv, Steam, SteamCommunityBroadcast, Stitcher, StitcherShow,
+ StoryFire, StoryFireSeries, StoryFireUser, Streamable, Streamanity,
+ streamcloud.eu, StreamCZ, StreamFF, StreetVoice, StretchInternet,
+ Stripchat, Substack, SunPorno, SVT, SVTPage, SVTPlay, SVTSeries,
+ SwearnetEpisode, SWRMediathek, Syfy, SYVDK, SztvHu, t-online.de,
+ Tagesschau, Tass, TBS, TDSLifeway, Teachable, TeachableCourse,
+ teachertube, TeachingChannel, Teamcoco, TeamTreeHouse, TechTalks,
+ techtv.mit.edu, TedEmbed, TedPlaylist, TedSeries, TedTalk, Tele13, Tele5,
+ TeleBruxelles, TelecaribePlay, Telecinco, Telegraaf, TeleMB, Telemundo,
+ TeleQuebec, TeleQuebecEmission, TeleQuebecLive, TeleQuebecSquat,
+ TeleQuebecVideo, TeleTask, Telewebion, Tempo, TennisTV, TenPlay, TF1,
+ TFO, TheHoleTv, TheIntercept, ThePlatform, ThePlatformFeed, TheStar,
+ TheSun, ThetaStream, ThetaVideo, TheWeatherChannel, ThisAmericanLife,
+ ThisAV, ThisOldHouse, ThisVid, ThisVidMember, ThisVidPlaylist, ThreeSpeak,
+ ThreeSpeakUser, TikTok, tinypic, TLC, TMZ, TNAFlix, TNAFlixNetworkEmbed,
+ toggle, toggo, Tokentube, ToonGoggles, tou.tv, Toypics, ToypicsUser,
+ TrailerAddict, TravelChannel, Triller, TrillerShort, TrillerUser,
+ Trilulilu, Trovo, TrovoChannelClip, TrovoChannelVod, TrovoVod,
+ TrtCocukVideo, TrueID, TruNews, Truth, TruTV, Tube8, TubeTuGraz,
+ TubeTuGrazSeries, TubiTv, TubiTvShow, Tumblr, TuneInPodcast,
+ TuneInPodcastEpisode, TuneInStation, TunePk, Turbo, tv.dfb.de, TV2,
+ TV2Article, TV2DK, TV2DKBornholmPlay, tv2play.hu, tv2playseries.hu, TV4,
+ TV5MondePlus, tv5unis, tv8.it, TVA, TVANouvelles, TVANouvellesArticle,
+ TVC, TVCArticle, TVer, tvigle, TVIPlayer, tvland.com, TVN24, TVNet,
+ TVNoe, TVNow, TVNowAnnual, TVNowFilm, TVNowNew, TVNowSeason, TVNowShow,
+ tvp, TVPlayer, TVPlayHome, Tweakers, TwitCasting, TwitCastingLive,
+ TwitCastingUser, TwitchCollection, TwitchVideos, TwitchVideosClips,
+ TwitchVideosCollections, twitter, Txxx, udemy, UDNEmbed, UFCArabia, UFCTV,
+ ukcolumn, UKTVPlay, Unistra, Unity, UnscriptedNewsVideo, uol.com.br,
+ uplynk, Urort, URPlay, USANetwork, USAToday, ustream, ustudio, Utreon,
+ Varzesh3, Vbox7, VeeHD, Veo, Veoh, Vesti, Vevo, VevoPlaylist, VGTV,
+ vh1.com, vice, Vidbit, Viddler, Videa, video.arnes.si, video.sky.it,
+ VideoDetective, videofy.me, VideoKen, VideoKenCategory, VideoKenPlayer,
+ VideoKenPlaylist, VideoKenTopic, videomore, VideoPress, Vidio, VidioLive,
+ VidioPremier, VidLii, viewlift, Viidea, viki, vimeo, ViMP, Vimple,
+ Vine, Viqeo, Viu, ViuOTTIndonesia, Vivo, vk, VKPlay, VKPlayLive,
+ vm.tiktok, Vocaroo, Vodlocker, VODPl, VODPlatform, VoiceRepublic,
+ voicy, VolejTV, Voot, VootSeries, VoxMedia, VoxMediaVolume, vpro,
+ Vrak, VRT, VrtNU, vrv, VShare, VTM, VTXTV, VTXTVLive, VTXTVRecordings,
+ VuClip, Vupload, VVVVID, VVVVIDShow, VyboryMos, Vzaar, Wakanim, Walla,
+ WalyTV, WalyTVLive, WalyTVRecordings, washingtonpost, wat.tv, WatchBox,
+ WatchESPN, WatchIndianPorn, WDR, WDRElefant, WDRPage, Webcamerapl,
+ Webcaster, WebcasterFeed, WebOfStories, WebOfStoriesPlaylist, Weibo,
+ WeiboMobile, WeiqiTV, WeTvSeries, Weverse, WeverseLive, WeverseLiveTab,
+ WeverseMedia, WeverseMediaTab, WeverseMoment, WeVidi, Weyyak, whowatch,
+ Whyp, wikimedia.org, Willow, WimTV, WinSportsVideo, Wistia, WistiaChannel,
+ WistiaPlaylist, wnl, WorldStarHipHop, wppilot, WrestleUniversePPV,
+ WrestleUniverseVOD, WSJ, WSJArticle, WWE, WyborczaPodcast, Xanimu,
+ XBef, XboxClips, XFileShare, XHamster, XHamsterEmbed, XHamsterUser,
+ ximalaya, xinpianchang, XMinus, XNXX, Xstream, XTube, XTubeUser, Xuite,
+ XVideos, XXXYMovies, Yahoo, YandexDisk, YandexVideo, YandexVideoPreview,
+ YapFiles, Yappy, YappyProfile, YesJapan, YleAreena, Ynet, YouJizz, youku,
+ YouNowChannel, YouNowLive, YouNowMoment, YouPorn, YourPorn, YourUpload,
+ youtube, YoutubeLivestreamEmbed, YoutubeYtBe, Zaiko, ZaikoETicket,
+ Zapiks, Zattoo, ZattooLive, ZattooMovies, ZattooRecordings, ZDF,
+ ZDFChannel, Zee5, ZeeNews, ZenYandex, ZenYandexChannel, Zhihu, zingmp3,
+ zoom, Zype, generic,
+Original-Maintainer: Unit 193 <unit193@debian.org>
 
