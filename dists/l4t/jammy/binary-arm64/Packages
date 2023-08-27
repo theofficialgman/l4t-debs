@@ -1519,6 +1519,24 @@ Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
+Package: nvidia-bsp-32-3
+Version: 1.0-1
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, notify-osd
+Conflicts: nvidia-l4t-x11, nvidia-l4t-tools
+Replaces: nvidia-l4t-x11, nvidia-l4t-tools
+Provides: nvidia-l4t-x11 (= 32.3.1-20191209225816), nvidia-l4t-tools (= 32.3.1-20191209225816)
+Filename: pool/jammy/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-1_all.deb
+Size: 1716
+MD5sum: 377c0136f06b128b01a5644525a4910e
+SHA1: 3e1fe9da6c7961a7f6ec937929513ea18780ef1d
+SHA256: c1f884446b2fadf627926d2a6bcae7de178bcefab445b114892f0c01e469fd4f
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: L4T BSP 32.3.1 Meta Package
+
 Package: nvidia-l4t-3d-core
 Version: 32.3.1-20191209225816
 Architecture: arm64
@@ -1686,23 +1704,6 @@ Priority: standard
 Homepage: http://developer.nvidia.com/jetson
 Description: NVIDIA OEM-Config Package
 
-Package: nvidia-l4t-tools
-Version: 32.3.1-20191209225816
-Architecture: arm64
-Maintainer: NVIDIA Corporation
-Installed-Size: 306
-Pre-Depends: nvidia-l4t-ccp-t210ref
-Depends: libc6, libstdc++6, nvidia-l4t-core (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-tools/nvidia-l4t-tools_32.3.1-20191209225816_arm64.deb
-Size: 178130
-MD5sum: 3131fcb43e31376da3ae2015f4d39e19
-SHA1: e2eceaa64bfab3b854d7ca5d4b4dd4ca06aa3517
-SHA256: 074e2f12447f9870f24a6920d8bfc500b33754901b52c4fc638bb90369ce8b58
-Section: Utils
-Priority: standard
-Homepage: http://developer.nvidia.com/jetson
-Description: NVIDIA Public Test Tools Package
-
 Package: nvidia-l4t-wayland
 Version: 32.3.1-20191209225816
 Architecture: arm64
@@ -1719,23 +1720,6 @@ Section: virtual
 Priority: standard
 Homepage: http://developer.nvidia.com/jetson
 Description: NVIDIA Wayland Package
-
-Package: nvidia-l4t-x11
-Version: 32.3.1-20191209225816
-Architecture: arm64
-Maintainer: NVIDIA Corporation
-Installed-Size: 19
-Pre-Depends: nvidia-l4t-ccp-t210ref
-Depends: libc6, nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-x11/nvidia-l4t-x11_32.3.1-20191209225816_arm64.deb
-Size: 4672
-MD5sum: 8b1bb6d3cdd760c67caa128504e03cb3
-SHA1: dea42df362a715223fd1baf1af514f508f1799b4
-SHA256: 83a3d858ad9ec4099ef168e0af55d8263d5859efc10f8dbe8fbffd78a46a53dc
-Section: x11
-Priority: standard
-Homepage: http://developer.nvidia.com/jetson
-Description: NVIDIA X11 Package
 
 Package: smplayer
 Version: 23.6.0-1~jammy1
@@ -1846,17 +1830,16 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-1
+Version: 5.1.2-2
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
-Installed-Size: 33200
-Pre-Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-x11, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, nvidia-l4t-tools, notify-osd
+Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Suggests: switch-kernel-headers
-Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.2-1_all.deb
-Size: 29560080
-MD5sum: 970ee5005eccde4b708272c0218978b3
-SHA1: 1395ae0ec1d70633dfc3a521d4618d7e927bf0c8
-SHA256: 0feb1b17bef41018bf9c1974beb2b9540b4b0c1b67e714ebd1f6a7ad8fa26424
+Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.2-2_all.deb
+Size: 29553420
+MD5sum: 2ec24b358dab85b4e301672f82b6825b
+SHA1: b3ad10c2b46a2fac0f987d6050595d51423dbb77
+SHA256: 3509c6f1d40e3e9db9a547d7929e98d5abcebec6e5c50fa9ff080c35a9fe8f61
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
