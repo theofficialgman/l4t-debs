@@ -1480,15 +1480,15 @@ Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
 Package: nintendo-switch-meta
-Version: 1.0-5
+Version: 1.0-6
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, gnome-shell-extension-improved-osk, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak, switch-multimedia, switch-l4t-repo
-Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-5_arm64.deb
-Size: 1976
-MD5sum: 807f44a0a0acea1af2f61a702c972f94
-SHA1: e8e2275ade7ecf192b0f5ba78b383354b2490920
-SHA256: ef3d9fc14132a5c1c5880c5e70aeda18c3a4d7d5c29989e2df914c6b018e96b8
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-gnome | switch-kde, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak, switch-multimedia, switch-l4t-repo
+Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-6_arm64.deb
+Size: 1962
+MD5sum: 4e001129fd3a191348be2676656e7cd7
+SHA1: 1d117655f29f470b77c1cfe133b146fee9b6b7cd
+SHA256: 9e53b78a135469fd42115fed713569ccb129852c17e0143e54bfc7f1fb6c4598
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1910,6 +1910,21 @@ Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
+Package: switch-gnome
+Version: 1.0-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: gnome-shell, gnome-shell-extension-improved-osk
+Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-1_arm64.deb
+Size: 1632
+MD5sum: 4270774af9a39e9523f96f1115c5d41c
+SHA1: 02f1742054465a8ae91095dab281ca52d40755c2
+SHA256: 0380752222b119fdeb04f9d91d697867f7a5ef77a9a2655a2bdd6e4f41420a5b
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for GNOME only Nintendo Switch configuration packages
+
 Package: switch-joystick-mouse
 Version: 1.2-1
 Architecture: all
@@ -1926,6 +1941,21 @@ Description: Mouse/Keyboard mappings for Nintendo Switch
  Add supports for mapping Joycon/Procon/Xbox/PS/GC to Mouse/Keyboard.
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
+
+Package: switch-kde
+Version: 1.0-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: plasma-desktop
+Filename: pool/jammy/s/switch-kde/switch-kde_1.0-1_arm64.deb
+Size: 1606
+MD5sum: 19a23041fb04de910f60a384136a4d55
+SHA1: fc437e0b12c50f67e821abe8f74c5487cba9c945
+SHA256: be23f33bd208bc1b9f30589421b317361180578dcc5248633a0479625724b3a5
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for KDE only Nintendo Switch configuration packages
 
 Package: switch-kernel-headers
 Version: 4.9-l4t-5.0.0-2
