@@ -1,0 +1,19 @@
+Package: nvidia-bsp-32-7
+Version: 1.0-3
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: nvidia-l4t-configs, nvidia-l4t-init, nvidia-l4t-firmware, nvidia-l4t-core, nvidia-l4t-3d-core, nvidia-l4t-libvulkan, nvidia-l4t-cuda, nvidia-l4t-multimedia, nvidia-l4t-multimedia-utils, nvidia-l4t-oem-config, notify-osd
+Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3
+Breaks: nvidia-l4t-firmware (<< 32.7.4-20230608212426)
+Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3
+Provides: nvidia-l4t-x11 (= 32.7.4-20230608212426), nvidia-l4t-tools (= 32.7.4-20230608212426)
+Filename: pool/jammy-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-3_all.deb
+Size: 1838
+MD5sum: 7c43c8086c487d74ebf89feb2931553c
+SHA1: cd4c16c7819545af79fd7c4fae4a7ace0b89fbd8
+SHA256: e658e42d4d07e6e5528c53dc0b16eb52c2158c629fd186fe978800c689c6a285
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: L4T BSP 32.7.4 Meta Package
+
