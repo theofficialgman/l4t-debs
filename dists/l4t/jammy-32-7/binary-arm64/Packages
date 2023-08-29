@@ -206,18 +206,18 @@ Homepage: http://developer.nvidia.com/jetson
 Description: NVIDIA Wayland Package
 
 Package: switch-flatpak-32-7
-Version: 1.0-1
+Version: 1.0-2
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Pre-Depends: flatpak
 Depends: gnome-software-plugin-flatpak | plasma-discover-backend-flatpak
 Conflicts: switch-flatpak
 Replaces: switch-flatpak
-Filename: pool/jammy-32-7/s/switch-flatpak-32-7/switch-flatpak-32-7_1.0-1_arm64.deb
+Filename: pool/jammy-32-7/s/switch-flatpak-32-7/switch-flatpak-32-7_1.0-2_arm64.deb
 Size: 20330222
-MD5sum: 8914440bd9dca889150f81a73c52fcf0
-SHA1: dc4ddf4b114f080c2e2213cde13ee56b492650c4
-SHA256: 6adcd9f96b02398581a0fbaf9c802dc8ef792035488bc432dd612e0c7e33cd8b
+MD5sum: f485566b4cc2461e4ad699e583eef190
+SHA1: 77351e57626fec4a027cc4cf38d715e799f86a0b
+SHA256: 37cf1c6288c5ff1c3b897fb08e815bcf76f87610b32aab28c715d2b97e3fe5a2
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
