@@ -1894,15 +1894,15 @@ Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
 Package: switch-gnome
-Version: 1.0-2
+Version: 1.0-3
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: gnome-shell, gnome-shell-extension-improved-osk, gnome-software-plugin-flatpak
-Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-2_arm64.deb
-Size: 1650
-MD5sum: 90e28877a268678dbc3457d7d6fd1d7c
-SHA1: 2ecafe0571be9bbdc167927ef2d8314e23f04b35
-SHA256: 4c6740b4853808429d55c73de313a20a1847dfec48011735cbb010fab7c1eafc
+Depends: gnome-shell, gnome-shell-extension-improved-osk, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme
+Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-3_arm64.deb
+Size: 1864
+MD5sum: 51cda1b8219c504d0944962598b91af4
+SHA1: d747074694ccc21774fb870326f9a4e56ac8661e
+SHA256: 06bf91c4fb370fd90538349bb43a2003d415461d37d3278f8f6b62fe43c8ad5b
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
