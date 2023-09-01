@@ -1721,6 +1721,27 @@ Priority: standard
 Homepage: http://developer.nvidia.com/jetson
 Description: NVIDIA Wayland Package
 
+Package: qt6-gtk2-platformtheme
+Version: 0.2-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6 (>= 6.2.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-abi (= 6.2.4)
+Filename: pool/jammy/q/qt6-gtk2-platformtheme/qt6-gtk2-platformtheme_0.2-1_arm64.deb
+Size: 118442
+MD5sum: b6eb5361d655d0476917ca02ec7d0f44
+SHA1: e09fa1f1d254c13569ed751c00d425698027b472
+SHA256: 616656af5d667c3542886c8162910374f3b4d399924c0ff950d667e6e12550e6
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/trialuser02/qt6gtk2
+Description: Qt 6 extra widget styles - GTK+ 2 Platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the GTK+ 2 style and platform theme. Export
+ QT_QPA_PLATFORMTHEME=gtk2 to enable it for all Qt applications.
+
 Package: smplayer
 Version: 23.6.0-1~jammy1
 Architecture: arm64
@@ -1894,15 +1915,15 @@ Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
 Package: switch-gnome
-Version: 1.0-3
+Version: 1.0-4
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: gnome-shell, gnome-shell-extension-improved-osk, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme
-Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-3_arm64.deb
-Size: 1864
-MD5sum: 51cda1b8219c504d0944962598b91af4
-SHA1: d747074694ccc21774fb870326f9a4e56ac8661e
-SHA256: 06bf91c4fb370fd90538349bb43a2003d415461d37d3278f8f6b62fe43c8ad5b
+Depends: gnome-shell, gnome-shell-extension-improved-osk, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, qt6-gtk2-platformtheme
+Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-4_arm64.deb
+Size: 1870
+MD5sum: 763b277736a55cbf000a49ebaf328536
+SHA1: 34f471fbe85377ad8f031d69cb60edba2b33aa31
+SHA256: 9f489d37a48d68d188476675688f97316a3a2d8e8df73c1289f5766e9de4223b
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
