@@ -1947,15 +1947,15 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-2
+Version: 1.0-3
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: plasma-desktop, plasma-discover-backend-flatpak
-Filename: pool/jammy/s/switch-kde/switch-kde_1.0-2_arm64.deb
-Size: 1624
-MD5sum: a087c1ae4b85f3c67cc8daf4747fa9c0
-SHA1: 8cd521cb7784432711f582cf3d392d4a9da7ed77
-SHA256: bc26bbef114d9d832654c8be912c268702e7b363d3f583bb6746cf57436a353a
+Depends: plasma-desktop, plasma-discover-backend-flatpak, switch-sddm-rule
+Filename: pool/jammy/s/switch-kde/switch-kde_1.0-3_arm64.deb
+Size: 1636
+MD5sum: 5e3af8e4dff38f33580857bf27fcea8b
+SHA1: 1b011ceff6292b131b28cb80c852310cad318669
+SHA256: d03434aa0a2a52a885eb783a9327cb2562ac313bae99f4888c528bab522ecab7
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -2032,6 +2032,20 @@ Section: graphics
 Priority: extra
 Homepage: https://gitlab.com/switchroot
 Description: Metapackage for all Nintendo Switch Multimedia Packages
+
+Package: switch-sddm-rule
+Version: 1.0-1
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Filename: pool/jammy/s/switch-sddm-rule/switch-sddm-rule_1.0-1_all.deb
+Size: 1628
+MD5sum: 7b778007b3bcf6c1b7aa273caed295ec
+SHA1: 712d0dd94dfb12b688e0248aef74e8b86a948fac
+SHA256: 0006e3f6e6c1e5fc07625f43b3ce102826b424f6bbb588fadb884df3e64ab6a0
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Udev rules to allow sddm to initialize on Tegra Drivers
 
 Package: switch-touch-rules
 Version: 1.3-0ubuntu2
