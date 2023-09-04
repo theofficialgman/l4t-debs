@@ -337,6 +337,31 @@ SHA256: 8b715d42d62364add01da52a1cb77d0703d50d0b8ab73f03f086e69db8fcc010
 Priority: important
 Description: Pairs joy-cons together into a virtual controller
 
+Package: kscreen
+Version: 4:5.24.7-0ubuntu0.1l4t
+Architecture: arm64
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+Installed-Size: 1072
+Depends: kde-cli-tools (>= 4:5.14), plasma-framework, qml-module-qtgraphicaleffects, libc6 (>= 2.34), libkf5configcore5 (>= 5.90.0~), libkf5coreaddons5 (>= 5.77.0), libkf5dbusaddons5 (>= 5.90.0~), libkf5declarative5 (>= 5.12.0), libkf5globalaccel-bin, libkf5globalaccel5 (>= 5.90.0~), libkf5i18n5 (>= 5.90.0~), libkf5plasma5 (>= 5.90.0~), libkf5plasmaquick5 (>= 5.90.0~), libkf5quickaddons5 (>= 5.88.0), libkf5screen-bin (>= 4:5.17.5~), libkf5screen7 (>= 4:5.24.4~), libkf5xmlgui5 (>= 5.90.0~), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.15.0~), libqt5gui5 (>= 5.15.0~) | libqt5gui5-gles (>= 5.15.0~), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.4.0) | libqt5quick5-gles (>= 5.4.0), libqt5sensors5 (>= 5.15.0~), libqt5widgets5 (>= 5.15.0~), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 5), libx11-6, libxcb1, libxi6 (>= 2:1.2.99.4)
+Recommends: upower
+Filename: pool/jammy/k/kscreen/kscreen_5.24.7-0ubuntu0.1l4t_arm64.deb
+Size: 230078
+MD5sum: 04f934c8eb6eadeb1bbeee685463d70a
+SHA1: 526fb6e93d03206b67fc4c0239fd89a5485bad2b
+SHA256: f6855534c0a9f59cea78e04bebe5572a13ba28ae489e94be17982a60726627b2
+Section: kde
+Priority: optional
+Homepage: https://invent.kde.org/plasma/kscreen
+Description: KDE monitor hotplug and screen handling
+ KScreen provides multiple monitor support.  This support tries to be
+ as smart as possible adapting the behavior of it to each use case
+ making the configuration of monitors as simple as plugging them into
+ your computer.
+ .
+ This package contains the modules and plugins for monitor hotplug and
+ automatic screen handling.
+Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
 Package: libavcodec-dev
 Source: ffmpeg
 Version: 9:4.4.2-0ubuntu0.22.04.1l4t
