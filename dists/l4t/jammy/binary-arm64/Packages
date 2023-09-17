@@ -1941,15 +1941,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
 Package: switch-gnome
-Version: 1.0-5
+Version: 1.0-6
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: gnome-shell, gnome-shell-extension-improved-osk, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, qt6-gtk2-platformtheme, fuse3, libfuse2
-Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-5_arm64.deb
-Size: 1882
-MD5sum: 39e36aa8f60baaed031335955412648b
-SHA1: 15b0adc2f93ee5c87cce1d4a537754b99a49ac46
-SHA256: c3a749a14488c14e3dde514c12482a0e37c4957d077ab5e3cd3d61e358541464
+Conflicts: gnome-software-plugin-snap
+Filename: pool/jammy/s/switch-gnome/switch-gnome_1.0-6_arm64.deb
+Size: 1890
+MD5sum: c1be160b2f0052142aa1d607f6d88abd
+SHA1: 42b07e54cfcbcd82be041cebfa956e3951e3bbe4
+SHA256: 000d019c7e1858d4957220fed246cf6de3c6430c558047c5a33c6297a0bc618d
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1973,15 +1974,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-4
+Version: 1.0-5
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, plasma-discover-backend-flatpak, switch-sddm-rule
-Filename: pool/jammy/s/switch-kde/switch-kde_1.0-4_arm64.deb
-Size: 2864
-MD5sum: 5402683507cdbadb6c4144b0166ccb4a
-SHA1: 44ad3f216d34ff514ce62f4f4d27b368896ea5ee
-SHA256: ee5bceff5d28784b1952c9f9da1b4e85507d8b59aba4405b3034b91541a0e797
+Conflicts: plasma-discover-backend-snap
+Filename: pool/jammy/s/switch-kde/switch-kde_1.0-5_arm64.deb
+Size: 2874
+MD5sum: 724d774175542f9e9bc4fb3ab4025a1a
+SHA1: 853a07dec4ef45d96eb2efe296f1b454ca024d51
+SHA256: 285e30e2ac6027a1a3c83886a35945d412660d9c0e6a7075a8f46be41cb24b33
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
