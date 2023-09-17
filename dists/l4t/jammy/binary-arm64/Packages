@@ -2047,15 +2047,15 @@ Homepage: https://github.com/theofficialgman/l4t-debs
 Description: L4T Apt Repo and Key
 
 Package: switch-multimedia
-Version: 1.0-0
+Version: 1.0-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: mpv, smplayer, smplayer-themes, smplayer-skins, yt-dlp
-Filename: pool/jammy/s/switch-multimedia/switch-multimedia_1.0-0_arm64.deb
-Size: 1628
-MD5sum: 485a24213c1170bfa1138e528f760da1
-SHA1: 87864c6e21d6ea02e6515747367bba697ea3963b
-SHA256: 41dfbb65ae674d743c82de216f907a653acfa9e9a8556531cc1e943593e35f04
+Filename: pool/jammy/s/switch-multimedia/switch-multimedia_1.0-1_arm64.deb
+Size: 1878
+MD5sum: 143d41ba8cef85596091854be79bd66a
+SHA1: 131da922802ae1434e466775cf90082e7b7f48fc
+SHA256: 23ec485bbd31345363077ee7ec5491d010799b87336dc36f8b4f717d6e6609dd
 Section: graphics
 Priority: extra
 Homepage: https://gitlab.com/switchroot
