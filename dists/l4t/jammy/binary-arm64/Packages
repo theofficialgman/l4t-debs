@@ -1,20 +1,20 @@
 Package: chromium-browser
-Version: 9:112.0.5615.49-0ubuntu0.18.04.1
+Version: 9:112.0.5615.49-1ubuntu0.18.04.1
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 262416
 Pre-Depends: dpkg (>= 1.15.6)
-Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.27), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.60), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.39.4), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, libxtst6, bash (>= 4), libx11-xcb1, xdg-utils, chromium-codecs-ffmpeg-extra (= 9:112.0.5615.49-0ubuntu0.18.04.1) | chromium-codecs-ffmpeg (= 9:112.0.5615.49-0ubuntu0.18.04.1)
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.27), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.60), libexpat1 (>= 2.0.1), libgbm1 (>= 17.1.0~rc2), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.39.4), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.31), libpango-1.0-0 (>= 1.14.0), libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, libxtst6, bash (>= 4), libx11-xcb1, xdg-utils, chromium-codecs-ffmpeg-extra (= 9:112.0.5615.49-1ubuntu0.18.04.1) | chromium-codecs-ffmpeg (= 9:112.0.5615.49-1ubuntu0.18.04.1)
 Recommends: chromium-browser-l10n
 Suggests: webaccounts-chromium-extension, unity-chromium-extension
 Conflicts: chromium-browser-inspector
 Replaces: chromium-browser-inspector
 Provides: chromium-browser-inspector, www-browser
-Filename: pool/jammy/c/chromium-browser/chromium-browser_112.0.5615.49-0ubuntu0.18.04.1_arm64.deb
-Size: 84672456
-MD5sum: 823890ae13c61c4ce4bfc6eb6daec7e5
-SHA1: 9a3a36d6e9ef4a106b0f336456e5f32cb414b329
-SHA256: 7a9f7efdfa4b309e2058ae50e771f7aa4920bcaf1e2c64abf527a8784e274be4
+Filename: pool/jammy/c/chromium-browser/chromium-browser_112.0.5615.49-1ubuntu0.18.04.1_arm64.deb
+Size: 93965756
+MD5sum: 8d07afc02e973c2d2766330894fac653
+SHA1: 620b7e30d8214352a2353080e9fd0558aed2c3b3
+SHA256: fb473f71cf9e84947315f829794b363ebfcb6a65e75dd582777f87b06bf7a585
 Section: web
 Priority: optional
 Homepage: https://chromium.googlesource.com/chromium/src/
@@ -24,18 +24,18 @@ Description: Chromium web browser, open-source version of Chrome
 
 Package: chromium-browser-l10n
 Source: chromium-browser
-Version: 9:112.0.5615.49-0ubuntu0.18.04.1
+Version: 9:112.0.5615.49-1ubuntu0.18.04.1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 32715
 Pre-Depends: dpkg (>= 1.15.6)
-Depends: chromium-browser (>= 9:112.0.5615.49-0ubuntu0.18.04.1), chromium-browser (<< 9:112.0.5615.49-0ubuntu0.18.04.1.1~)
+Depends: chromium-browser (>= 9:112.0.5615.49-1ubuntu0.18.04.1), chromium-browser (<< 9:112.0.5615.49-1ubuntu0.18.04.1.1~)
 Replaces: chromium-browser
-Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_112.0.5615.49-0ubuntu0.18.04.1_all.deb
-Size: 5583636
-MD5sum: d37753372301a431347656f2ca1d8b95
-SHA1: 7293ecac3776ddd19353d170f6686adf4db7b318
-SHA256: 3faa53ddc20efeaa240c6882ebbfa2ff55361c04c63b4a7deceb88744546572b
+Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_112.0.5615.49-1ubuntu0.18.04.1_all.deb
+Size: 6060940
+MD5sum: 6e7de4e42d68d4d508db01b7b5260c66
+SHA1: 0e4d514a929037a6ecd62efb2293a1f69afb001b
+SHA256: 9d9b867c69005815c5f995ff61781faa6cf66b349fa9062b5b9f8c3b93a5a0a2
 Section: web
 Priority: optional
 Homepage: https://chromium.googlesource.com/chromium/src/
@@ -51,7 +51,7 @@ Description: chromium-browser language packages
 
 Package: chromium-codecs-ffmpeg-extra
 Source: chromium-browser
-Version: 9:112.0.5615.49-0ubuntu0.18.04.1
+Version: 9:112.0.5615.49-1ubuntu0.18.04.1
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 3814
@@ -59,11 +59,11 @@ Pre-Depends: dpkg (>= 1.15.6)
 Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0)
 Conflicts: chromium-browser (<< 44), chromium-codecs-ffmpeg
 Replaces: chromium-browser (<< 44), chromium-codecs-ffmpeg
-Filename: pool/jammy/c/chromium-browser/chromium-codecs-ffmpeg-extra_112.0.5615.49-0ubuntu0.18.04.1_arm64.deb
-Size: 1099328
-MD5sum: 9dd6db063dfc8d0ab0be721e3d93ab0f
-SHA1: d9c22d26845eb7646dcfd7696748173f95244013
-SHA256: 42718055bb96299962c02940b78d1155a6ebb2996db6dcdc5e2b08ff6efd3c39
+Filename: pool/jammy/c/chromium-browser/chromium-codecs-ffmpeg-extra_112.0.5615.49-1ubuntu0.18.04.1_arm64.deb
+Size: 1300410
+MD5sum: b298d906f4a987718c21fa9f334f724b
+SHA1: 134eadad1d35814b2bd94b71511e94656351dc43
+SHA256: 1dafde50ae41b64921f0bbb1bb78f0f975d3038200b34d849cf26364c01dabbc
 Section: web
 Priority: optional
 Homepage: https://chromium.googlesource.com/chromium/src/

@@ -1,17 +1,17 @@
 Package: chromium-browser-l10n
 Source: chromium-browser
-Version: 9:112.0.5615.49-0ubuntu0.18.04.1
+Version: 9:112.0.5615.49-1ubuntu0.18.04.1
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 32715
 Pre-Depends: dpkg (>= 1.15.6)
-Depends: chromium-browser (>= 9:112.0.5615.49-0ubuntu0.18.04.1), chromium-browser (<< 9:112.0.5615.49-0ubuntu0.18.04.1.1~)
+Depends: chromium-browser (>= 9:112.0.5615.49-1ubuntu0.18.04.1), chromium-browser (<< 9:112.0.5615.49-1ubuntu0.18.04.1.1~)
 Replaces: chromium-browser
-Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_112.0.5615.49-0ubuntu0.18.04.1_all.deb
-Size: 5583636
-MD5sum: d37753372301a431347656f2ca1d8b95
-SHA1: 7293ecac3776ddd19353d170f6686adf4db7b318
-SHA256: 3faa53ddc20efeaa240c6882ebbfa2ff55361c04c63b4a7deceb88744546572b
+Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_112.0.5615.49-1ubuntu0.18.04.1_all.deb
+Size: 6060940
+MD5sum: 6e7de4e42d68d4d508db01b7b5260c66
+SHA1: 0e4d514a929037a6ecd62efb2293a1f69afb001b
+SHA256: 9d9b867c69005815c5f995ff61781faa6cf66b349fa9062b5b9f8c3b93a5a0a2
 Section: web
 Priority: optional
 Homepage: https://chromium.googlesource.com/chromium/src/
