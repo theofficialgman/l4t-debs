@@ -1,29 +1,15 @@
 Package: chromium-browser-l10n
-Source: chromium-browser
-Version: 9:112.0.5615.49-1ubuntu0.18.04.1
+Version: 9:119.0.6045.105-1
 Architecture: all
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 32715
-Pre-Depends: dpkg (>= 1.15.6)
-Depends: chromium-browser (>= 9:112.0.5615.49-1ubuntu0.18.04.1), chromium-browser (<< 9:112.0.5615.49-1ubuntu0.18.04.1.1~)
-Replaces: chromium-browser
-Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_112.0.5615.49-1ubuntu0.18.04.1_all.deb
-Size: 6060940
-MD5sum: 6e7de4e42d68d4d508db01b7b5260c66
-SHA1: 0e4d514a929037a6ecd62efb2293a1f69afb001b
-SHA256: 9d9b867c69005815c5f995ff61781faa6cf66b349fa9062b5b9f8c3b93a5a0a2
-Section: web
-Priority: optional
-Homepage: https://chromium.googlesource.com/chromium/src/
-Description: chromium-browser language packages
- An open-source browser project that aims to build a safer, faster, and more
- stable way for all Internet users to experience the web.
- .
- This package contains language packages for 65 languages:
- am, ar, ast, bg, bn, bs, ca, ca@valencia, cs, da, de, el, en-AU, en-GB, eo,
- es-419, es, et, eu, fa, fil, fi, fr, gl, gu, he, hi, hr, hu, hy, ia, id, it,
- ja, ka, kn, ko, ku, kw, lt, lv, ml, mr, ms, nb, nl, pl, pt-BR, pt-PT, ro, ru,
- sk, sl, sr, sv, sw, ta, te, th, tr, ug, uk, vi, zh-CN, zh-TW
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: chromium-browser (>= 9:119.0.6045.105-1)
+Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_9:119.0.6045.105-1_all.deb
+Size: 748
+MD5sum: cfb3badd54fe189b5f13f1aa6a82120e
+SHA1: d345791c680255e98770693809c3581fbb501ac3
+SHA256: 1d029d5484190bca5b5b66912b5a04224f77d42896a971509acbdf32fe07873e
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
 
 Package: ffmpeg-doc
 Source: ffmpeg
