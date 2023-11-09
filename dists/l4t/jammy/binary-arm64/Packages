@@ -1,18 +1,18 @@
 Package: chromium-browser
-Version: 9:119.0.6045.105-1
+Version: 9:119.0.6045.123-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Installed-Size: 317271
+Installed-Size: 317272
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
-Filename: pool/jammy/c/chromium-browser/chromium-browser_9:119.0.6045.105-1_arm64.deb
-Size: 96841936
-MD5sum: 2c8d5cf89c229568f9066c2104f19fba
-SHA1: 0006d8b44674ba8a88ff13175b84c5fb35b46a3d
-SHA256: 809e9a457819bd1f7d023671cae0188027c237e8dbccb51f4e18a4872549329f
+Filename: pool/jammy/c/chromium-browser/chromium-browser_9:119.0.6045.123-1_arm64.deb
+Size: 96851396
+MD5sum: f56ebe5cf599292dc75a7df6ad031628
+SHA1: fc1c748e0c3c09ad79f299a2d238b46ce3df2660
+SHA256: 30b5264db5f9c024dcbba268bce010b310fd2792fe0df8604f9bf0f2ca80f345
 Section: web
 Priority: optional
 Description: The web browser from Chromium.org
