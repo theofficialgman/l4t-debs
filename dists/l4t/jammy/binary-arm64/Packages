@@ -8,7 +8,7 @@ Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridg
 Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
-Filename: pool/jammy/c/chromium-browser/chromium-browser_9_119.0.6045.159-1_arm64.deb
+Filename: pool/jammy/main/c/chromium-browser/chromium-browser_9_119.0.6045.159-1_arm64.deb
 Size: 96875716
 MD5sum: a69171fc664f6ac636c9d9084ef049bf
 SHA1: a39ca547a79e1762a00e4178e78babca73a9f18b
@@ -23,7 +23,7 @@ Version: 9:119.0.6045.105-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: chromium-browser (>= 9:119.0.6045.105-1)
-Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_9:119.0.6045.105-1_all.deb
+Filename: pool/jammy/main/c/chromium-browser/chromium-browser-l10n_9:119.0.6045.105-1_all.deb
 Size: 748
 MD5sum: cfb3badd54fe189b5f13f1aa6a82120e
 SHA1: d345791c680255e98770693809c3581fbb501ac3
@@ -36,7 +36,7 @@ Version: 9:119.0.6045.105-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: chromium-browser (>= 9:119.0.6045.105-1)
-Filename: pool/jammy/c/chromium-browser/chromium-codecs-ffmpeg_9:119.0.6045.105-1_arm64.deb
+Filename: pool/jammy/main/c/chromium-browser/chromium-codecs-ffmpeg_9:119.0.6045.105-1_arm64.deb
 Size: 756
 MD5sum: 574eb962980cee1d311b925922158329
 SHA1: d3fdef3806dc8bc4c6c155e27006276afee9f3d3
@@ -49,7 +49,7 @@ Version: 9:119.0.6045.105-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: chromium-browser (>= 9:119.0.6045.105-1)
-Filename: pool/jammy/c/chromium-browser/chromium-codecs-ffmpeg-extra_9:119.0.6045.105-1_arm64.deb
+Filename: pool/jammy/main/c/chromium-browser/chromium-codecs-ffmpeg-extra_9:119.0.6045.105-1_arm64.deb
 Size: 764
 MD5sum: b4c2b55d6cb37a14b855b891cd0bcfff
 SHA1: 446976cb7055f58c10c7664c0477d5f567758673
@@ -310,7 +310,7 @@ Version: 0.6-0
 Architecture: arm64
 Maintainer: Daniel J. Ogorchock, CTCaer
 Depends: libevdev2, libudev1
-Filename: pool/jammy/j/joycond/joycond_0.6-0_arm64.deb
+Filename: pool/jammy/main/j/joycond/joycond_0.6-0_arm64.deb
 Size: 39072
 MD5sum: 6bf31754ad8b4a5a14b24dbfd0b8cb04
 SHA1: 11f36870bd32706413452491cf72f20b0eabf4e1
@@ -1056,7 +1056,7 @@ Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 51
 Depends: libc6 (>= 2.17)
-Filename: pool/jammy/l/libffi/libffi6_3.2.1-4_arm64.deb
+Filename: pool/jammy/main/l/libffi/libffi6_3.2.1-4_arm64.deb
 Size: 16314
 MD5sum: 963b8cf695c83f59de026464311dd236
 SHA1: fff4696bb3514dba3113902afb9f2a8a0ffee6df
@@ -1551,7 +1551,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 77117
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libegl1, libgcc1, libstdc++6, libx11-6, libxext6, nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816), nvidia-l4t-wayland (= 32.3.1-20191209225816), nvidia-l4t-x11 (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-3d-core/nvidia-l4t-3d-core_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-3d-core/nvidia-l4t-3d-core_32.3.1-20191209225816_arm64.deb
 Size: 26860026
 MD5sum: 11a7ab073b5668457c7938e832ad28ba
 SHA1: 7eb9fe6c65a4cc67d3561f342038e4a02630bcfa
@@ -1566,7 +1566,7 @@ Version: 32.3.1-20191209225816
 Architecture: arm64
 Maintainer: NVIDIA Corporation
 Installed-Size: 22
-Filename: pool/jammy/n/nvidia-l4t-ccp-t210ref/nvidia-l4t-ccp-t210ref_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-ccp-t210ref/nvidia-l4t-ccp-t210ref_32.3.1-20191209225816_arm64.deb
 Size: 5768
 MD5sum: 604a9de7c66ce3d286e8d8eaaf177d98
 SHA1: 7625766f8cf97653c66bc633647436cf3665d69b
@@ -1582,7 +1582,7 @@ Architecture: arm64
 Maintainer: NVIDIA Corporation
 Installed-Size: 1465
 Pre-Depends: nvidia-l4t-ccp-t210ref
-Filename: pool/jammy/n/nvidia-l4t-configs/nvidia-l4t-configs_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-configs/nvidia-l4t-configs_32.3.1-20191209225816_arm64.deb
 Size: 1426524
 MD5sum: 814b8243321bd8112f9db9f505bb8a34
 SHA1: 4d9b704bee773ea36e51ec206bf171ec7cb20ef2
@@ -1599,7 +1599,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 2461
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libegl1, libexpat1, libgcc1, libstdc++6
-Filename: pool/jammy/n/nvidia-l4t-core/nvidia-l4t-core_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-core/nvidia-l4t-core_32.3.1-20191209225816_arm64.deb
 Size: 945368
 MD5sum: 18d8449f932f67c4efde7a43659b4664
 SHA1: 19fa1283a2b8aa0b01717808a3d568078cca5276
@@ -1616,7 +1616,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 15401
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-cuda/nvidia-l4t-cuda_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-cuda/nvidia-l4t-cuda_32.3.1-20191209225816_arm64.deb
 Size: 3029152
 MD5sum: d6040aa5ef8e2c11f99b03720e0a8c77
 SHA1: 7aa9d06a147f53d5b898dec441890baad2e65543
@@ -1633,7 +1633,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 1783
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libgcc1, libstdc++6, nvidia-l4t-core (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-firmware/nvidia-l4t-firmware_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-firmware/nvidia-l4t-firmware_32.3.1-20191209225816_arm64.deb
 Size: 980154
 MD5sum: fb3d17a758ca6b4ac8b19fd330b43824
 SHA1: 4fd06ca514afdeb3814a935c7ef2d9269c5627a1
@@ -1650,7 +1650,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 276
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libstdc++6, nvidia-l4t-core (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-init/nvidia-l4t-init_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-init/nvidia-l4t-init_32.3.1-20191209225816_arm64.deb
 Size: 44178
 MD5sum: fb2f376d5cc4c162b77bf1ec594d5adf
 SHA1: c5929813b1027fc88ebb1eef153e991dd603bcd2
@@ -1667,7 +1667,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 10272
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libasound2, libc6, libcairo2, libdatrie1, libegl1, libexpat1, libfontconfig1, libgcc1, libgles2, libglib2.0-0, libglvnd0, libgstreamer1.0-0, libgstreamer-plugins-bad1.0-0, libgstreamer-plugins-base1.0-0, libharfbuzz0b, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrender1, zlib1g, nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-cuda (= 32.3.1-20191209225816), nvidia-l4t-multimedia-utils (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-multimedia/nvidia-l4t-multimedia_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-multimedia/nvidia-l4t-multimedia_32.3.1-20191209225816_arm64.deb
 Size: 5502788
 MD5sum: f8e537064c8fb09ec4d6c6e28dc47341
 SHA1: 6629ab011a0bbd4886e4d5dedcbc772618f3a872
@@ -1684,7 +1684,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 68
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libcairo2, libdatrie1, libegl1, libexpat1, libfontconfig1, libgcc1, libgles2, libglib2.0-0, libglvnd0, libharfbuzz0b, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrender1, zlib1g, nvidia-l4t-core (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-multimedia-utils/nvidia-l4t-multimedia-utils_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-multimedia-utils/nvidia-l4t-multimedia-utils_32.3.1-20191209225816_arm64.deb
 Size: 21620
 MD5sum: 6e654ba5810c15507f6105cc9945e3f4
 SHA1: 11e0940841a0ebdac073e617ec66520db91a31ba
@@ -1701,7 +1701,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 80
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: nvidia-l4t-core (= 32.3.1-20191209225816)
-Filename: pool/jammy/n/nvidia-l4t-oem-config/nvidia-l4t-oem-config_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-oem-config/nvidia-l4t-oem-config_32.3.1-20191209225816_arm64.deb
 Size: 14616
 MD5sum: dc9c2b5bc626a29ec633e0b11f51cd77
 SHA1: a694fec0339dd0f63269dce64ea3887fdd952d7e
@@ -1718,7 +1718,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 63
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libffi6, libwayland-client0, libwayland-server0
-Filename: pool/jammy/n/nvidia-l4t-wayland/nvidia-l4t-wayland_32.3.1-20191209225816_arm64.deb
+Filename: pool/jammy/main/n/nvidia-l4t-wayland/nvidia-l4t-wayland_32.3.1-20191209225816_arm64.deb
 Size: 20950
 MD5sum: 79d82920b2b904b544bb37fe07c8eeea
 SHA1: 75ca01d651052d126d4d541f6fee3fc5ea0370ce
@@ -1733,7 +1733,7 @@ Version: 0.2-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6 (>= 6.2.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-abi (= 6.2.4)
-Filename: pool/jammy/q/qt6-gtk2-platformtheme/qt6-gtk2-platformtheme_0.2-1_arm64.deb
+Filename: pool/jammy/main/q/qt6-gtk2-platformtheme/qt6-gtk2-platformtheme_0.2-1_arm64.deb
 Size: 118442
 MD5sum: b6eb5361d655d0476917ca02ec7d0f44
 SHA1: e09fa1f1d254c13569ed751c00d425698027b472
@@ -1847,7 +1847,7 @@ Version: 1.0-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: libasound2-data
-Filename: pool/jammy/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
+Filename: pool/jammy/main/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
 Size: 2080
 MD5sum: 27011e929d6e6e55d2b40598f1bc7898
 SHA1: 7be71564a2a130e0331596024b21998bd761fdb3
@@ -1879,7 +1879,7 @@ Version: 1.0-2
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: dconf-cli
-Filename: pool/jammy/s/switch-dconf-customizations/switch-dconf-customizations_1.0-2_all.deb
+Filename: pool/jammy/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-2_all.deb
 Size: 2400
 MD5sum: 9a3ecc58183b8f91d95924d013b2cc2b
 SHA1: df6fd744444d7767a10beb3f15a47e7fb73052a6
@@ -1894,7 +1894,7 @@ Version: 2.1-1jammy1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
-Filename: pool/jammy/s/switch-dock-handler/switch-dock-handler_2.1-1jammy1_all.deb
+Filename: pool/jammy/main/s/switch-dock-handler/switch-dock-handler_2.1-1jammy1_all.deb
 Size: 7210
 MD5sum: 55af94fa96c27dfb909f3b89c45f68c1
 SHA1: b7b8f1b539b5f892327f2cebcadeeeac241c226b
@@ -1911,7 +1911,7 @@ Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Pre-Depends: flatpak
 Depends: gnome-software-plugin-flatpak | plasma-discover-backend-flatpak
-Filename: pool/jammy/s/switch-flatpak/switch-flatpak_1.0-4_arm64.deb
+Filename: pool/jammy/main/s/switch-flatpak/switch-flatpak_1.0-4_arm64.deb
 Size: 17838608
 MD5sum: 37ca6c990841d9c2778d4e432ec51e96
 SHA1: 1fe4f7073f05ce24e9f86679b38f508af211f8fb
@@ -1942,7 +1942,7 @@ Version: 1.2-1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: xserver-xorg-input-joystick (>= 2:1.6.4)
-Filename: pool/jammy/s/switch-joystick-mouse/switch-joystick-mouse_1.2-1_all.deb
+Filename: pool/jammy/main/s/switch-joystick-mouse/switch-joystick-mouse_1.2-1_all.deb
 Size: 2480
 MD5sum: 2e2af670989ab3d669282f1eb4f9d4ad
 SHA1: 0bc14f405fc86f8799314f0fd8c2c05d503cbd3e
@@ -1979,7 +1979,7 @@ Pre-Depends: nvidia-l4t-ccp-t210ref
 Conflicts: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
 Breaks: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
 Replaces: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
-Filename: pool/jammy/s/switch-kernel-headers/switch-kernel-headers_4.9-l4t-5.0.0-2_arm64.deb
+Filename: pool/jammy/main/s/switch-kernel-headers/switch-kernel-headers_4.9-l4t-5.0.0-2_arm64.deb
 Size: 15648056
 MD5sum: abf67acf8b70bc2752ce8e6b1596a2aa
 SHA1: 4e1e9560b5e56c0f3198282674668c7073f87842
@@ -1994,7 +1994,7 @@ Version: 1.5-1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/jammy/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
+Filename: pool/jammy/main/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
 Size: 519950
 MD5sum: 389be75b18f74fb94a3439d6563f1dc0
 SHA1: 50174cab192408f70dc4c599d25f9e51aedfed23
@@ -2017,7 +2017,7 @@ Package: switch-l4t-repo
 Version: 1.0-0
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Filename: pool/jammy/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
+Filename: pool/jammy/main/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
 Size: 2030
 MD5sum: f84cd5d3faade3caa67cefabbe6beb50
 SHA1: b99d737a6050857e8f7044420821cbeb80aa06d5
@@ -2046,7 +2046,7 @@ Package: switch-sddm-rule
 Version: 1.0-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Filename: pool/jammy/s/switch-sddm-rule/switch-sddm-rule_1.0-1_all.deb
+Filename: pool/jammy/main/s/switch-sddm-rule/switch-sddm-rule_1.0-1_all.deb
 Size: 1628
 MD5sum: 7b778007b3bcf6c1b7aa273caed295ec
 SHA1: 712d0dd94dfb12b688e0248aef74e8b86a948fac
@@ -2062,7 +2062,7 @@ Architecture: all
 Maintainer: Billy Laws <blaws05@gmail.com>
 Installed-Size: 13
 Depends: udev, libinput10
-Filename: pool/jammy/s/switch-touch-rules/switch-touch-rules_1.3-0ubuntu2_all.deb
+Filename: pool/jammy/main/s/switch-touch-rules/switch-touch-rules_1.3-0ubuntu2_all.deb
 Size: 2388
 MD5sum: ee79178534c2ac7cd2725dbff34def39
 SHA1: f0467bab019df1bccfbc684b25b120ca45b83a83
@@ -2192,7 +2192,7 @@ Installed-Size: 10279
 Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any, python3-pkg-resources
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
-Filename: pool/jammy/y/yt-dlp/yt-dlp_2023.11.16-1_all.deb
+Filename: pool/jammy/main/y/yt-dlp/yt-dlp_2023.11.16-1_all.deb
 Size: 1832278
 MD5sum: 358812df1214aa71a49c18ab1552fea8
 SHA1: 35027c79e8fec5aa47f36030d8af332d7ec01aec

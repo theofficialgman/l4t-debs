@@ -3,7 +3,7 @@ Version: 9:119.0.6045.105-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: chromium-browser (>= 9:119.0.6045.105-1)
-Filename: pool/jammy/c/chromium-browser/chromium-browser-l10n_9:119.0.6045.105-1_all.deb
+Filename: pool/jammy/main/c/chromium-browser/chromium-browser-l10n_9:119.0.6045.105-1_all.deb
 Size: 748
 MD5sum: cfb3badd54fe189b5f13f1aa6a82120e
 SHA1: d345791c680255e98770693809c3581fbb501ac3
@@ -765,7 +765,7 @@ Version: 1.0-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: libasound2-data
-Filename: pool/jammy/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
+Filename: pool/jammy/main/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
 Size: 2080
 MD5sum: 27011e929d6e6e55d2b40598f1bc7898
 SHA1: 7be71564a2a130e0331596024b21998bd761fdb3
@@ -797,7 +797,7 @@ Version: 1.0-2
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: dconf-cli
-Filename: pool/jammy/s/switch-dconf-customizations/switch-dconf-customizations_1.0-2_all.deb
+Filename: pool/jammy/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-2_all.deb
 Size: 2400
 MD5sum: 9a3ecc58183b8f91d95924d013b2cc2b
 SHA1: df6fd744444d7767a10beb3f15a47e7fb73052a6
@@ -812,7 +812,7 @@ Version: 2.1-1jammy1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
-Filename: pool/jammy/s/switch-dock-handler/switch-dock-handler_2.1-1jammy1_all.deb
+Filename: pool/jammy/main/s/switch-dock-handler/switch-dock-handler_2.1-1jammy1_all.deb
 Size: 7210
 MD5sum: 55af94fa96c27dfb909f3b89c45f68c1
 SHA1: b7b8f1b539b5f892327f2cebcadeeeac241c226b
@@ -828,7 +828,7 @@ Version: 1.2-1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: xserver-xorg-input-joystick (>= 2:1.6.4)
-Filename: pool/jammy/s/switch-joystick-mouse/switch-joystick-mouse_1.2-1_all.deb
+Filename: pool/jammy/main/s/switch-joystick-mouse/switch-joystick-mouse_1.2-1_all.deb
 Size: 2480
 MD5sum: 2e2af670989ab3d669282f1eb4f9d4ad
 SHA1: 0bc14f405fc86f8799314f0fd8c2c05d503cbd3e
@@ -845,7 +845,7 @@ Version: 1.5-1
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/jammy/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
+Filename: pool/jammy/main/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
 Size: 519950
 MD5sum: 389be75b18f74fb94a3439d6563f1dc0
 SHA1: 50174cab192408f70dc4c599d25f9e51aedfed23
@@ -868,7 +868,7 @@ Package: switch-l4t-repo
 Version: 1.0-0
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Filename: pool/jammy/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
+Filename: pool/jammy/main/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
 Size: 2030
 MD5sum: f84cd5d3faade3caa67cefabbe6beb50
 SHA1: b99d737a6050857e8f7044420821cbeb80aa06d5
@@ -882,7 +882,7 @@ Package: switch-sddm-rule
 Version: 1.0-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Filename: pool/jammy/s/switch-sddm-rule/switch-sddm-rule_1.0-1_all.deb
+Filename: pool/jammy/main/s/switch-sddm-rule/switch-sddm-rule_1.0-1_all.deb
 Size: 1628
 MD5sum: 7b778007b3bcf6c1b7aa273caed295ec
 SHA1: 712d0dd94dfb12b688e0248aef74e8b86a948fac
@@ -898,7 +898,7 @@ Architecture: all
 Maintainer: Billy Laws <blaws05@gmail.com>
 Installed-Size: 13
 Depends: udev, libinput10
-Filename: pool/jammy/s/switch-touch-rules/switch-touch-rules_1.3-0ubuntu2_all.deb
+Filename: pool/jammy/main/s/switch-touch-rules/switch-touch-rules_1.3-0ubuntu2_all.deb
 Size: 2388
 MD5sum: ee79178534c2ac7cd2725dbff34def39
 SHA1: f0467bab019df1bccfbc684b25b120ca45b83a83
@@ -1005,7 +1005,7 @@ Installed-Size: 10279
 Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any, python3-pkg-resources
 Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
 Suggests: libfribidi-bin | bidiv, phantomjs
-Filename: pool/jammy/y/yt-dlp/yt-dlp_2023.11.16-1_all.deb
+Filename: pool/jammy/main/y/yt-dlp/yt-dlp_2023.11.16-1_all.deb
 Size: 1832278
 MD5sum: 358812df1214aa71a49c18ab1552fea8
 SHA1: 35027c79e8fec5aa47f36030d8af332d7ec01aec

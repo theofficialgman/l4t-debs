@@ -1,0 +1,745 @@
+Package: chromium-browser
+Version: 9:119.0.6045.159-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Installed-Size: 317273
+Pre-Depends: dpkg (>= 1.14.0)
+Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)
+Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
+Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
+Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
+Filename: pool/noble/main/c/chromium-browser/chromium-browser_9_119.0.6045.159-1_arm64.deb
+Size: 96875716
+MD5sum: a69171fc664f6ac636c9d9084ef049bf
+SHA1: a39ca547a79e1762a00e4178e78babca73a9f18b
+SHA256: d456b0c172b438eb6bdbf0e4fe3089fcbe2893a1a5d943ceff4017bbe1869922
+Section: web
+Priority: optional
+Description: The web browser from Chromium.org
+ Chromium is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.
+
+Package: chromium-browser-l10n
+Version: 9:119.0.6045.105-1
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: chromium-browser (>= 9:119.0.6045.105-1)
+Filename: pool/noble/main/c/chromium-browser/chromium-browser-l10n_9:119.0.6045.105-1_all.deb
+Size: 748
+MD5sum: cfb3badd54fe189b5f13f1aa6a82120e
+SHA1: d345791c680255e98770693809c3581fbb501ac3
+SHA256: 1d029d5484190bca5b5b66912b5a04224f77d42896a971509acbdf32fe07873e
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: chromium-codecs-ffmpeg
+Version: 9:119.0.6045.105-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: chromium-browser (>= 9:119.0.6045.105-1)
+Filename: pool/noble/main/c/chromium-browser/chromium-codecs-ffmpeg_9:119.0.6045.105-1_arm64.deb
+Size: 756
+MD5sum: 574eb962980cee1d311b925922158329
+SHA1: d3fdef3806dc8bc4c6c155e27006276afee9f3d3
+SHA256: fd41e2af4dfd55603b89f9a9f07c8526a44033dedd1b27b588175f173523fe95
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: chromium-codecs-ffmpeg-extra
+Version: 9:119.0.6045.105-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: chromium-browser (>= 9:119.0.6045.105-1)
+Filename: pool/noble/main/c/chromium-browser/chromium-codecs-ffmpeg-extra_9:119.0.6045.105-1_arm64.deb
+Size: 764
+MD5sum: b4c2b55d6cb37a14b855b891cd0bcfff
+SHA1: 446976cb7055f58c10c7664c0477d5f567758673
+SHA256: 141b0efaef557d3f2fc6255c49f2c75952ef615f76d748437312785952e52cc9
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: joycond
+Version: 0.6-0
+Architecture: arm64
+Maintainer: Daniel J. Ogorchock, CTCaer
+Depends: libevdev2, libudev1
+Filename: pool/noble/main/j/joycond/joycond_0.6-0_arm64.deb
+Size: 39072
+MD5sum: 6bf31754ad8b4a5a14b24dbfd0b8cb04
+SHA1: 11f36870bd32706413452491cf72f20b0eabf4e1
+SHA256: 8b715d42d62364add01da52a1cb77d0703d50d0b8ab73f03f086e69db8fcc010
+Priority: important
+Description: Pairs joy-cons together into a virtual controller
+
+Package: libffi6
+Source: libffi
+Version: 3.2.1-4
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 51
+Depends: libc6 (>= 2.17)
+Filename: pool/noble/main/l/libffi/libffi6_3.2.1-4_arm64.deb
+Size: 16314
+MD5sum: 963b8cf695c83f59de026464311dd236
+SHA1: fff4696bb3514dba3113902afb9f2a8a0ffee6df
+SHA256: 2cf21a6767c1727e5872ac7d261014b38691331c1e186b602eb136d3b8847737
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Foreign Function Interface library runtime
+ A foreign function interface is the popular name for the interface that
+ allows code written in one language to call code written in another
+ language.
+Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+
+Package: nvidia-l4t-3d-core
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 77117
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, libegl1, libgcc1, libstdc++6, libx11-6, libxext6, nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816), nvidia-l4t-wayland (= 32.3.1-20191209225816), nvidia-l4t-x11 (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-3d-core/nvidia-l4t-3d-core_32.3.1-20191209225816_arm64.deb
+Size: 26860026
+MD5sum: 11a7ab073b5668457c7938e832ad28ba
+SHA1: 7eb9fe6c65a4cc67d3561f342038e4a02630bcfa
+SHA256: 9c49573477bde578e9f06a52f3fa230f2a7a2ad42b592abf9e43e9d04387641f
+Section: graphics
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA GL EGL Package
+
+Package: nvidia-l4t-ccp-t210ref
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 22
+Filename: pool/noble/main/n/nvidia-l4t-ccp-t210ref/nvidia-l4t-ccp-t210ref_32.3.1-20191209225816_arm64.deb
+Size: 5768
+MD5sum: 604a9de7c66ce3d286e8d8eaaf177d98
+SHA1: 7625766f8cf97653c66bc633647436cf3665d69b
+SHA256: e8ac1999f31d6b0985825f0bb64c0f61f596bd736f6578919fa77e5ef2e9c4db
+Section: Utils
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Compatibility Checking Package
+
+Package: nvidia-l4t-configs
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 1465
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Filename: pool/noble/main/n/nvidia-l4t-configs/nvidia-l4t-configs_32.3.1-20191209225816_arm64.deb
+Size: 1426524
+MD5sum: 814b8243321bd8112f9db9f505bb8a34
+SHA1: 4d9b704bee773ea36e51ec206bf171ec7cb20ef2
+SHA256: 50a41c79d857cc3f783835937db735ad72ab107f57299b6ff9aebc43fb044e03
+Section: misc
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA configs debian package
+
+Package: nvidia-l4t-core
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 2461
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, libegl1, libexpat1, libgcc1, libstdc++6
+Filename: pool/noble/main/n/nvidia-l4t-core/nvidia-l4t-core_32.3.1-20191209225816_arm64.deb
+Size: 945368
+MD5sum: 18d8449f932f67c4efde7a43659b4664
+SHA1: 19fa1283a2b8aa0b01717808a3d568078cca5276
+SHA256: 7ce24920c1bf37eea5752967480e68bef637efafd425691ab69ef5b91e208855
+Section: libs
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Core Package
+
+Package: nvidia-l4t-cuda
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 15401
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-cuda/nvidia-l4t-cuda_32.3.1-20191209225816_arm64.deb
+Size: 3029152
+MD5sum: d6040aa5ef8e2c11f99b03720e0a8c77
+SHA1: 7aa9d06a147f53d5b898dec441890baad2e65543
+SHA256: 7002bb7933ecb17daabff82ab93c49fedd69133dab214331c622faacbb1fb71b
+Section: libs
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA CUDA Package
+
+Package: nvidia-l4t-firmware
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 1783
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, libgcc1, libstdc++6, nvidia-l4t-core (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-firmware/nvidia-l4t-firmware_32.3.1-20191209225816_arm64.deb
+Size: 980154
+MD5sum: fb3d17a758ca6b4ac8b19fd330b43824
+SHA1: 4fd06ca514afdeb3814a935c7ef2d9269c5627a1
+SHA256: 95d021027cee9ffdb4b65053fe508e0e06a87f261890dfcd1927cfc423bf13ad
+Section: kernel
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Firmware Package
+
+Package: nvidia-l4t-init
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 276
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, libstdc++6, nvidia-l4t-core (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-init/nvidia-l4t-init_32.3.1-20191209225816_arm64.deb
+Size: 44178
+MD5sum: fb2f376d5cc4c162b77bf1ec594d5adf
+SHA1: c5929813b1027fc88ebb1eef153e991dd603bcd2
+SHA256: 6f85d05b74dd90126e1ab1a247fbebd71afb1499f2f006439903ce593e925be2
+Section: admin
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Init debian package
+
+Package: nvidia-l4t-multimedia
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 10272
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libasound2, libc6, libcairo2, libdatrie1, libegl1, libexpat1, libfontconfig1, libgcc1, libgles2, libglib2.0-0, libglvnd0, libgstreamer1.0-0, libgstreamer-plugins-bad1.0-0, libgstreamer-plugins-base1.0-0, libharfbuzz0b, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrender1, zlib1g, nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-cuda (= 32.3.1-20191209225816), nvidia-l4t-multimedia-utils (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-multimedia/nvidia-l4t-multimedia_32.3.1-20191209225816_arm64.deb
+Size: 5502788
+MD5sum: f8e537064c8fb09ec4d6c6e28dc47341
+SHA1: 6629ab011a0bbd4886e4d5dedcbc772618f3a872
+SHA256: 24134f24c78923148836ddbbace404044ec8fa00fac141564b9c56031dc75c5b
+Section: graphics
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Multimedia Package
+
+Package: nvidia-l4t-multimedia-utils
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 68
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, libcairo2, libdatrie1, libegl1, libexpat1, libfontconfig1, libgcc1, libgles2, libglib2.0-0, libglvnd0, libharfbuzz0b, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrender1, zlib1g, nvidia-l4t-core (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-multimedia-utils/nvidia-l4t-multimedia-utils_32.3.1-20191209225816_arm64.deb
+Size: 21620
+MD5sum: 6e654ba5810c15507f6105cc9945e3f4
+SHA1: 11e0940841a0ebdac073e617ec66520db91a31ba
+SHA256: 2906b16087913a3b72bc7a0b341de62bdc49ee3be88e9715c009676a90292fa1
+Section: graphics
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Multimedia Package
+
+Package: nvidia-l4t-oem-config
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 80
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: nvidia-l4t-core (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-l4t-oem-config/nvidia-l4t-oem-config_32.3.1-20191209225816_arm64.deb
+Size: 14616
+MD5sum: dc9c2b5bc626a29ec633e0b11f51cd77
+SHA1: a694fec0339dd0f63269dce64ea3887fdd952d7e
+SHA256: 9711109768878b6dffefef5cf534fb71e22e47a4a5a2fc36f55f1ee805d6db57
+Section: Utils
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA OEM-Config Package
+
+Package: nvidia-l4t-wayland
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 63
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, libffi6, libwayland-client0, libwayland-server0
+Filename: pool/noble/main/n/nvidia-l4t-wayland/nvidia-l4t-wayland_32.3.1-20191209225816_arm64.deb
+Size: 20950
+MD5sum: 79d82920b2b904b544bb37fe07c8eeea
+SHA1: 75ca01d651052d126d4d541f6fee3fc5ea0370ce
+SHA256: d0cb89928cc516f49c28bb731ea732538454ca3dfbbae7e78da7be70b096b23c
+Section: virtual
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA Wayland Package
+
+Package: qt6-gtk2-platformtheme
+Version: 0.2-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6 (>= 6.2.0), libqt6gui6 (>= 6.1.2), libqt6widgets6 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-abi (= 6.2.4)
+Filename: pool/noble/main/q/qt6-gtk2-platformtheme/qt6-gtk2-platformtheme_0.2-1_arm64.deb
+Size: 118442
+MD5sum: b6eb5361d655d0476917ca02ec7d0f44
+SHA1: e09fa1f1d254c13569ed751c00d425698027b472
+SHA256: 616656af5d667c3542886c8162910374f3b4d399924c0ff950d667e6e12550e6
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/trialuser02/qt6gtk2
+Description: Qt 6 extra widget styles - GTK+ 2 Platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the GTK+ 2 style and platform theme. Export
+ QT_QPA_PLATFORMTHEME=gtk2 to enable it for all Qt applications.
+
+Package: switch-alsa-ucm2
+Version: 1.0-1
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: libasound2-data
+Filename: pool/noble/main/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
+Size: 2080
+MD5sum: 27011e929d6e6e55d2b40598f1bc7898
+SHA1: 7be71564a2a130e0331596024b21998bd761fdb3
+SHA256: a2755c9851f984b2c6cedf2a3f2758856d720019179902b2f6d6fa698e9cf6de
+Section: embedded
+Priority: optional
+Homepage: https://gitlab.com/switchroot
+Description: ALSA UCM2 configuration for the Nintendo Switch
+
+Package: switch-dconf-customizations
+Version: 1.0-2
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: dconf-cli
+Filename: pool/noble/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-2_all.deb
+Size: 2400
+MD5sum: 9a3ecc58183b8f91d95924d013b2cc2b
+SHA1: df6fd744444d7767a10beb3f15a47e7fb73052a6
+SHA256: c7938b55de8b42bca55a3c317199ec5531248620c88ccb34309ea8a3c08d8d97
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot/
+Description: Application configs for the Nintendo Switch
+
+Package: switch-dock-handler
+Version: 2.1-1jammy1
+Architecture: all
+Maintainer: CTCaer <ctcaer@gmail.com>
+Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
+Filename: pool/noble/main/s/switch-dock-handler/switch-dock-handler_2.1-1jammy1_all.deb
+Size: 7210
+MD5sum: 55af94fa96c27dfb909f3b89c45f68c1
+SHA1: b7b8f1b539b5f892327f2cebcadeeeac241c226b
+SHA256: e5cac6182642fcdfaa07979970ecf70fcb0870295d92aa407e5dede91194c627
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Scripts to switch display and audio source when docked
+Changed-By: theofficialgman <dofficialgman@gmail.com>
+
+Package: switch-flatpak
+Version: 1.0-4
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Pre-Depends: flatpak
+Depends: gnome-software-plugin-flatpak | plasma-discover-backend-flatpak
+Filename: pool/noble/main/s/switch-flatpak/switch-flatpak_1.0-4_arm64.deb
+Size: 17838608
+MD5sum: 37ca6c990841d9c2778d4e432ec51e96
+SHA1: 1fe4f7073f05ce24e9f86679b38f508af211f8fb
+SHA256: 0bbd2681ad6f52e8df09028cac7a8c5d66a79637a7bc604c5c48116e306403f2
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Switch L4T Flatpak Support
+
+Package: switch-joystick-mouse
+Version: 1.2-1
+Architecture: all
+Maintainer: CTCaer <ctcaer@gmail.com>
+Pre-Depends: xserver-xorg-input-joystick (>= 2:1.6.4)
+Filename: pool/noble/main/s/switch-joystick-mouse/switch-joystick-mouse_1.2-1_all.deb
+Size: 2480
+MD5sum: 2e2af670989ab3d669282f1eb4f9d4ad
+SHA1: 0bc14f405fc86f8799314f0fd8c2c05d503cbd3e
+SHA256: 580e21ed0475032e4ac8e11eb08dbbdbff01136c98a62b1e6cce10187c022020
+Section: embedded
+Priority: required
+Description: Mouse/Keyboard mappings for Nintendo Switch
+ Add supports for mapping Joycon/Procon/Xbox/PS/GC to Mouse/Keyboard.
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+
+Package: switch-kernel-headers
+Version: 4.9-l4t-5.0.0-2
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 105698
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Conflicts: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
+Breaks: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
+Replaces: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
+Filename: pool/noble/main/s/switch-kernel-headers/switch-kernel-headers_4.9-l4t-5.0.0-2_arm64.deb
+Size: 15648056
+MD5sum: abf67acf8b70bc2752ce8e6b1596a2aa
+SHA1: 4e1e9560b5e56c0f3198282674668c7073f87842
+SHA256: c6c111870f4d66884cef68b21bbbcfde508a4095506afd0fdbd8eedc808bb143
+Section: embedded
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: Switch L4T Kernel Headers Package
+
+Package: switch-l4t-configs
+Version: 1.5-1
+Architecture: all
+Maintainer: CTCaer <ctcaer@gmail.com>
+Depends: yad, libhidapi-hidraw0, imagemagick
+Filename: pool/noble/main/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
+Size: 519950
+MD5sum: 389be75b18f74fb94a3439d6563f1dc0
+SHA1: 50174cab192408f70dc4c599d25f9e51aedfed23
+SHA256: ab7d01c8a5a8f485d8e804680beee0dd19eca54d0009c78d021631049e5c62f5
+Section: embedded
+Priority: required
+Description: L4T Configs for Nintendo Switch
+ Special L4T support for Nintendo Switch.
+ Adds the following:
+ - nvidia-xconfig-l4t
+ - tegrastats-l4t
+ - Onboard Logout helper service
+ - BSP apt restrictions
+ - L4T Megascript App
+ - Switchroot wallpaper
+Changed-By: theofficialgman <dofficialgman@gmail.com>
+Standards-Version: 4.1.2
+
+Package: switch-l4t-repo
+Version: 1.0-0
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Filename: pool/noble/main/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
+Size: 2030
+MD5sum: f84cd5d3faade3caa67cefabbe6beb50
+SHA1: b99d737a6050857e8f7044420821cbeb80aa06d5
+SHA256: 776151bc71e72db19eaad7dfbd223359f7dbe541bc6d6485f8601433c2918bdb
+Section: embedded
+Priority: required
+Homepage: https://github.com/theofficialgman/l4t-debs
+Description: L4T Apt Repo and Key
+
+Package: switch-sddm-rule
+Version: 1.0-1
+Architecture: all
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Filename: pool/noble/main/s/switch-sddm-rule/switch-sddm-rule_1.0-1_all.deb
+Size: 1628
+MD5sum: 7b778007b3bcf6c1b7aa273caed295ec
+SHA1: 712d0dd94dfb12b688e0248aef74e8b86a948fac
+SHA256: 0006e3f6e6c1e5fc07625f43b3ce102826b424f6bbb588fadb884df3e64ab6a0
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Udev rules to allow sddm to initialize on Tegra Drivers
+
+Package: switch-touch-rules
+Version: 1.3-0ubuntu2
+Architecture: all
+Maintainer: Billy Laws <blaws05@gmail.com>
+Installed-Size: 13
+Depends: udev, libinput10
+Filename: pool/noble/main/s/switch-touch-rules/switch-touch-rules_1.3-0ubuntu2_all.deb
+Size: 2388
+MD5sum: ee79178534c2ac7cd2725dbff34def39
+SHA1: f0467bab019df1bccfbc684b25b120ca45b83a83
+SHA256: c26386dce224b9a19c07969d9c61f252c21064d9821a7b98ffffcc09f57ec2f3
+Section: unknown
+Priority: optional
+Homepage: https://gitlab.com/switchroot
+Description: Udev rules to rotate touchscreen on the Nintendo Switch
+
+Package: yt-dlp
+Version: 2023.11.16-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10279
+Depends: python3-brotli, python3-certifi, python3-mutagen, python3-pycryptodome, python3-requests, python3-urllib3, python3-websockets, python3:any, python3-pkg-resources
+Recommends: aria2 | wget | curl, ca-certificates, ffmpeg
+Suggests: libfribidi-bin | bidiv, phantomjs
+Filename: pool/noble/main/y/yt-dlp/yt-dlp_2023.11.16-1_all.deb
+Size: 1832278
+MD5sum: 358812df1214aa71a49c18ab1552fea8
+SHA1: 35027c79e8fec5aa47f36030d8af332d7ec01aec
+SHA256: ed9c8d45d847438b5b3d0a706741d48963bf7f68223dc1a06dd8904188c75e32
+Section: web
+Priority: optional
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: downloader of videos from YouTube and other sites
+ yt-dlp is a youtube-dl fork based on the now inactive youtube-dlc.
+ The main focus of this project is adding new features and patches
+ while also keeping up to date with the original project.
+ .
+ yt-dlp is a small command-line program to download videos from
+ YouTube.com and other sites that don't provide direct links to the
+ videos served.
+ .
+ yt-dlp allows the user, among other things, to choose a specific video
+ quality to download (if available) or let the program automatically
+ determine the best (or worst) quality video to grab. It supports
+ downloading entire playlists and all videos from a given user.
+ .
+ Currently supported sites (or features of sites) are:
+ .
+ 17live, 1News, 1tv, 20min, 23video, 247sports, 24tv.ua, 24video,
+ 3qsdn, 3sat, 4tube, 56.com, 6play, 7plus, 8tracks, 91porn, 9c9media,
+ 9gag, 9now.com.au, abc.net.au, abcnews, abcotvs, AbemaTV, AbemaTVTitle,
+ acast, AcFunBangumi, AcFunVideo, ADN, AdobeConnect, adobetv, AdultSwim,
+ aenetworks, AeonCo, afreecatv, AirMozilla, AirTV, AitubeKZVideo,
+ AliExpressLive, AlJazeera, Allocine, AlphaPorno, Alsace20TV,
+ Alsace20TVEmbed, Alura, AluraCourse, Amara, AmazonMiniTV, AmazonReviews,
+ AmazonStore, AMCNetworks, AmericasTestKitchen, AmericasTestKitchenSeason,
+ AmHistoryChannel, AnchorFMEpisode, anderetijden, Angel, AnimalPlanet,
+ Anvato, aol.com, APA, Aparat, AppleConnect, AppleDaily, ApplePodcasts,
+ appletrailers, archive.org, ArcPublishing, ARD, ARDBetaMediathek, Arkena,
+ arte.sky.it, ArteTV, ArteTVCategory, ArteTVEmbed, ArteTVPlaylist,
+ AtresPlayer, AtScaleConfEvent, ATTTechChannel, ATVAt, AudiMedia,
+ AudioBoom, audiomack, Audius, AWAAN, axs.tv, AZMedien, BaiduVideo, BanBye,
+ BanByeChannel, bandaichannel, Bandcamp, BannedVideo, bbc, bbc.co.uk,
+ BBVTV, BBVTVLive, BBVTVRecordings, BeatBumpPlaylist, BeatBumpVideo,
+ Beatport, Beeg, BehindKink, Bellator, BellMedia, BerufeTV, Bet,
+ bfmtv, Bigflix, Bigo, Bild, BiliBili, Bilibili category extractor,
+ BilibiliAudio, BilibiliAudioAlbum, BiliBiliBangumi, BiliBiliBangumiMedia,
+ BiliBiliBangumiSeason, BilibiliCollectionList, BilibiliFavoritesList,
+ BiliBiliPlayer, BilibiliPlaylist, BiliBiliSearch, BilibiliSeriesList,
+ BilibiliSpaceAudio, BilibiliSpaceVideo, BilibiliWatchlater, BiliIntl,
+ BiliLive, BioBioChileTV, Biography, BIQLE, BitChute, BitChuteChannel,
+ BlackboardCollaborate, BleacherReport, BleacherReportCMS, blerp,
+ blogger.com, Bloomberg, BokeCC, BongaCams, BostonGlobe, Box, BoxCastVideo,
+ Bpb, BR, BrainPOP, BrainPOPELL, BrainPOPEsp, BrainPOPFr, BrainPOPIl,
+ BrainPOPJr, BravoTV, Break, BreitBart, BRMediathek, Bundesliga,
+ BusinessInsider, BuzzFeed, BYUtv, CableAV, Callin, Caltrans, CAM4,
+ Camdemy, CamdemyFolder, CamFMEpisode, CamFMShow, CamModels, Camsoda,
+ CamtasiaEmbed, CamWithHer, Canal1, CanalAlpha, canalc2.tv, Canalplus,
+ CaracolTvPlay, CarambaTV, CarambaTVPage, CartoonNetwork, cbc.ca, CBS,
+ CBSInteractive, CBSLocal, CBSLocalArticle, CBSLocalLive, cbsnews,
+ cbssports, CCMA, CCTV, CDA, Cellebrite, CeskaTelevize, CGTN, channel9,
+ CharlieRose, Chaturbate, Chilloutzone, Chingari, ChingariUser,
+ chirbit, cielotv.it, Cinchcast, Cinemax, CinetecaMilano, Cineverse,
+ CineverseDetails, CiscoLiveSearch, CiscoLiveSession, ciscowebex, CJSW,
+ Clipchamp, cliphunter, Clippit, ClipRs, Clipsyndicate, ClipYouEmbed,
+ CloserToTruth, CloudflareStream, Cloudy, Clubic, Clyp, cmt.com, CNBC,
+ CNBCVideo, CNN, CNNArticle, CNNBlogs, CNNIndonesia, ComedyCentral,
+ ComedyCentralTV, ConanClassic, CondeNast, CONtv, CookingChannel, Corus,
+ Coub, CozyTV, cp24, cpac, Cracked, Crackle, Craftsy, CrooksAndLiars,
+ CrowdBunker, CrowdBunkerChannel, Crtvg, crunchyroll, CSpan,
+ CSpanCongress, CtsNews, CTV, CTVNews, cu.ntv.co.jp, CultureUnplugged,
+ curiositystream, CWTV, Cybrary, CybraryCourse, DacastPlaylist,
+ DacastVOD, Daftsex, DagelijkseKost, DailyMail, dailymotion, DailyWire,
+ DailyWirePodcast, daum.net, DBTV, DctpTv, DeezerAlbum, DeezerPlaylist,
+ defense.gouv.fr, democracynow, DestinationAmerica, DetikEmbed, DeuxM,
+ DeuxMNews, DHM, Digg, DigitalConcertHall, DigitallySpeaking, Digiteka,
+ DiscogsReleasePlaylist, Discovery, DiscoveryLife, DiscoveryNetworksDe,
+ DiscoveryPlus, DiscoveryPlusIndia, DiscoveryPlusIndiaShow,
+ DiscoveryPlusItaly, DiscoveryPlusItalyShow, Disney, DIYNetwork,
+ dlf, Dotsub, Douyin, DouyuShow, DouyuTV, DPlay, DRBonanza, Drooble,
+ Dropbox, Dropout, DropoutSeason, DrTuber, drtv, DTube, duboku,
+ Dumpert, dvtv, dw, EaglePlatform, EbaumsWorld, Ebay, EchoMsk, ehftv,
+ eHow, EinsUndEinsTV, EinsUndEinsTVLive, EinsUndEinsTVRecordings,
+ Einthusan, eitb.tv, ElevenSports, EllenTube, EllenTubePlaylist,
+ EllenTubeVideo, Elonet, ElPais, ElTreceTV, Embedly, EMPFlix, Engadget,
+ Epicon, EpiconSeries, Epoch, Eporner, Erocast, EroProfile, ertflix,
+ Escapist, ESPN, ESPNArticle, ESPNCricInfo, EsriVideo, EttuTv, Europa,
+ EuroParlWebstream, EuropeanTour, Eurosport, EUScreen, EWETV, EWETVLive,
+ EWETVRecordings, ExpoTV, Expressen, ExtremeTube, EyedoTV, facebook,
+ FacebookPluginsVideo, faz.net, fc2, Fczenit, Fifa, Filmmodu, filmon,
+ Filmweb, FiveThirtyEight, FiveTV, Flickr, Folketinget, FoodNetwork,
+ FootyRoom, Formula1, FOX, FOX9, FOX9News, Foxgay, foxnews, FoxNewsVideo,
+ FoxSports, fptplay, FranceCulture, FranceInter, FranceTV, francetvinfo.fr,
+ FranceTVSite, Freesound, freespeech.org, FreeTvMovies, FrontendMasters,
+ FrontendMastersCourse, FrontendMastersLesson, FujiTVFODPlus7,
+ Funimation, Funk, Funker530, Fusion, Fux, FuyinTV, Gab, GabTV,
+ Gaia, GameInformer, GameJolt, GameJoltCommunity, GameJoltGame,
+ GameJoltGameSoundtrack, GameJoltSearch, GameJoltUser, GameSpot,
+ GameStar, Gaskrank, Gazeta, GDCVault, GediDigital, gem.cbc.ca, generic,
+ Genius, GeniusLyrics, Gettr, GettrStreaming, Gfycat, GiantBomb, Giga,
+ GlattvisionTV, GlattvisionTVLive, GlattvisionTVRecordings, Glide,
+ GlobalCyclingNetworkPlus, GlobalPlayerAudio, GlobalPlayerAudioEpisode,
+ GlobalPlayerLive, GlobalPlayerLivePlaylist, GlobalPlayerVideo, Globo,
+ GloboArticle, glomex, GMANetworkVideo, Go, GoDiscovery, GodTube, Gofile,
+ Golem, GoogleDrive, GoPlay, GoPro, Goshgay, GoToStage, GPUTechConf,
+ Gronkh, Groupon, Harpodeon, hbo, HearThisAt, Heise, HellPorno, Helsinki,
+ hetklokhuis, HGTVDe, HGTVUsa, HiDive, HistoricFilms, hitbox, HitRecord,
+ hketv, HollywoodReporter, HollywoodReporterPlaylist, Holodex,
+ HotNewHipHop, hotstar, Howcast, HowStuffWorks, hrfernsehen, HRTi,
+ HRTiPlaylist, HSEProduct, HSEShow, html5, Huajiao, HuffPost, Hungama,
+ HungamaAlbumPlaylist, HungamaSong, Hypem, Hytale, Icareus, IdolPlus,
+ IflixSeries, ign.com, IGNArticle, IGNVideo, IHeartRadio, Iltalehti,
+ imdb, Imgur, Ina, Inc, IndavideoEmbed, InfoQ, Instagram, InstagramIOS,
+ Internazionale, InternetVideoArchive, InvestigationDiscovery,
+ IPrima, IPrimaCNN, iq.com, iqiyi, IslamChannel, IslamChannelSeries,
+ IsraelNationalNews, ITProTV, ITProTVCourse, ITTF, ITV, ITVBTCC, ivi,
+ ivideon, IVXPlayer, iwara, Ixigua, Izlesene, Jable, JablePlaylist,
+ Jamendo, JamendoAlbum, JeuxVideo, JioSaavnAlbum, JioSaavnSong, Joj,
+ Jove, JStream, JTBC, JWPlatform, Kakao, Kaltura, Kanal2, KankaNews,
+ Karaoketv, KarriereVideos, Katsomo, KeezMovies, KelbyOne, Ketnet,
+ khanacademy, Kick, Kicker, KickStarter, KickVOD, KinjaEmbed, KinoPoisk,
+ Kommunetv, KompasVideo, KonserthusetPlay, Koo, KrasView, KTH, Ku6,
+ KUSI, la7.it, laola1tv, LastFM, LastFMPlaylist, LastFMUser, LaXarxaMes,
+ lbry, LCI, Lcp, LcpPlay, Le, Lecture2Go, Lecturio, LecturioCourse,
+ LecturioDeCourse, LeFigaroVideoEmbed, LeFigaroVideoSection, LEGO,
+ Lemonde, Lenta, LePlaylist, LetvCloud, Libsyn, life, likee, limelight,
+ LinkedIn, LinuxAcademy, Liputan6, ListenNotes, LiTV, LiveJournal,
+ livestream, Livestreamfails, Lnk, LnkGo, loc, LocalNews8, LoveHomePorn,
+ LRTStream, LRTVOD, Lumni, lynda, m6, MagellanTV, MagentaMusik360, mailru,
+ MainStreaming, MallTV, MangoTV, ManotoTV, ManotoTVLive, ManotoTVShow,
+ ManyVids, MaoriTV, Markiza, MarkizaPage, massengeschmack.tv, Masters,
+ MatchTV, MBN, MDR, MedalTV, media.ccc.de, Mediaite, MediaKlikk,
+ Medialaan, Mediaset, MediasetShow, Mediasite, MediasiteCatalog,
+ MediasiteNamedCatalog, MediaStream, MediaWorksNZVOD, Medici, megaphone.fm,
+ megatvcom, Meipai, MelonVOD, META, metacafe, Metacritic, mewatch, Mgoon,
+ MiaoPai, MicrosoftEmbed, microsoftstream, mildom, minds, MinistryGrid,
+ Minoto, miomio.tv, mirrativ, MirrorCoUK, MiTele, mixch, mixcloud, MLB,
+ MLBArticle, MLBTV, MLBVideo, MLSSoccer, Mnet, MNetTV, MNetTVLive,
+ MNetTVRecordings, MochaVideo, MoeVideo, Mofosex, MofosexEmbed,
+ Mojvideo, Monstercat, MonsterSirenHypergryphMusic, Morningstar,
+ Motherless, MotherlessGallery, MotherlessGroup, Motorsport, MotorTrend,
+ MotorTrendOnDemand, MovieClips, MovieFap, Moviepilot, MoviewPlay,
+ Moviezine, MovingImage, MSN, mtg, mtv, mtv.de, mtv.it, mtvjapan,
+ MTVUutisetArticle, MuenchenTV, MujRozhlas, Murrtube, MurrtubeUser,
+ MuseAI, MuseScore, MusicdexAlbum, MusicdexArtist, MusicdexPlaylist,
+ MusicdexSong, mva, Mwave, MwaveMeetGreet, Mxplayer, MxplayerShow,
+ MyChannels, MySpace, MySpass, Myvi, MyVideoGe, MyVidster, MyviEmbed,
+ Mzaalo, n-tv.de, N1InfoAsset, Nate, NateProgram, NationalGeographicTV,
+ Naver, navernow, NBA, NBAChannel, NBAEmbed, NBAWatchEmbed, NBC,
+ NBCNews, nbcolympics, NBCSports, NBCSportsStream, NBCSportsVPlayer,
+ NBCStations, ndr, NDTV, Nebula, NekoHacker, NerdCubedFeed, NetPlusTV,
+ NetPlusTVLive, NetPlusTVRecordings, Netverse, NetversePlaylist,
+ NetverseSearch, Netzkino, Newgrounds, NewsPicks, Newstube, Newsy,
+ NextMedia, NextMediaActionNews, NextTV, Nexx, NexxEmbed, NFB,
+ NFHSNetwork, nfl.com, NhkForSchoolBangumi, NhkForSchoolProgramList,
+ NhkForSchoolSubject, NhkRadioNewsPage, NhkRadiru, NhkRadiruLive, NhkVod,
+ NhkVodProgram, nhl.com, nick.com, nick.de, nickelodeonru, nicknight,
+ niconico, NiconicoChannelPlus, NiconicoUser, Nintendo, Nitter, njoy,
+ NobelPrize, NoicePodcast, NonkTube, NoodleMagazine, Noovo, Normalboots,
+ NOSNLArticle, NosVideo, Nova, NovaEmbed, NovaPlay, nowness, Noz, npo,
+ Npr, NRK, NRKPlaylist, NRKRadioPodkast, NRKSkole, NRKTV, NRKTVDirekte,
+ NRKTVEpisode, NRKTVEpisodes, NRKTVSeason, NRKTVSeries, NRLTV, ntv.ru,
+ NubilesPorn, Nuvid, NYTimes, NYTimesArticle, NYTimesCooking, nzherald,
+ NZOnScreen, NZZ, ocw.mit.edu, OdaTV, Odnoklassniki, OfTV, OfTVPlaylist,
+ OktoberfestTV, OlympicsReplay, on24, OnDemandChinaEpisode, OnDemandKorea,
+ OnDemandKoreaProgram, OneFootball, OnePlacePodcast, onet.pl, onet.tv,
+ OnetMVP, OnionStudios, Ooyala, OoyalaExternal, Opencast, OpencastPlaylist,
+ openrec, OraTV, OsnatelTV, OsnatelTVLive, OsnatelTVRecordings,
+ OutsideTV, OwnCloud, PacktPub, PacktPubCourse, pandora.tv, Panopto,
+ PanoptoList, PanoptoPlaylist, ParamountNetwork, ParamountPlus,
+ ParamountPlusSeries, ParamountPressExpress, Parler, parliamentlive.tv,
+ Parlview, Patreon, PatreonCampaign, pbs, PBSKids, PearVideo, PeekVids,
+ peer.tv, PeerTube, peloton, People, PerformGroup, periscope, PGATour,
+ PhilharmonieDeParis, phoenix.de, Photobucket, Piapro, PIAULIZAPortal,
+ Picarto, PicartoVod, Piksel, Pinkbike, Pinterest, PinterestCollection,
+ Pladform, PlanetMarathi, Platzi, PlatziCourse, play.fm, player.sky.it,
+ PlayPlusTV, PlayStuff, PlaysTV, PlaySuisse, Playtvak, Playvid, PlayVids,
+ Playwire, pluralsight, PlutoTV, PodbayFM, PodbayFMChannel, Podchaser,
+ podomatic, Pokemon, PokemonWatch, PokerGo, PokerGoCollection, PolsatGo,
+ PolskieRadio, Popcorntimes, PopcornTV, Pornbox, PornCom, PornerBros,
+ Pornez, PornFlip, PornHd, PornHub, PornHubPagedVideoList, PornHubPlaylist,
+ PornHubUser, PornHubUserVideosUpload, Pornotube, PornoVoisines, PornoXO,
+ PornTop, PornTube, Pr0gramm, PrankCast, PremiershipRugby, PressTV,
+ ProjectVeritas, prosiebensat1, PRXAccount, PRXSeries, PRXStory, puhutv,
+ Puls4, Pyvideo, QDance, QingTing, qqmusic, QuantumTV, QuantumTVLive,
+ QuantumTVRecordings, Qub, R7, R7Article, Radiko, RadikoRadio, radio.de,
+ radiobremen, radiocanada, RadioComercial, RadioComercialPlaylist,
+ radiofrance, RadioFranceLive, RadioFrancePodcast, RadioFranceProfile,
+ RadioFranceProgramSchedule, RadioJavan, radiokapital, RadioZetPodcast,
+ radlive, Rai, RaiCultura, RaiNews, RaiPlay, RaiPlayLive, RaiPlayPlaylist,
+ RaiPlaySound, RaiPlaySoundLive, RaiPlaySoundPlaylist, RaiSudtirol,
+ RayWenderlich, RayWenderlichCourse, RbgTum, RbgTumCourse,
+ RbgTumNewCourse, RBMARadio, RCS, RCSEmbeds, RCSVarious, RCTIPlus,
+ RCTIPlusSeries, RCTIPlusTV, RDS, Recurbate, RedBull, RedBullEmbed,
+ RedBullTV, RedBullTVRrnContent, Reddit, RedGifs, RedGifsSearch,
+ RedGifsUser, RedTube, RegioTV, RENTV, RENTVArticle, Restudy, Reuters,
+ ReverbNation, RheinMainTV, RICE, RMCDecouverte, RockstarGames,
+ Rokfin, RoosterTeeth, RoosterTeethSeries, RottenTomatoes, Rozhlas,
+ RozhlasVltava, RTBF, RTDocumentry, RTDocumentryPlaylist, rte, rtl.nl,
+ rtl2, RTLLuLive, RTLLuRadio, RTNews, RTP, RTRFM, RTS, RTVCKaltura,
+ RTVCPlay, RTVCPlayEmbed, RTVNH, RTVS, rtvslo.si, RUHD, Rule34Video,
+ Rumble, RumbleChannel, RumbleEmbed, Ruptly, rutube, RUTV, Ruutu, Ruv,
+ S4C, S4CSeries, safari, Saitosan, SAKTV, SAKTVLive, SAKTVRecordings,
+ SaltTV, SaltTVLive, SaltTVRecordings, SampleFocus, Sangiin, Sapo,
+ savefrom.net, SBS, sbs.co.kr, schooltv, ScienceChannel, Screen9,
+ Screencast, Screencastify, ScreencastOMatic, ScrippsNetworks, Scrolller,
+ SCTE, SCTECourse, Seeker, SenalColombiaLive, SenateGov, SenateISVP,
+ SendtoNews, Servus, Sexu, SeznamZpravy, SeznamZpravyArticle, Shahid,
+ ShahidShow, Shared, ShareVideosEmbed, ShemarooMe, ShowRoomLive,
+ ShugiinItvLive, ShugiinItvLiveRoom, ShugiinItvVod, SibnetEmbed,
+ simplecast, Sina, Skeb, sky.it, SkylineWebcams, SkyNewsAU, Slideshare,
+ SlidesLive, Slutload, Smotrim, Snotr, Sohu, SohuV, SonyLIV, SonyLIVSeries,
+ soundcloud, SoundcloudEmbed, soundgasm, southpark.cc.com, southpark.de,
+ southpark.lat, southpark.nl, southparkstudios.dk, SovietsCloset,
+ SovietsClosetPlaylist, SpankBang, SpankBangPlaylist, Spankwire, Spiegel,
+ Sport5, SportBox, SportDeutschland, spotify, Spreaker, SpreakerPage,
+ SpreakerShow, SpreakerShowPage, SpringboardPlatform, Sprout,
+ SRGSSR, SRGSSRPlay, StacommuLive, StacommuVOD, StagePlusVODConcert,
+ stanfordoc, StarTrek, startv, Steam, SteamCommunityBroadcast, Stitcher,
+ StitcherShow, StoryFire, StoryFireSeries, StoryFireUser, Streamable,
+ streamcloud.eu, StreamCZ, StreamFF, StreetVoice, StretchInternet,
+ Stripchat, Substack, SunPorno, SVT, SVTPage, SVTPlay, SVTSeries,
+ SwearnetEpisode, SWRMediathek, Syfy, SYVDK, SztvHu, t-online.de,
+ Tagesschau, Tass, TBS, TBSJPEpisode, TBSJPPlaylist, TBSJPProgram,
+ TDSLifeway, Teachable, TeachableCourse, teachertube, TeachingChannel,
+ Teamcoco, TeamTreeHouse, TechTalks, techtv.mit.edu, TedEmbed,
+ TedPlaylist, TedSeries, TedTalk, Tele13, Tele5, TeleBruxelles,
+ TelecaribePlay, Telecinco, Telegraaf, TeleMB, Telemundo, TeleQuebec,
+ TeleQuebecEmission, TeleQuebecLive, TeleQuebecSquat, TeleQuebecVideo,
+ TeleTask, Telewebion, Tempo, TennisTV, TenPlay, TenPlaySeason, TF1,
+ TFO, TheHoleTv, TheIntercept, ThePlatform, ThePlatformFeed, TheStar,
+ TheSun, TheWeatherChannel, ThisAmericanLife, ThisOldHouse, ThisVid,
+ ThisVidMember, ThisVidPlaylist, ThreeSpeak, ThreeSpeakUser, TikTok,
+ tinypic, TLC, TMZ, TNAFlix, TNAFlixNetworkEmbed, toggle, toggo,
+ Tokentube, ToonGoggles, tou.tv, Toypics, ToypicsUser, TrailerAddict,
+ TravelChannel, Triller, TrillerShort, TrillerUser, Trilulilu, Trovo,
+ TrovoChannelClip, TrovoChannelVod, TrovoVod, TrtCocukVideo, TrueID,
+ TruNews, Truth, TruTV, Tube8, TubeTuGraz, TubeTuGrazSeries, TubiTv,
+ TubiTvShow, Tumblr, TuneInPodcast, TuneInPodcastEpisode, TuneInStation,
+ TunePk, Turbo, tv.dfb.de, TV2, TV2Article, TV2DK, TV2DKBornholmPlay,
+ tv2play.hu, tv2playseries.hu, TV4, TV5MondePlus, tv5unis, tv8.it, TVA,
+ TVANouvelles, TVANouvellesArticle, TVC, TVCArticle, TVer, tvigle,
+ TVIPlayer, tvland.com, TVN24, TVNet, TVNoe, TVNow, TVNowAnnual,
+ TVNowFilm, TVNowNew, TVNowSeason, TVNowShow, tvp, TVPlayer, TVPlayHome,
+ Tweakers, TwitCasting, TwitCastingLive, TwitCastingUser, TwitchCollection,
+ TwitchVideos, TwitchVideosClips, TwitchVideosCollections, twitter, Txxx,
+ udemy, UDNEmbed, UFCArabia, UFCTV, ukcolumn, UKTVPlay, Unistra, Unity,
+ UnscriptedNewsVideo, uol.com.br, uplynk, Urort, URPlay, USANetwork,
+ USAToday, ustream, ustudio, Utreon, Varzesh3, Vbox7, VeeHD, Veo, Veoh,
+ Vesti, Vevo, VevoPlaylist, VGTV, vh1.com, vice, Vidbit, Viddler, Videa,
+ video.arnes.si, video.sky.it, VideoDetective, videofy.me, VideoKen,
+ VideoKenCategory, VideoKenPlayer, VideoKenPlaylist, VideoKenTopic,
+ videomore, VideoPress, Vidio, VidioLive, VidioPremier, VidLii, viewlift,
+ Viidea, viki, vimeo, ViMP, Vimple, Vine, Viqeo, Viu, ViuOTTIndonesia,
+ Vivo, vk, VKPlay, VKPlayLive, vm.tiktok, Vocaroo, Vodlocker, VODPl,
+ VODPlatform, VoiceRepublic, voicy, VolejTV, Voot, VootSeries,
+ VoxMedia, VoxMediaVolume, vpro, Vrak, VRT, VrtNU, vrv, VShare, VTM,
+ VTXTV, VTXTVLive, VTXTVRecordings, VuClip, Vupload, VVVVID, VVVVIDShow,
+ VyboryMos, Vzaar, Wakanim, Walla, WalyTV, WalyTVLive, WalyTVRecordings,
+ washingtonpost, wat.tv, WatchBox, WatchESPN, WatchIndianPorn, WDR,
+ WDRElefant, WDRPage, Webcamerapl, Webcaster, WebcasterFeed, WebOfStories,
+ WebOfStoriesPlaylist, Weibo, WeiboUser, WeiboVideo, WeiqiTV, WeTvSeries,
+ Weverse, WeverseLive, WeverseLiveTab, WeverseMedia, WeverseMediaTab,
+ WeverseMoment, WeVidi, Weyyak, whowatch, Whyp, wikimedia.org, Willow,
+ Wimbledon, WimTV, WinSportsVideo, Wistia, WistiaChannel, WistiaPlaylist,
+ wnl, WorldStarHipHop, wppilot, WrestleUniversePPV, WrestleUniverseVOD,
+ WSJ, WSJArticle, WWE, WyborczaPodcast, Xanimu, XBef, XboxClips,
+ XFileShare, XHamster, XHamsterEmbed, XHamsterUser, ximalaya, xinpianchang,
+ XMinus, XNXX, Xstream, XTube, XTubeUser, Xuite, XVideos, XXXYMovies,
+ Yahoo, YandexDisk, YandexVideo, YandexVideoPreview, YapFiles, Yappy,
+ YappyProfile, YesJapan, YleAreena, Ynet, YouJizz, youku, YouNowChannel,
+ YouNowLive, YouNowMoment, YouPorn, YourPorn, YourUpload, youtube,
+ YoutubeLivestreamEmbed, YoutubeYtBe, Zaiko, ZaikoETicket, Zapiks, Zattoo,
+ ZattooLive, ZattooMovies, ZattooRecordings, ZDF, ZDFChannel, Zee5,
+ ZeeNews, ZenYandex, ZenYandexChannel, Zhihu, zingmp3, zoom, Zype, generic,
+Original-Maintainer: Unit 193 <unit193@debian.org>
+
