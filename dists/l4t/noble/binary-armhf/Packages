@@ -99,14 +99,14 @@ Changed-By: theofficialgman <dofficialgman@gmail.com>
 Standards-Version: 4.1.2
 
 Package: switch-l4t-repo
-Version: 1.0-0
+Version: 1.0-0~24.04
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Filename: pool/noble/main/s/switch-l4t-repo/switch-l4t-repo_1.0-0_all.deb
-Size: 2030
-MD5sum: f84cd5d3faade3caa67cefabbe6beb50
-SHA1: b99d737a6050857e8f7044420821cbeb80aa06d5
-SHA256: 776151bc71e72db19eaad7dfbd223359f7dbe541bc6d6485f8601433c2918bdb
+Filename: pool/noble/s/switch-l4t-repo/switch-l4t-repo_1.0-0~24.04_all.deb
+Size: 2018
+MD5sum: df978ad488179bbc9a041f9b63c36ee9
+SHA1: 9db8f6be24a14b5244b568f26ed9863d0b1dce65
+SHA256: 160d7bc910d34c59a67cfd0c14139032a711d780d4cb9c465ab966487bfc33d1
 Section: embedded
 Priority: required
 Homepage: https://github.com/theofficialgman/l4t-debs
