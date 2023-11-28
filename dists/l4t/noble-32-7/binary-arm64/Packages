@@ -7,7 +7,7 @@ Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3, switch-flatpak
 Breaks: nvidia-l4t-firmware (<< 32.7.4-20230608212426)
 Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3
 Provides: nvidia-l4t-x11 (= 32.7.4-20230608212426), nvidia-l4t-tools (= 32.7.4-20230608212426)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-6_all.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-6_all.deb
 Size: 2106
 MD5sum: f2658915d0582ed1d8c0148628c83491
 SHA1: c0d945610b0ddcce27f021b797ef09935ba85645
@@ -24,7 +24,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 76704
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, libegl1, libgcc1, libstdc++6, libx11-6, libxext6, nvidia-l4t-firmware (= 32.7.4-20230608212426), nvidia-l4t-init (= 32.7.4-20230608212426), nvidia-l4t-libvulkan (= 32.7.4-20230608212426), nvidia-l4t-wayland (= 32.7.4-20230608212426), nvidia-l4t-x11 (= 32.7.4-20230608212426)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-3d-core/nvidia-l4t-3d-core_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-3d-core/nvidia-l4t-3d-core_32.7.4-20230608212426_arm64.deb
 Size: 28335660
 MD5sum: 9b511f064d29c35837c8a2c7b1f6d5c0
 SHA1: c471fb9c40f9ba8b73f84afb3264ac9326a06f72
@@ -40,7 +40,7 @@ Architecture: arm64
 Maintainer: NVIDIA Corporation
 Installed-Size: 1510
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-configs/nvidia-l4t-configs_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-configs/nvidia-l4t-configs_32.7.4-20230608212426_arm64.deb
 Size: 1439688
 MD5sum: 93d5f5265114ecf0f4c99c299e94130e
 SHA1: 1a1788c4cd0033fb0d6bb4802ce5e27ff990bb18
@@ -58,7 +58,7 @@ Installed-Size: 7694
 Depends: libc6, libegl1, libexpat1, libgcc1, libstdc++6
 Conflicts: nvidia-l4t-ccp-t210ref
 Replaces: nvidia-l4t-ccp-t210ref
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-core/nvidia-l4t-core_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-core/nvidia-l4t-core_32.7.4-20230608212426_arm64.deb
 Size: 2880206
 MD5sum: 553f782c81fc867d6e1487a76890dd8e
 SHA1: 535843bca76ea1b3bc0d7e3354a91bf100078943
@@ -75,7 +75,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 15685
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, nvidia-l4t-3d-core (= 32.7.4-20230608212426)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-cuda/nvidia-l4t-cuda_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-cuda/nvidia-l4t-cuda_32.7.4-20230608212426_arm64.deb
 Size: 3135706
 MD5sum: c09abc54619d7d531b43a3a98707e510
 SHA1: 0716645d8e9038e0c663e8caf089145694405481
@@ -92,7 +92,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 2007
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, libgcc1, libstdc++6
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-firmware/nvidia-l4t-firmware_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-firmware/nvidia-l4t-firmware_32.7.4-20230608212426_arm64.deb
 Size: 1099516
 MD5sum: c8e5af22a0a243e1bb232236da2b1584
 SHA1: d1973471af4e859d1539101fb46df61ccf8684a8
@@ -109,7 +109,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 16689
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, libstdc++6
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-init/nvidia-l4t-init_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-init/nvidia-l4t-init_32.7.4-20230608212426_arm64.deb
 Size: 59718
 MD5sum: b58ccd2973c7c4aede14e3ada2028651
 SHA1: cd1d5f7384993fe1691fc1c33ff90dc9c767237c
@@ -128,7 +128,7 @@ Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6
 Breaks: nvidia-l4t-3d-core (<= 32.5.1-20210219084526)
 Replaces: nvidia-l4t-3d-core (<= 32.5.1-20210219084526)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-libvulkan/nvidia-l4t-libvulkan_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-libvulkan/nvidia-l4t-libvulkan_32.7.4-20230608212426_arm64.deb
 Size: 107958
 MD5sum: 5e0ec1b55976f54553993dcb8983ed2e
 SHA1: 34f63c51863a482d589e66faa64dfbfa930afdd4
@@ -145,7 +145,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 36982
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libasound2, libc6, libcairo2, libdatrie1, libegl1, libexpat1, libfontconfig1, libgcc1, libgles2, libglib2.0-0, libglvnd0, libgstreamer1.0-0, libgstreamer-plugins-bad1.0-0, libgstreamer-plugins-base1.0-0, libharfbuzz0b, libpango-1.0-0, libpangocairo-1.0-0, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrender1, zlib1g, nvidia-l4t-cuda (= 32.7.4-20230608212426) | cuda-drivers, nvidia-l4t-multimedia-utils (= 32.7.4-20230608212426)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-multimedia/nvidia-l4t-multimedia_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-multimedia/nvidia-l4t-multimedia_32.7.4-20230608212426_arm64.deb
 Size: 7033874
 MD5sum: c66b307382d16608f7d0114814f46331
 SHA1: 67d2c60b20d969cb0d7182e2a9489417de9600a9
@@ -162,7 +162,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 82
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, libcairo2, libdatrie1, libegl1, libexpat1, libfontconfig1, libgcc1, libgles2, libglib2.0-0, libglvnd0, libharfbuzz0b, libpangoft2-1.0-0, libpcre3, libpixman-1-0, libstdc++6, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, libxrender1, zlib1g
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-multimedia-utils/nvidia-l4t-multimedia-utils_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-multimedia-utils/nvidia-l4t-multimedia-utils_32.7.4-20230608212426_arm64.deb
 Size: 30790
 MD5sum: d0064e6fd0b0705329dd328625224ffb
 SHA1: 6b20e7a7dbaad866de78dbde7e03e4628e197e57
@@ -178,7 +178,7 @@ Architecture: arm64
 Maintainer: NVIDIA Corporation
 Installed-Size: 132
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-oem-config/nvidia-l4t-oem-config_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-oem-config/nvidia-l4t-oem-config_32.7.4-20230608212426_arm64.deb
 Size: 23280
 MD5sum: e746231b000e364d352d12157ed88f59
 SHA1: 4c88978b076e1c705cbf4e160220021d55faac59
@@ -195,7 +195,7 @@ Maintainer: NVIDIA Corporation
 Installed-Size: 67
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, libffi6, libwayland-client0, libwayland-server0
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-wayland/nvidia-l4t-wayland_32.7.4-20230608212426_arm64.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-l4t-wayland/nvidia-l4t-wayland_32.7.4-20230608212426_arm64.deb
 Size: 26768
 MD5sum: d5e22ee66beb606abf98f072e0769546
 SHA1: e6dc836bac2b5a5360f3283389c93b78187227ef
@@ -213,7 +213,7 @@ Pre-Depends: flatpak
 Depends: gnome-software-plugin-flatpak | plasma-discover-backend-flatpak
 Conflicts: switch-flatpak
 Replaces: switch-flatpak
-Filename: pool/jammy-32-7/main-32-7/s/switch-flatpak-32-7/switch-flatpak-32-7_1.0-2_arm64.deb
+Filename: pool/noble-32-7/main-32-7/s/switch-flatpak-32-7/switch-flatpak-32-7_1.0-2_arm64.deb
 Size: 20330222
 MD5sum: f485566b4cc2461e4ad699e583eef190
 SHA1: 77351e57626fec4a027cc4cf38d715e799f86a0b

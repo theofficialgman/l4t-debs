@@ -7,7 +7,7 @@ Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3, switch-flatpak
 Breaks: nvidia-l4t-firmware (<< 32.7.4-20230608212426)
 Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3
 Provides: nvidia-l4t-x11 (= 32.7.4-20230608212426), nvidia-l4t-tools (= 32.7.4-20230608212426)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-6_all.deb
+Filename: pool/noble-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-6_all.deb
 Size: 2106
 MD5sum: f2658915d0582ed1d8c0148628c83491
 SHA1: c0d945610b0ddcce27f021b797ef09935ba85645
