@@ -1990,15 +1990,15 @@ Homepage: http://developer.nvidia.com/jetson
 Description: Switch L4T Kernel Headers Package
 
 Package: switch-l4t-configs
-Version: 1.5-1
+Version: 1.5-2
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/jammy/main/s/switch-l4t-configs/switch-l4t-configs_1.5-1_all.deb
-Size: 519950
-MD5sum: 389be75b18f74fb94a3439d6563f1dc0
-SHA1: 50174cab192408f70dc4c599d25f9e51aedfed23
-SHA256: ab7d01c8a5a8f485d8e804680beee0dd19eca54d0009c78d021631049e5c62f5
+Filename: pool/jammy/main/s/switch-l4t-configs/switch-l4t-configs_1.5-2_all.deb
+Size: 520014
+MD5sum: f697a3696474c78ad3684d6e4f556b13
+SHA1: ba4d882c209c799fff18081aa2f6c7aa8fed1899
+SHA256: e3adf4f1af11b6d02d0ea328e1ac13649986230992119b1df7af6e7a62dfdae6
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
@@ -2085,7 +2085,7 @@ Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
 Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
 Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
 Provides: xorg-input-abi-24, xorg-video-abi-24, xserver-xorg-video-modesetting
-Filename: pool/jammy/x/xorg-server/xserver-xorg-core_1.20.13-1ubuntu1~20.04.8_arm64.deb
+Filename: pool/jammy/main/x/xorg-server/xserver-xorg-core_1.20.13-1ubuntu1~20.04.8_arm64.deb
 Size: 1235020
 MD5sum: 5e71862c31f5460ca03bf0f0cc039df9
 SHA1: 59b02102984fc684237617e6a69929ec984c2e72
@@ -2113,7 +2113,7 @@ Architecture: arm64
 Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
 Installed-Size: 1442
 Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2018.4), libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
-Filename: pool/jammy/x/xorg-server/xserver-xorg-dev_1.20.13-1ubuntu1~20.04.8_arm64.deb
+Filename: pool/jammy/main/x/xorg-server/xserver-xorg-dev_1.20.13-1ubuntu1~20.04.8_arm64.deb
 Size: 201252
 MD5sum: cab625e5a6e06801b4c537f22a4f2346
 SHA1: d58016f6de58a0d9783baa2b3772f04d3ff6d29b
@@ -2144,7 +2144,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 63
 Depends: libc6 (>= 2.17), xorg-input-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
 Provides: xorg-driver-input
-Filename: pool/jammy/x/xserver-xorg-input-joystick/xserver-xorg-input-joystick_1.6.4-1build3_arm64.deb
+Filename: pool/jammy/main/x/xserver-xorg-input-joystick/xserver-xorg-input-joystick_1.6.4-1build3_arm64.deb
 Size: 21020
 MD5sum: 1d318ad0a05cad1034eb13f4330d0106
 SHA1: 0384a28f5f2503af195432d4f9977cfdeb0ac9e1
@@ -2160,6 +2160,52 @@ Description: X.Org X server -- joystick input driver
  This package is built from the X.org xf86-input-joystick driver module.
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 
+Package: xserver-xorg-input-libinput
+Version: 1.2.1-1
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 106
+Depends: libc6 (>= 2.17), libinput10 (>= 1.19.1), xorg-input-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
+Provides: xorg-driver-input
+Filename: pool/jammy/main/x/xserver-xorg-input-libinput/xserver-xorg-input-libinput_1.2.1-1_arm64.deb
+Size: 36884
+MD5sum: 572acb2292c545a32939562b5fe158bf
+SHA1: d192861a534e46c8c6b300f902e308c591e6b0d4
+SHA256: 29a50e6309f70097d3362ae77e85faf797d58211850fb93df74ccc97cfdbf954
+Section: x11
+Priority: optional
+Homepage: https://www.x.org
+Description: X.Org X server -- libinput input driver
+ This package provides the driver for input devices using libinput library.
+ It can handle keyboards, mice and touchpads, and essentially replaces the
+ separate -evdev and -synaptics drivers.
+ .
+ This package is built from the X.org xf86-input-libinput driver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
+Package: xserver-xorg-input-libinput-dev
+Source: xserver-xorg-input-libinput
+Version: 1.2.1-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Filename: pool/jammy/main/x/xserver-xorg-input-libinput/xserver-xorg-input-libinput-dev_1.2.1-1_all.deb
+Size: 5204
+MD5sum: 0d565263feaeccfbec63394b7e4673ed
+SHA1: 7ba06758378f25432267cf3fdd6c8106cce16b43
+SHA256: 7a0827ae60faaca21079f2c5beca5dd7419edb1803ce2765e65b91306e51d7de
+Section: libdevel
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.x.org
+Description: X.Org X server -- libinput input driver (development headers)
+ This package provides the development headers for the libinput input driver
+ found in xserver-xorg-input-libinput. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the X.org xf86-input-libinput driver module.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+
 Package: xserver-xorg-video-fbdev
 Version: 1:0.5.0-1ubuntu1
 Architecture: arm64
@@ -2167,7 +2213,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 46
 Depends: libc6 (>= 2.17), xorg-video-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
 Provides: xorg-driver-video
-Filename: pool/jammy/x/xorg-server/xserver-xorg-video-fbdev_0.5.0-1ubuntu1_arm64.deb
+Filename: pool/jammy/main/x/xorg-server/xserver-xorg-video-fbdev_0.5.0-1ubuntu1_arm64.deb
 Size: 11828
 MD5sum: 40f2c5b62081e9fa7f49243b92932b75
 SHA1: 670ea915acc7c005b696bfccbe954fd3f403457a
