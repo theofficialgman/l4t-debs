@@ -46,16 +46,16 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-10
+Version: 5.1.2-10+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Suggests: switch-kernel-headers
-Filename: pool/noble/main/s/switch-bsp/switch-bsp_5.1.2-10_all.deb
-Size: 30347480
-MD5sum: 97ae90290f03985553b892df1efe62d0
-SHA1: 7998399f83abd5858e4932fff909c1f305446544
-SHA256: c160601307833517b21a3d421d36952a01f53a43ac34a5e76885175a6da8974e
+Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-10+24.04_all.deb
+Size: 30347494
+MD5sum: ed6ee786b3e4cac8b2b9722f1ffc50e6
+SHA1: 549512ffb0b16f03e9f64aeded6c20a67396a739
+SHA256: 291d3d18fa025632d5bb79233ed393c56c9a412a7b592f078225a1e159c2fbda
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -135,14 +135,14 @@ Changed-By: theofficialgman <dofficialgman@gmail.com>
 Standards-Version: 4.1.2
 
 Package: switch-l4t-repo
-Version: 1.0-0~24.04
+Version: 1.0-0+24.04
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Filename: pool/noble/s/switch-l4t-repo/switch-l4t-repo_1.0-0~24.04_all.deb
-Size: 2018
-MD5sum: df978ad488179bbc9a041f9b63c36ee9
-SHA1: 9db8f6be24a14b5244b568f26ed9863d0b1dce65
-SHA256: 160d7bc910d34c59a67cfd0c14139032a711d780d4cb9c465ab966487bfc33d1
+Filename: pool/noble/s/switch-l4t-repo/switch-l4t-repo_1.0-0+24.04_all.deb
+Size: 2016
+MD5sum: bab4a449c0b8c7daec97c922de3631a1
+SHA1: c2f9efb0421d4465410be557bb9e4f8bd881f123
+SHA256: ee77ce8216c41d5d80273f1d5f4c47340a847e3562052344e25d411890bc42b9
 Section: embedded
 Priority: required
 Homepage: https://github.com/theofficialgman/l4t-debs

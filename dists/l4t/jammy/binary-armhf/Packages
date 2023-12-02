@@ -781,7 +781,7 @@ Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Suggests: switch-kernel-headers
-Filename: pool/jammy/main/s/switch-bsp/switch-bsp_5.1.2-10_all.deb
+Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.2-10_all.deb
 Size: 30347480
 MD5sum: 97ae90290f03985553b892df1efe62d0
 SHA1: 7998399f83abd5858e4932fff909c1f305446544
