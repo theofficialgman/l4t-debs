@@ -1,5 +1,5 @@
 Package: chromium-browser
-Version: 9:120.0.6099.62-1
+Version: 9:120.0.6099.71-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Installed-Size: 319237
@@ -8,11 +8,11 @@ Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridg
 Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
-Filename: pool/noble/main/c/chromium-browser/chromium-browser_9_120.0.6099.62-1_arm64.deb
-Size: 97101652
-MD5sum: eac05ec7a13672aa88f8e62fbf16cdfd
-SHA1: 5798edb879b2b7c82f31803765bd023270bffc07
-SHA256: 189da6a306e2cf6fde80d79a42c69e04ea4e652d124df80c907c808dd97bff9b
+Filename: pool/noble/main/c/chromium-browser/chromium-browser_9_120.0.6099.71-1_arm64.deb
+Size: 97094396
+MD5sum: 55fb7019da8b1d5106e263dd6f2919b5
+SHA1: f17961ab88364c98be921d0c796cd9d9c9e996f9
+SHA256: 021d8039f560de83d90d88697dbd273d7bd05d1269afee263eb358b67e903e2a
 Section: web
 Priority: optional
 Description: The web browser from Chromium.org
