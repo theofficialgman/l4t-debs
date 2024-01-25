@@ -31,15 +31,15 @@ Homepage: https://gitlab.com/switchroot
 Description: L4T BSP 32.3.1 Meta Package
 
 Package: switch-alsa-ucm2
-Version: 1.0-1
+Version: 1.0-1+24.04
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: libasound2-data
-Filename: pool/noble/main/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
-Size: 2080
-MD5sum: 27011e929d6e6e55d2b40598f1bc7898
-SHA1: 7be71564a2a130e0331596024b21998bd761fdb3
-SHA256: a2755c9851f984b2c6cedf2a3f2758856d720019179902b2f6d6fa698e9cf6de
+Filename: pool/noble/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1+24.04_all.deb
+Size: 4222
+MD5sum: 86889e2808aed17978da41f93cd84a3d
+SHA1: bf6dc4141f96bea3a66342e789e27741b331ff95
+SHA256: 0684c6561395e06dd4422839a2062f1b46d5475a676cc038e79242c151741cd2
 Section: embedded
 Priority: optional
 Homepage: https://gitlab.com/switchroot

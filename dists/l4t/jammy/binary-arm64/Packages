@@ -1848,7 +1848,7 @@ Version: 1.0-1
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: libasound2-data
-Filename: pool/jammy/main/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
+Filename: pool/jammy/s/switch-alsa-ucm2/switch-alsa-ucm2_1.0-1_all.deb
 Size: 2080
 MD5sum: 27011e929d6e6e55d2b40598f1bc7898
 SHA1: 7be71564a2a130e0331596024b21998bd761fdb3
