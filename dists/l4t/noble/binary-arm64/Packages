@@ -92,7 +92,7 @@ Description: Foreign Function Interface library runtime
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 
 Package: nvidia-bsp-32-3
-Version: 1.0-3
+Version: 1.0-5
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: nvidia-l4t-configs (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816), nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-cuda (= 32.3.1-20191209225816), nvidia-l4t-multimedia (= 32.3.1-20191209225816), nvidia-l4t-multimedia-utils (= 32.3.1-20191209225816), nvidia-l4t-oem-config (= 32.3.1-20191209225816), notify-osd
@@ -100,11 +100,11 @@ Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-7, switch-flatpak-32-
 Breaks: nvidia-l4t-firmware (>> 32.3.1-20191209225816)
 Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-7
 Provides: nvidia-l4t-x11 (= 32.3.1-20191209225816), nvidia-l4t-tools (= 32.3.1-20191209225816)
-Filename: pool/noble/main/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-3_all.deb
-Size: 1752
-MD5sum: 4f398c3508fad81daaab547e010a4a49
-SHA1: 89153111ec5b518b734a639fc491aa89d9e546e9
-SHA256: ee7b1e5bcd870b1239e0a1eea15ae79e05e4cfbfebe069be012250fecfd7f610
+Filename: pool/noble/main/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-5_all.deb
+Size: 2008
+MD5sum: 1c578753844acb97517ddc48ba8a2f14
+SHA1: 69529c43d4635f884aeb172b747be2f9e2a848de
+SHA256: 728f73e08a0f22ff058a0d48c3506e126edd40502fa8baea8e4f584fae71d8f2
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot

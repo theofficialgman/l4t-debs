@@ -1,5 +1,5 @@
 Package: nvidia-bsp-32-7
-Version: 1.0-6
+Version: 1.0-8
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: nvidia-l4t-configs (= 32.7.4-20230608212426), nvidia-l4t-init (= 32.7.4-20230608212426), nvidia-l4t-firmware (= 32.7.4-20230608212426), nvidia-l4t-core (= 32.7.4-20230608212426), nvidia-l4t-3d-core (= 32.7.4-20230608212426), nvidia-l4t-libvulkan (= 32.7.4-20230608212426), nvidia-l4t-cuda (= 32.7.4-20230608212426), nvidia-l4t-multimedia (= 32.7.4-20230608212426), nvidia-l4t-multimedia-utils (= 32.7.4-20230608212426), nvidia-l4t-oem-config (= 32.7.4-20230608212426), notify-osd
@@ -7,11 +7,11 @@ Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3, switch-flatpak
 Breaks: nvidia-l4t-firmware (<< 32.7.4-20230608212426)
 Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-3
 Provides: nvidia-l4t-x11 (= 32.7.4-20230608212426), nvidia-l4t-tools (= 32.7.4-20230608212426)
-Filename: pool/noble-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-6_all.deb
-Size: 2106
-MD5sum: f2658915d0582ed1d8c0148628c83491
-SHA1: c0d945610b0ddcce27f021b797ef09935ba85645
-SHA256: 04c074a945e8b54b121c2639b2a469f834d083621c7714e1ccdf161e92b4953c
+Filename: pool/noble-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-8_all.deb
+Size: 2164
+MD5sum: 3fe28057e756389b6dc66e6026cbc40c
+SHA1: c37f6a2e2c3d1ead447554f00997bd38b6ec8983
+SHA256: 10b94f9699c93959bea2a9f28ae80bc9493ce38c2f63f1fd9519e3167201f911
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
