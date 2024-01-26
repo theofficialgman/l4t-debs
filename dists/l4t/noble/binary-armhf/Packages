@@ -12,19 +12,19 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: nvidia-bsp-32-3
-Version: 1.0-5
+Version: 1.0-6
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: nvidia-l4t-configs (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816), nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-cuda (= 32.3.1-20191209225816), nvidia-l4t-multimedia (= 32.3.1-20191209225816), nvidia-l4t-multimedia-utils (= 32.3.1-20191209225816), nvidia-l4t-oem-config (= 32.3.1-20191209225816), notify-osd
-Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-7, switch-flatpak-32-7
+Conflicts: nvidia-l4t-tools, nvidia-bsp-32-7, switch-flatpak-32-7, switch-bsp (<< 5.1.2-12)
 Breaks: nvidia-l4t-firmware (>> 32.3.1-20191209225816)
-Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-7
-Provides: nvidia-l4t-x11 (= 32.3.1-20191209225816), nvidia-l4t-tools (= 32.3.1-20191209225816)
-Filename: pool/noble/main/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-5_all.deb
-Size: 2008
-MD5sum: 1c578753844acb97517ddc48ba8a2f14
-SHA1: 69529c43d4635f884aeb172b747be2f9e2a848de
-SHA256: 728f73e08a0f22ff058a0d48c3506e126edd40502fa8baea8e4f584fae71d8f2
+Replaces: nvidia-l4t-tools, nvidia-bsp-32-7
+Provides: nvidia-l4t-tools (= 32.3.1-20191209225816)
+Filename: pool/noble/main/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-6_all.deb
+Size: 2022
+MD5sum: f8313d03e5cb8beaca7c85e9738154ea
+SHA1: f138f92ea94216b6bff7b3730e9a61f64c817b02
+SHA256: f98dcdfc4082afb0ccc9cad8f155dccc013028a9baddeb5a73c2c4511b070b6d
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -46,16 +46,16 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-11+24.04
+Version: 5.1.2-12+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Suggests: switch-kernel-headers
-Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-11+24.04_all.deb
-Size: 30346858
-MD5sum: bf27611597fc218a914ef2b39c28e261
-SHA1: a2d78f57d823b6d6abdd47ee4d227bab491af549
-SHA256: 6db2287ae9c90b705ca989c1d47765de978686ef5df6e037ee4a8d1f281b0afa
+Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-12+24.04_all.deb
+Size: 30346874
+MD5sum: b69f1dc06dfe95c94f240d996fa5ff92
+SHA1: 1d1d654a7b9a957ce03aa96b41e51ce5ecc3213c
+SHA256: e1cbe93bef6f615fbbd20519c839ebf47440c26e815bb09ac62be94053a22643
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot

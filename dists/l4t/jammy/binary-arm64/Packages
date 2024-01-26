@@ -1527,19 +1527,19 @@ Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
 Package: nvidia-bsp-32-3
-Version: 1.0-5
+Version: 1.0-6
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: nvidia-l4t-configs (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816), nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-core (= 32.3.1-20191209225816), nvidia-l4t-3d-core (= 32.3.1-20191209225816), nvidia-l4t-cuda (= 32.3.1-20191209225816), nvidia-l4t-multimedia (= 32.3.1-20191209225816), nvidia-l4t-multimedia-utils (= 32.3.1-20191209225816), nvidia-l4t-oem-config (= 32.3.1-20191209225816), notify-osd
-Conflicts: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-7, switch-flatpak-32-7
+Conflicts: nvidia-l4t-tools, nvidia-bsp-32-7, switch-flatpak-32-7, switch-bsp (<< 5.1.2-12)
 Breaks: nvidia-l4t-firmware (>> 32.3.1-20191209225816)
-Replaces: nvidia-l4t-x11, nvidia-l4t-tools, nvidia-bsp-32-7
-Provides: nvidia-l4t-x11 (= 32.3.1-20191209225816), nvidia-l4t-tools (= 32.3.1-20191209225816)
-Filename: pool/jammy/main/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-5_all.deb
-Size: 2008
-MD5sum: 1c578753844acb97517ddc48ba8a2f14
-SHA1: 69529c43d4635f884aeb172b747be2f9e2a848de
-SHA256: 728f73e08a0f22ff058a0d48c3506e126edd40502fa8baea8e4f584fae71d8f2
+Replaces: nvidia-l4t-tools, nvidia-bsp-32-7
+Provides: nvidia-l4t-tools (= 32.3.1-20191209225816)
+Filename: pool/jammy/main/n/nvidia-bsp-32-3/nvidia-bsp-32-3_1.0-6_all.deb
+Size: 2022
+MD5sum: f8313d03e5cb8beaca7c85e9738154ea
+SHA1: f138f92ea94216b6bff7b3730e9a61f64c817b02
+SHA256: f98dcdfc4082afb0ccc9cad8f155dccc013028a9baddeb5a73c2c4511b070b6d
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1729,6 +1729,23 @@ Priority: standard
 Homepage: http://developer.nvidia.com/jetson
 Description: NVIDIA Wayland Package
 
+Package: nvidia-l4t-x11
+Version: 32.3.1-20191209225816
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 19
+Pre-Depends: nvidia-l4t-ccp-t210ref
+Depends: libc6, nvidia-l4t-firmware (= 32.3.1-20191209225816), nvidia-l4t-init (= 32.3.1-20191209225816)
+Filename: pool/jammy/main/n/nvidia-l4t-x11/nvidia-l4t-x11_32.3.1-20191209225816_arm64.deb
+Size: 4672
+MD5sum: 8b1bb6d3cdd760c67caa128504e03cb3
+SHA1: dea42df362a715223fd1baf1af514f508f1799b4
+SHA256: 83a3d858ad9ec4099ef168e0af55d8263d5859efc10f8dbe8fbffd78a46a53dc
+Section: x11
+Priority: standard
+Homepage: http://developer.nvidia.com/jetson
+Description: NVIDIA X11 Package
+
 Package: qt6-gtk2-platformtheme
 Version: 0.2-1
 Architecture: arm64
@@ -1859,16 +1876,16 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-11
+Version: 5.1.2-12
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Suggests: switch-kernel-headers
-Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.2-11_all.deb
-Size: 30346870
-MD5sum: cc2b6ba241965db6a4e82eb228fc614c
-SHA1: a575472347ce1a9088717fa52c5e8299dc7cbb58
-SHA256: d98bccae7d5979ab547503f4287c2bb6483e6fafa02669c942a5d48041810a83
+Filename: pool/jammy/s/switch-bsp/switch-bsp_5.1.2-12_all.deb
+Size: 30346896
+MD5sum: a0ec8c62ae7450183778db3369151084
+SHA1: aa8dd002821b4ca4642974efa1fcc357f6a9d6e2
+SHA256: da66ec0556c39ba3e6a499668dc1e744b5ba8bc45df63a1929fa7da400282941
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
