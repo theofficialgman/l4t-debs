@@ -91,6 +91,22 @@ Description: Foreign Function Interface library runtime
  language.
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 
+Package: nintendo-switch-meta
+Version: 1.0-8+24.04~0
+Architecture: arm64
+Essential: yes
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-gnome | switch-kde, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
+Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-8+24.04~0_arm64.deb
+Size: 1992
+MD5sum: 1a54586ee48f6a95cc8a23e2bec83d90
+SHA1: 4c2e068ac7e725e60ab199ad4d50e9a97e1ed70f
+SHA256: 0e0ac42e26b55cc5fb5b568257cdb39a363426ba44d69dab1a6cf2dd7d9a6c67
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for all Nintendo Switch configuration packages
+
 Package: nvidia-bsp-32-3
 Version: 1.0-6
 Architecture: all
@@ -390,6 +406,22 @@ Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
+Package: switch-gnome
+Version: 1.0-6+24.04~0
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: gnome-shell, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
+Conflicts: gnome-software-plugin-snap
+Filename: pool/noble/s/switch-gnome/switch-gnome_1.0-6+24.04~0_arm64.deb
+Size: 1884
+MD5sum: 1d2fbd18756b5102700dec8e4501f426
+SHA1: 9d843d0700320f0d7a014cc1231d9e016bc8109e
+SHA256: 1be1dab2b791d238d139a2e455262abb811a36a79f25455aa22f0ac1bdef1fcf
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for GNOME only Nintendo Switch configuration packages
+
 Package: switch-joystick-mouse
 Version: 1.2-1
 Architecture: all
@@ -463,6 +495,21 @@ Section: embedded
 Priority: required
 Homepage: https://github.com/theofficialgman/l4t-debs
 Description: L4T Apt Repo and Key
+
+Package: switch-multimedia
+Version: 1.0-1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: mpv, smplayer, smplayer-themes, smplayer-skins, yt-dlp
+Filename: pool/noble/main/s/switch-multimedia/switch-multimedia_1.0-1_arm64.deb
+Size: 1878
+MD5sum: 143d41ba8cef85596091854be79bd66a
+SHA1: 131da922802ae1434e466775cf90082e7b7f48fc
+SHA256: 23ec485bbd31345363077ee7ec5491d010799b87336dc36f8b4f717d6e6609dd
+Section: graphics
+Priority: extra
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for all Nintendo Switch Multimedia Packages
 
 Package: switch-sddm-rule
 Version: 1.0-1
