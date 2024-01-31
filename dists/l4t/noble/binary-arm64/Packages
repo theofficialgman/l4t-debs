@@ -1,18 +1,18 @@
 Package: chromium-browser
-Version: 9:121.0.6167.85-1
+Version: 9:121.0.6167.139-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Installed-Size: 316352
+Installed-Size: 316351
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
-Filename: pool/noble/main/c/chromium-browser/chromium-browser_9_121.0.6167.85-1_arm64.deb
-Size: 97615308
-MD5sum: bc7cc5a9bf7ab687f1c6d19385ad7e17
-SHA1: e0a85e08f9acddf268a418b049f03558d8ad4b39
-SHA256: dcbccc67f509926daaed7308ad6fcbb6fdc02bdb269d37bd701687d3fc911905
+Filename: pool/noble/main/c/chromium-browser/chromium-browser_9_121.0.6167.139-1_arm64.deb
+Size: 97583620
+MD5sum: 00a41c86a576666f8095371c1f96143c
+SHA1: 8d278356808c9fb2d52ccae80bd7eddfb24bbea8
+SHA256: 2440cb3cff59faa44ccd627e6122cb7e452898a2ae4141f4c3620b5880d489d7
 Section: web
 Priority: optional
 Description: The web browser from Chromium.org
