@@ -11,6 +11,174 @@ SHA256: 1d029d5484190bca5b5b66912b5a04224f77d42896a971509acbdf32fe07873e
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
+Package: libx11-6
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1007
+Depends: libc6 (>= 2.38), libxcb1 (>= 1.11.1), libx11-data
+Breaks: libx11-xcb1 (<< 2:1.7.0-2)
+Filename: pool/noble/l/libx11/libx11-6_1.8.7-1-l4t_armhf.deb
+Size: 583196
+MD5sum: d61d80b25ee527f6d99c710fb28f0c9d
+SHA1: a2cc4af8e9fa19165e59197d9f0bec0b6b578fcf
+SHA256: a9a0a36c34e1ff33f809317afe2134778533ea61078a2ff9e686cd25872dca07
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-data
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1342
+Filename: pool/noble/l/libx11/libx11-data_1.8.7-1-l4t_all.deb
+Size: 115462
+MD5sum: 19dd567564c1976fd89f8d5309a099a3
+SHA1: af956bf1ac4c08a9b17fd8a0372bc94c541883dc
+SHA256: 474427a4ec9520f673f96ea98b1a18ff752e9867ca65a758a57d4bf9b6a59813
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-dev
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1766
+Depends: libx11-6 (= 2:1.8.7-1-l4t), libxau-dev, libxdmcp-dev, x11proto-dev (>= 2019.2-1), xtrans-dev, libxcb1-dev
+Suggests: libx11-doc
+Replaces: x11proto-dev (<< 2019.2)
+Filename: pool/noble/l/libx11/libx11-dev_1.8.7-1-l4t_armhf.deb
+Size: 672484
+MD5sum: ab6d05587d20b21314684c0c8ab84087
+SHA1: a982f7824c0eca255dd0d229fbe4a248d3a3906f
+SHA256: b74f019a19fb2fae9532659422e34ce62715f51a608ab86f88dd83307144c653
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: X11 client-side library (development headers)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains the development headers for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-doc
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 9910
+Filename: pool/noble/l/libx11/libx11-doc_1.8.7-1-l4t_all.deb
+Size: 1998988
+MD5sum: 82a8a62c3a642a189d74f2d7d57e1ed4
+SHA1: 33f62cb62a06ccd117708155b81d65bc36c51973
+SHA256: 6ec4e4448a494463a06bb1acfe752ad1665d78ec78dd0cf04ec71cf3dc2610df
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Description: X11 client-side library (development documentation)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains supplemental documentation for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-xcb-dev
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 69
+Depends: libx11-xcb1 (= 2:1.8.7-1-l4t), libxcb1-dev, libx11-dev
+Filename: pool/noble/l/libx11/libx11-xcb-dev_1.8.7-1-l4t_armhf.deb
+Size: 12078
+MD5sum: 55445c4e7d30f216c90f012ebdf52d8e
+SHA1: 6c8e7715d3e712f9d9c84b6d25af0935553f65d1
+SHA256: f653a3450ffe39f5dbf3207bb6a41235cdbe917202df37dbd47fbf1fb26665cb
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Xlib/XCB interface library (development headers)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the development headers for the library found in
+ libx11-xcb1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-xcb1
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: armhf
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 65
+Depends: libx11-6 (= 2:1.8.7-1-l4t)
+Filename: pool/noble/l/libx11/libx11-xcb1_1.8.7-1-l4t_armhf.deb
+Size: 9934
+MD5sum: 48911b4ce44319d88ff6335a2713ae1b
+SHA1: 8c9365eab7252b857f20a235e408c9ad3cb576a4
+SHA256: 5bfbafa9a352bd17584b2ce5e3b57b2e9d9a2ffebf613ed10851fbd10679d6e0
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Xlib/XCB interface library
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
 Package: nvidia-bsp-32-3
 Version: 1.0-6
 Architecture: all
@@ -111,15 +279,15 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-l4t-configs
-Version: 1.5-6
+Version: 1.5-6+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/noble/main/s/switch-l4t-configs/switch-l4t-configs_1.5-6_all.deb
-Size: 520278
-MD5sum: a9a66f0d2e48d2b98c3e8cecca1f2d6b
-SHA1: c7525b4a3986e35f8e003e0004a0a6e7accd983b
-SHA256: 6d3b8e0e4955dac30e6f02707c656f557bb18409545293e8290175d95a44de81
+Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-6+24.04_all.deb
+Size: 520336
+MD5sum: a423d9ee53b47fc4b9481252ce8e22a0
+SHA1: 9ca89043ff49116801dfac4894f0f424503f8eb4
+SHA256: 02a9181fe543d695438db4a59a3eeb4fa18963233c1f68294c3f23f4fb8707e8
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch

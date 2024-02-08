@@ -91,6 +91,174 @@ Description: Foreign Function Interface library runtime
  language.
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 
+Package: libx11-6
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1389
+Depends: libc6 (>= 2.38), libxcb1 (>= 1.11.1), libx11-data
+Breaks: libx11-xcb1 (<< 2:1.7.0-2)
+Filename: pool/noble/l/libx11/libx11-6_1.8.7-1-l4t_arm64.deb
+Size: 650140
+MD5sum: 98bbf44e193393095a6617d78c579b2d
+SHA1: 4656d093f52c9347e3b35be6a0995669196d704a
+SHA256: 94b06ef37392f283243fb20b14c708758b3a774b371a3c4db8ec417706c2c39e
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-data
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1342
+Filename: pool/noble/l/libx11/libx11-data_1.8.7-1-l4t_all.deb
+Size: 115462
+MD5sum: 19dd567564c1976fd89f8d5309a099a3
+SHA1: af956bf1ac4c08a9b17fd8a0372bc94c541883dc
+SHA256: 474427a4ec9520f673f96ea98b1a18ff752e9867ca65a758a57d4bf9b6a59813
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-dev
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2586
+Depends: libx11-6 (= 2:1.8.7-1-l4t), libxau-dev, libxdmcp-dev, x11proto-dev (>= 2019.2-1), xtrans-dev, libxcb1-dev
+Suggests: libx11-doc
+Replaces: x11proto-dev (<< 2019.2)
+Filename: pool/noble/l/libx11/libx11-dev_1.8.7-1-l4t_arm64.deb
+Size: 743776
+MD5sum: ff842a359fcf079734ab853a5c7c1d11
+SHA1: e2177de29ebecec1631a19d5bdbe93dde97fb5a2
+SHA256: e6b1623336944ebab294649e0d1f1e5170ab239c0b494cd766f8f75ad6149b0c
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: X11 client-side library (development headers)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains the development headers for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-doc
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 9910
+Filename: pool/noble/l/libx11/libx11-doc_1.8.7-1-l4t_all.deb
+Size: 1998988
+MD5sum: 82a8a62c3a642a189d74f2d7d57e1ed4
+SHA1: 33f62cb62a06ccd117708155b81d65bc36c51973
+SHA256: 6ec4e4448a494463a06bb1acfe752ad1665d78ec78dd0cf04ec71cf3dc2610df
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Description: X11 client-side library (development documentation)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains supplemental documentation for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-xcb-dev
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 70
+Depends: libx11-xcb1 (= 2:1.8.7-1-l4t), libxcb1-dev, libx11-dev
+Filename: pool/noble/l/libx11/libx11-xcb-dev_1.8.7-1-l4t_arm64.deb
+Size: 12194
+MD5sum: 56c4c151595734342d6be1d33dc102a3
+SHA1: ceb6301fa22f6490821ebf9e52644647f9488534
+SHA256: 703d955315ebd374b428e183b6fa1da61a3f01727c33af8419e6f0c9fd0c595a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Description: Xlib/XCB interface library (development headers)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the development headers for the library found in
+ libx11-xcb1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
+Package: libx11-xcb1
+Source: libx11
+Version: 2:1.8.7-1-l4t
+Architecture: arm64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 125
+Depends: libx11-6 (= 2:1.8.7-1-l4t)
+Filename: pool/noble/l/libx11/libx11-xcb1_1.8.7-1-l4t_arm64.deb
+Size: 9944
+MD5sum: 8a1f462e32699d995be37aacb70ccb4b
+SHA1: 5b585ffd92442db93dd3eaffba00495fab6a2185
+SHA256: 7b13182c1ac0bac7bff7cb9a1bbfd061af14fd3d7be155da494b34392a549fc4
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: Xlib/XCB interface library
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+
 Package: nintendo-switch-meta
 Version: 1.0-8+24.04~0
 Architecture: arm64
@@ -459,15 +627,15 @@ Homepage: http://developer.nvidia.com/jetson
 Description: Switch L4T Kernel Headers Package
 
 Package: switch-l4t-configs
-Version: 1.5-6
+Version: 1.5-6+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/noble/main/s/switch-l4t-configs/switch-l4t-configs_1.5-6_all.deb
-Size: 520278
-MD5sum: a9a66f0d2e48d2b98c3e8cecca1f2d6b
-SHA1: c7525b4a3986e35f8e003e0004a0a6e7accd983b
-SHA256: 6d3b8e0e4955dac30e6f02707c656f557bb18409545293e8290175d95a44de81
+Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-6+24.04_all.deb
+Size: 520336
+MD5sum: a423d9ee53b47fc4b9481252ce8e22a0
+SHA1: 9ca89043ff49116801dfac4894f0f424503f8eb4
+SHA256: 02a9181fe543d695438db4a59a3eeb4fa18963233c1f68294c3f23f4fb8707e8
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
