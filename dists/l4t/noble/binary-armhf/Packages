@@ -11,6 +11,32 @@ SHA256: 1d029d5484190bca5b5b66912b5a04224f77d42896a971509acbdf32fe07873e
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
+Package: ffmpeg-doc
+Source: ffmpeg
+Version: 9:6.1.1-1ubuntu1l4t
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 36154
+Depends: libjs-jquery, libjs-bootstrap
+Filename: pool/noble/f/ffmpeg/ffmpeg-doc_6.1.1-1ubuntu1l4t_all.deb
+Size: 2090458
+MD5sum: 3c89fbf2c85959df751aad08242280d0
+SHA1: 6136186d9bdfc689ef45d577d9776b071dec7b4e
+SHA256: 1f2b5ff07546409979020ce2453e5a1f86fad136f257bef8fa10c0a54de58ed4
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://ffmpeg.org/
+Description: Documentation of the FFmpeg multimedia framework
+ FFmpeg is the leading multimedia framework, able to decode, encode, transcode,
+ mux, demux, stream, filter and play pretty much anything that humans and
+ machines have created. It supports the most obscure ancient formats up to the
+ cutting edge.
+ .
+ This package contains the HTML documentation for the FFmpeg multimedia
+ framework including the API documentation created by doxygen and the manpages
+ for the libraries.
+
 Package: libx11-6
 Source: libx11
 Version: 2:1.8.7-1-l4t
