@@ -1385,15 +1385,15 @@ Homepage: http://developer.nvidia.com/jetson
 Description: Switch L4T Kernel Headers Package
 
 Package: switch-l4t-configs
-Version: 1.5-6+24.04
+Version: 1.5-7+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-6+24.04_all.deb
-Size: 520336
-MD5sum: a423d9ee53b47fc4b9481252ce8e22a0
-SHA1: 9ca89043ff49116801dfac4894f0f424503f8eb4
-SHA256: 02a9181fe543d695438db4a59a3eeb4fa18963233c1f68294c3f23f4fb8707e8
+Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-7+24.04_all.deb
+Size: 520406
+MD5sum: 3833b27e800951656e5a60d55947cc3d
+SHA1: 5ce1c1694dd14d047c3007219cf16389aa62e784
+SHA256: f8fc30433671c25fd0f4eec352afc34b7742033e382873017b0b673792200a0c
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
