@@ -1978,7 +1978,7 @@ Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, plasma-discover-backend-flatpak, switch-sddm-rule
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/jammy/s/switch-kde/switch-kde_1.0-6_arm64.deb
+Filename: pool/jammy/main/s/switch-kde/switch-kde_1.0-6_arm64.deb
 Size: 2878
 MD5sum: de0aab496dc3e3baba7c1d9c4ccae4fe
 SHA1: 450d7df23d6fe717b7092fcff29b4f5ee4d1b20d
