@@ -1,3 +1,198 @@
+Package: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 2205
+Depends: shared-mime-info, libappstream4 (>= 0.15.0), libc6 (>= 2.34), libglib2.0-0 (>= 2.62)
+Suggests: apt-config-icons
+Filename: pool/jammy/a/appstream/appstream_0.15.2-2flatpak1_arm64.deb
+Size: 405094
+MD5sum: 33a100b5a33fa14a36ee53ca05836255
+SHA1: 79d363c01d9e8a99ceeed4fb2c9d99742c530065
+SHA256: 7222929d26cb6d4e4b05b12778e994fea55580b00ad042c572d7d85fe99b2e47
+Section: admin
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Software component metadata management
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ The AppStream project provides facilities to easily access and transform
+ this metadata, as well as a few additional services to allow building
+ feature-rich software centers and similar applications.
+ .
+ This package provides tools to generate, maintain and query the AppStream
+ data pool of installed and available software, and enables integration
+ with the APT package manager.
+ .
+ The 'appstreamcli' tool can be used for accessing the software component
+ pool as well as for working with AppStream metadata directly, including
+ validating it for compliance with the specification.
+
+Package: appstream-compose
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 97
+Depends: appstream, libappstream-compose0 (>= 0.15.2), libappstream4 (>= 0.14.4), libc6 (>= 2.34), libglib2.0-0 (>= 2.62)
+Recommends: ffmpeg, optipng
+Breaks: appstream (<< 0.15.2)
+Replaces: appstream (<< 0.15.2)
+Filename: pool/jammy/a/appstream/appstream-compose_0.15.2-2flatpak1_arm64.deb
+Size: 32208
+MD5sum: 31499abf817792631ee631c8ec06c68e
+SHA1: a54416dff23254d3d2a7cbf25b99077ac7439d9e
+SHA256: 6938d7d37735c26ab80f8382b03380d6a4f8122b132c8c3f200d6a78669bd388
+Section: admin
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Compose metadata collections from directory trees
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package extends the `appstreamcli` utility with a `compose` subcommand
+ to generate AppStream metadata and media files from directory trees.
+
+Package: appstream-doc
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 4186
+Depends: libjs-highlight.js
+Suggests: appstream
+Filename: pool/jammy/a/appstream/appstream-doc_0.15.2-2flatpak1_all.deb
+Size: 1533696
+MD5sum: e07bd9b8b871e4729945b101623699b1
+SHA1: 6c24f9e03bdd41176f331f0be880449e4e079dc1
+SHA256: a75d990b6e50b6f02de56ef988d1c1a80960dd1523bd852acd45112deac38599
+Section: doc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Developer documentation for AppStream
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package provides developer documentation for AppStream.
+
+Package: apt-config-icons
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 26
+Depends: appstream
+Filename: pool/jammy/a/appstream/apt-config-icons_0.15.2-2flatpak1_all.deb
+Size: 11536
+MD5sum: ea33414a14371e48c8d4f88147834f94
+SHA1: acefbb2793388ea51f1c15c0509084568aa5929a
+SHA256: aca470503fe787332e75c080e3ca4785c801527feb35fdf477340cf2f93879a1
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: APT configuration snippet to enable icon downloads
+ This package contains an APT configuration snippet that enables the
+ download of an icon tarball containing application icons for display in
+ software centers.
+ Icons get downloaded directly from the archive via regular cache updates,
+ and match the software currently available in the respective archive suites.
+ .
+ This snippet enables icons of the default icon size set in the AppStream
+ specification for software centers, 64x64px. It also enables downloads
+ of smaller 48x48px icons.
+
+Package: apt-config-icons-hidpi
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 26
+Depends: apt-config-icons
+Filename: pool/jammy/a/appstream/apt-config-icons-hidpi_0.15.2-2flatpak1_all.deb
+Size: 11462
+MD5sum: e12fa1d515c2025d2662a4044f930cf8
+SHA1: 65b3a6462b4707f70c45b907ad7c86758a93b3ce
+SHA256: c844f3bb8fdc19e9361d42039361ea2fca7410d03eeff96042a79b3d7d95963f
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: APT configuration snippet to enable HiDPI icon downloads
+ This package contains an APT configuration snippet that enables the
+ download of an icon tarball containing application icons for display in
+ software centers.
+ Icons get downloaded directly from the archive via regular cache updates,
+ and match the software currently available in the respective archive suites.
+ .
+ This snippet enables icons in the size of 64x64@2, that are suitable for
+ HiDPI displays.
+
+Package: apt-config-icons-large
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 26
+Depends: apt-config-icons
+Filename: pool/jammy/a/appstream/apt-config-icons-large_0.15.2-2flatpak1_all.deb
+Size: 11534
+MD5sum: 097caf4def0c2b3cdf8a5df9149c6d80
+SHA1: 6099484a0e7ea0f7171df465b498cbe81b707a51
+SHA256: 99db4b8eb330b3403b6544f51838a7a14f626f5daf6753dc04bbbd30919d9394
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: APT configuration snippet to enable large icon downloads
+ This package contains an APT configuration snippet that enables the
+ download of an icon tarball containing application icons for display in
+ software centers.
+ Icons get downloaded directly from the archive via regular cache updates,
+ and match the software currently available in the respective archive suites.
+ .
+ This snippet enables icon tarball downloads in large, 128x128px size.
+ If these bigger icons are not downloaded by APT, a software center may
+ decide to fetch them on-demand from a web location.
+
+Package: apt-config-icons-large-hidpi
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 26
+Depends: apt-config-icons-large
+Filename: pool/jammy/a/appstream/apt-config-icons-large-hidpi_0.15.2-2flatpak1_all.deb
+Size: 11536
+MD5sum: da9633b4c66f7d7e1f77afb365c7b3d9
+SHA1: 48306e660d6b38b25877bedae9e55197895717c3
+SHA256: 0c0ba399954e26010503769fc94e4c2a2fbb66f2270151f47081b4bd7b6c8e5a
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: APT configuration snippet to enable large HiDPI icon downloads
+ This package contains an APT configuration snippet that enables the
+ download of an icon tarball containing application icons for display in
+ software centers.
+ Icons get downloaded directly from the archive via regular cache updates,
+ and match the software currently available in the respective archive suites.
+ .
+ This snippet enables icon tarball downloads in large, 128x128@2 size that
+ are also suitable for HiDPI displays.
+ If these bigger icons are not downloaded by APT, a software center may
+ decide to fetch them on-demand from a web location.
+
 Package: chromium-browser
 Version: 9:122.0.6261.128-1
 Architecture: arm64
@@ -219,6 +414,58 @@ Description: Application deployment framework for desktop apps (tests)
  .
  This package contains automated tests.
 
+Package: gir1.2-appstream-1.0
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 109
+Depends: libappstream4 (= 0.15.2-2flatpak1), gir1.2-glib-2.0 (>= 1.62)
+Filename: pool/jammy/a/appstream/gir1.2-appstream-1.0_0.15.2-2flatpak1_arm64.deb
+Size: 33810
+MD5sum: 3aeb12ea72288694dbf5ce9c563068f0
+SHA1: c7676b5ff5f3cec1d61b85e5025e1f5db6ca2c7f
+SHA256: 00c0b2b09484178d660db7e8be5cd99bee2307e869b0c7b2648bc4e0bed2908c
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Library to access AppStream services (introspection data)
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains introspection data for the AppStream library.
+
+Package: gir1.2-appstreamcompose-1.0
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 45
+Depends: libappstream-compose0 (= 0.15.2-2flatpak1), gir1.2-appstream-1.0 (= 0.15.2-2flatpak1), gir1.2-gdkpixbuf-2.0, gir1.2-glib-2.0 (>= 1.62)
+Filename: pool/jammy/a/appstream/gir1.2-appstreamcompose-1.0_0.15.2-2flatpak1_arm64.deb
+Size: 17518
+MD5sum: 890078f53277d191067af929dcf5f188
+SHA1: 49890c572cdc8a1fd86ee0bdb7c35055e2d24138
+SHA256: a17bea9ace8c42df9a21cf68108f0c285d8bbfc2e2b0ecc467fad137c9d64b98
+Section: introspection
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Building blocks to compose AppStream metadata (introspection data)
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains introspection data for the AppStream compose library.
+
 Package: gir1.2-flatpak-1.0
 Source: flatpak
 Version: 1.14.4-1~flatpak1~22.04.1
@@ -342,6 +589,172 @@ Description: KDE monitor hotplug and screen handling
  This package contains the modules and plugins for monitor hotplug and
  automatic screen handling.
 Original-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+
+Package: libappstream-compose-dev
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 279
+Depends: gir1.2-appstreamcompose-1.0 (= 0.15.2-2flatpak1), libappstream-compose0 (= 0.15.2-2flatpak1), libappstream-dev (= 0.15.2-2flatpak1), libgdk-pixbuf2.0-dev
+Suggests: appstream-generator
+Filename: pool/jammy/a/appstream/libappstream-compose-dev_0.15.2-2flatpak1_arm64.deb
+Size: 32278
+MD5sum: 0c4c255e379fde7a90130edc18852dd9
+SHA1: 0f00c4dccaa58aceeeb815d999e35722ae676da1
+SHA256: b01c94a1652cf0f0d9c01f0c08f5c32a79952a07cba51bc7d723828061b89c2d
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Building blocks to compose AppStream metadata (development files)
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains development files necessary to develop applications
+ using the AppStream compose library.
+
+Package: libappstream-compose0
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 253
+Depends: libappstream4 (>= 0.15.2), libc6 (>= 2.33), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.65.1), libpango-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.48), libyaml-0-2
+Filename: pool/jammy/a/appstream/libappstream-compose0_0.15.2-2flatpak1_arm64.deb
+Size: 84998
+MD5sum: 301068cb1082cd60d72e3ccd36757c4d
+SHA1: c4c6bb789b1507313c6c3c8a7cb7dd51bac20307
+SHA256: e7c00e13708ed6efc7f37c49a158abcfe53a53e1069b757e1ac0c1a62f5db2f2
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Building blocks to compose AppStream metadata
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains a GObject-based library of high-level functions
+ to compose AppStream metadata and auxiliary data (like font renderings,
+ icons, etc.).
+
+Package: libappstream-dev
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 1170
+Depends: gir1.2-appstream-1.0 (= 0.15.2-2flatpak1), libappstream4 (= 0.15.2-2flatpak1), libglib2.0-dev
+Filename: pool/jammy/a/appstream/libappstream-dev_0.15.2-2flatpak1_arm64.deb
+Size: 95608
+MD5sum: 0bfa196041220fd9e1b435ce18ce9e05
+SHA1: 4ce5a6d38c5d3c954dae80109205280e02a5200c
+SHA256: 36f66caffc94710566ea919258dc47d9da07d85cb2ea781b620614bed03a970b
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Library to access AppStream services (development files)
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains development files necessary to develop
+ software management tools which use the AppStream library.
+
+Package: libappstream4
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 572
+Depends: libc6 (>= 2.33), libcurl3-gnutls (>= 7.63.0), libglib2.0-0 (>= 2.67.3+git20210214), libstemmer0d (>= 0+svn527), libxml2 (>= 2.9.0), libxmlb2 (>= 0.3.4), libyaml-0-2
+Filename: pool/jammy/a/appstream/libappstream4_0.15.2-2flatpak1_arm64.deb
+Size: 195300
+MD5sum: 99063e1b3243919efcc04764f3ba5a9b
+SHA1: 239f89a1a24c3ca27b2b464e96c21602b1c2add2
+SHA256: 9c229c1c39d9335df304dc796ea1a38f198fdacf4d34ded83253450cb77c6b83
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Library to access AppStream services
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains a GObject-based library to access AppStream
+ services, like the software component metadata pool.
+ It also contains functions for reading, writing and transforming AppStream
+ metadata.
+
+Package: libappstreamqt-dev
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 99
+Depends: libappstreamqt2 (= 0.15.2-2flatpak1), qtbase5-dev
+Filename: pool/jammy/a/appstream/libappstreamqt-dev_0.15.2-2flatpak1_arm64.deb
+Size: 21366
+MD5sum: f67410d95595657d8ea09f111909353e
+SHA1: 7dcf9ae2f5dc75b0584fb58bc3763c3093ee5276
+SHA256: b0d988657901492cb585dc5f09a5d2d6acc8992d981aaff7ca65787a1d0da008
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Qt5 library to access AppStream services (development files)
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains development files necessary to develop
+ software management tools which use the Qt-based AppStream library.
+
+Package: libappstreamqt2
+Source: appstream
+Version: 0.15.2-2flatpak1
+Architecture: arm64
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 280
+Depends: libappstream4 (>= 0.15.0), libc6 (>= 2.17), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.62), libqt5core5a (>= 5.5.0), libstdc++6 (>= 5)
+Filename: pool/jammy/a/appstream/libappstreamqt2_0.15.2-2flatpak1_arm64.deb
+Size: 73288
+MD5sum: ba08eb882e8f3ea98d27bf8b9fec465f
+SHA1: 9ed445c5febef85576a7bdd70f3eab969f90a9b5
+SHA256: a9bf47de984ad91b30e7fa90fc864f214b9f88a3636411f940782eb3be9df540
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Qt5 library to access AppStream services
+ AppStream is a metadata specification which permits software components to
+ provide information about themselves to automated systems and end-users
+ before the software is actually installed.
+ This permits informative displays of new applications to users in software
+ centers, as well as allowing a system to make decisions on which new software
+ a user might want to install (e.g. missing firmware or media handlers).
+ .
+ This package contains a Qt-based library to access AppStream
+ services, like the software component metadata pool.
 
 Package: libavcodec-dev
 Source: ffmpeg
