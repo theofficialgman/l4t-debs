@@ -1042,17 +1042,17 @@ Description: Xlib/XCB interface library
  https://gitlab.freedesktop.org/xorg/lib/libX11
 
 Package: nintendo-switch-meta
-Version: 1.0-8+24.04~1
+Version: 1.0-8+24.04~2
 Architecture: arm64
 Essential: yes
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
-Recommends: switch-gnome | switch-kde
-Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-8+24.04~1_arm64.deb
-Size: 1990
-MD5sum: 3525e46a0192b616b6971dadffa86c42
-SHA1: ab7b6b413faab3a6113f8a2664bed595aaff3a5a
-SHA256: efdbfe58ee7dde70ca4144b565fd453970912dab8b32ed35eda4bdad5b2f6471
+Recommends: switch-gnome | switch-kde | switch-unity
+Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-8+24.04~2_arm64.deb
+Size: 2004
+MD5sum: 43c4ff01488c71ab477d741c5e36a5e6
+SHA1: 422198fe79768c457448bb9ff6160813c9d8aafa
+SHA256: c550dc8c37c00008b631ad5f008e8f296fa1b400e384a256a23263cb3a2d28bd
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1582,6 +1582,22 @@ Section: unknown
 Priority: optional
 Homepage: https://gitlab.com/switchroot
 Description: Udev rules to rotate touchscreen on the Nintendo Switch
+
+Package: switch-unity
+Version: 1.0-0
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: unity, lightdm, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
+Conflicts: gnome-software-plugin-snap
+Filename: pool/noble/s/switch-unity/switch-unity_1.0-0_arm64.deb
+Size: 1870
+MD5sum: d490fdc6dcb9caac5a96e5a4b4cc5ec1
+SHA1: 38f8875968518436a345b5c3863821bceb29590e
+SHA256: 6ba3e176d23c599f72a1734d30d01901f854d3058927ecbfb9c89f66b454b63e
+Section: embedded
+Priority: required
+Homepage: https://gitlab.com/switchroot
+Description: Metapackage for Unity only Nintendo Switch configuration packages
 
 Package: xserver-xorg-core
 Source: xorg-server
