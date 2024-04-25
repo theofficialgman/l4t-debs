@@ -2306,15 +2306,15 @@ Description: Switch L4T Bootstack and Kernel Support
 Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-dconf-customizations
-Version: 1.0-2
+Version: 1.0-3
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: dconf-cli
-Filename: pool/jammy/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-2_all.deb
-Size: 2400
-MD5sum: 9a3ecc58183b8f91d95924d013b2cc2b
-SHA1: df6fd744444d7767a10beb3f15a47e7fb73052a6
-SHA256: c7938b55de8b42bca55a3c317199ec5531248620c88ccb34309ea8a3c08d8d97
+Filename: pool/jammy/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-3_all.deb
+Size: 2546
+MD5sum: ce442dfaae65a3ddc9bbc1c9997f55cf
+SHA1: a45b6d4e794915e5394f79feccec8072bd3126a0
+SHA256: f3ec5d935b191b9e2381a71c658156ed8b90f8f8a2729c3b67f9a3af14bd3317
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot/
