@@ -356,15 +356,15 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-l4t-configs
-Version: 1.5-11+24.04
+Version: 1.5-12+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-11+24.04_all.deb
-Size: 520340
-MD5sum: d7fbbfd5b31ab4681566579cb4f2ae97
-SHA1: 4b26dbb360a7aa3aa0281b0e69de8662fc31557c
-SHA256: b2446678a0d4f5f5df68df83b6488947fcb1656425a6bf4a278e7e3d5697e0e2
+Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-12+24.04_all.deb
+Size: 520308
+MD5sum: b56916ff9bda878cdd6e1056c1987dd6
+SHA1: eef325cb0ba488f6239c41d45ac7552f0a925ab0
+SHA256: dd81d8134d3bab52c56944e84e318c021da6cc45d55238eed239c165de642029
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch

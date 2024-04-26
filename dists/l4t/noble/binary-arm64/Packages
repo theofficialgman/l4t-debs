@@ -655,6 +655,58 @@ Description: Foreign Function Interface library runtime
  language.
 Original-Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
 
+Package: libplymouth-dev
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 792
+Depends: libplymouth5 (= 22.02.122-3ubuntu2)
+Breaks: plymouth-dev (<< 0.9.2-1~)
+Replaces: plymouth-dev (<< 0.9.2-1~)
+Filename: pool/noble/p/plymouth/libplymouth-dev_22.02.122-3ubuntu2_arm64.deb
+Size: 132898
+MD5sum: 3c5778ed735b58ca6cab4a42d0eb3b21
+SHA1: 74427d3960f63dabeec8fcff4720397b438fb905
+SHA256: 27a27ad2bbf573f6debe834d08f313234118709bf1cc337f061565e81a38128a
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: graphical boot animation and logger - development files
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the development files to build Plymouth plugins.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: libplymouth5
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 444
+Depends: libc6 (>= 2.34), libpng16-16 (>= 1.6.2-1), libudev1 (>= 183)
+Breaks: plymouth (<< 0.9.2-1~)
+Replaces: plymouth (<< 0.9.2-1~)
+Filename: pool/noble/p/plymouth/libplymouth5_22.02.122-3ubuntu2_arm64.deb
+Size: 109670
+MD5sum: 28f6cb9e761dab72c8f7593d81440519
+SHA1: da7dd1affa6fdab4cc9ae6b8f300def1cba8be1d
+SHA256: 23a6d87d2bc8ec70f08d6ce01032ad5d76b36beb55abbef83e6cbae1f6a44303
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: graphical boot animation and logger - shared libraries
+ Plymouth is an application that runs very early in the boot process
+ (even before the root filesystem is mounted!) that provides a graphical
+ boot animation while the boot process happens in the background.
+ .
+ This package contains the shared libraries.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
 Package: libpostproc-dev
 Source: ffmpeg
 Version: 9:6.1.1-3ubuntu5l4t
@@ -1353,6 +1405,216 @@ Description: Language model files for the word suggestion feature of Onboard
  also custom user language model files) to compute the word completion
  suggestions and the word prediction suggestions.
 
+Package: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1164
+Depends: init-system-helpers (>= 1.18), sysvinit-utils (>= 3.05-4), systemd (>= 232-8~), udev (>= 232-8~), libc6 (>= 2.34), libdrm2 (>= 2.4.47), libplymouth5 (>= 22.02.122)
+Recommends: plymouth-theme-ubuntu-text | plymouth-theme
+Suggests: desktop-base, plymouth-themes
+Conflicts: console-common
+Breaks: plymouth-drm (<< 0.9.0-6~), plymouth-themes (<< 0.9.0-8~)
+Replaces: plymouth-drm (<< 0.9.0-6~), plymouth-themes (<< 0.9.0-8~)
+Filename: pool/noble/p/plymouth/plymouth_22.02.122-3ubuntu2_arm64.deb
+Size: 128666
+MD5sum: 2dd0c05a7546bf0b920b8f2eba008042
+SHA1: e3a2e367a8dfb9027f07bb293d26ebf00f34e6e0
+SHA256: 4b38f69a0aeb89e19becf4124d37231b9ed2fccd4e7ea1ac459ee09e98a7edc6
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the basic framework, enabling a text-mode animation.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: plymouth-label
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 86
+Depends: plymouth (= 22.02.122-3ubuntu2), libc6 (>= 2.17), libcairo2 (>= 1.14.0), libglib2.0-0 (>= 2.12.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libplymouth5 (>= 0.9.4git20190712), fonts-ubuntu, fontconfig-config
+Breaks: plymouth-themes (<< 0.9.2-5~)
+Replaces: plymouth-themes (<< 0.9.2-5~)
+Filename: pool/noble/p/plymouth/plymouth-label_22.02.122-3ubuntu2_arm64.deb
+Size: 6614
+MD5sum: 883bf06b489bf7f55c8dcd8aa9211df1
+SHA1: 9ff47a7a620806bdf40c9a33dac7c046c4fc7fd1
+SHA256: d236c2b971ab9f9c7c16781e1bb3387c34adc12fb54fab3a49c2e7a54ba5217f
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer - label control
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the label control, used by various graphical themes
+ to render text.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: plymouth-label-ft
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 86
+Depends: plymouth (= 22.02.122-3ubuntu2), libc6 (>= 2.17), libfreetype6 (>= 2.2.1), libplymouth5 (>= 0.9.2)
+Filename: pool/noble/p/plymouth/plymouth-label-ft_22.02.122-3ubuntu2_arm64.deb
+Size: 6772
+MD5sum: 08ecbd44fe12e45cc6cead61e8f0184c
+SHA1: dfaabdec5ac06c7a14d98a014c624222e617b534
+SHA256: 49e2141d1854599126ea2a51502e11d3555fe802856b3ad2c5d90d56e4f6f004
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer - label-ft control
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the label-ft control, used by various graphical themes
+ to render text. This package pulls less dependencies than the label control,
+ as is based on libfreetype instead of pango.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: plymouth-theme-spinner
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 368
+Depends: libc6 (>= 2.29), libplymouth5 (>= 0.9.5), plymouth (= 22.02.122-3ubuntu2), plymouth-label (= 22.02.122-3ubuntu2), lsb-release
+Breaks: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Replaces: plymouth-themes (<< 0.9.4git20190712-0ubuntu1~)
+Provides: plymouth-theme
+Filename: pool/noble/p/plymouth/plymouth-theme-spinner_22.02.122-3ubuntu2_arm64.deb
+Size: 106964
+MD5sum: 51de09f3373701f427c200d112ef7758
+SHA1: 16fff19c3555379cf09ec2884e1326e75ea89aef
+SHA256: 9fe255d7b412423e7eca4977d54cbbd62f7197891f5a9689d2b27e18050c429c
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer - spinner theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the spinner theme.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: plymouth-theme-ubuntu-text
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 95
+Depends: libc6 (>= 2.17), libplymouth5 (>= 0.9.2), plymouth (= 22.02.122-3ubuntu2), lsb-release
+Provides: plymouth-theme
+Filename: pool/noble/p/plymouth/plymouth-theme-ubuntu-text_22.02.122-3ubuntu2_arm64.deb
+Size: 9688
+MD5sum: 36bced7b17b98a914b85033bc7a3dafc
+SHA1: 7f229e11970d84a4670848e71ca5e69c0aa6cfd1
+SHA256: 8635c40bfd24eff1fa579f98af92aded2b10cdd193fbb6c67cc549f0e35fab4e
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer - ubuntu text theme
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the default ubuntu-text text theme used when no
+ support for a graphical theme is found on your system.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: plymouth-themes
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 854
+Depends: plymouth (= 22.02.122-3ubuntu2), plymouth-label (= 22.02.122-3ubuntu2), plymouth-theme-spinner (= 22.02.122-3ubuntu2), libc6 (>= 2.17), libplymouth5 (>= 0.9.2)
+Conflicts: plymouth-themes-all, plymouth-themes-fade-in, plymouth-themes-glow, plymouth-themes-script, plymouth-themes-solar, plymouth-themes-spinfinity, plymouth-themes-spinner
+Breaks: libfontconfig1 (<< 2.13.0-5~), plymouth-drm (<< 0.9.0-6~)
+Replaces: plymouth-drm (<< 0.9.0-6~), plymouth-themes-all, plymouth-themes-fade-in, plymouth-themes-glow, plymouth-themes-script, plymouth-themes-solar, plymouth-themes-spinfinity, plymouth-themes-spinner
+Provides: plymouth-theme, plymouth-themes-all, plymouth-themes-fade-in, plymouth-themes-glow, plymouth-themes-script, plymouth-themes-solar, plymouth-themes-spinfinity, plymouth-themes-spinner
+Filename: pool/noble/p/plymouth/plymouth-themes_22.02.122-3ubuntu2_arm64.deb
+Size: 556850
+MD5sum: 6818525390cb347e2e7ce05bae5bf344
+SHA1: 85a675dd8084b91294c5627a940015712a31d1db
+SHA256: be1c16d62ce5dc1f7805de0ed14eff32f470c1ca1331696f60a83ed3eb427172
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer - themes
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package provides the following themes:
+ .
+  * fade-in: features a centered logo that fades in and out while stars twinkle
+    around the logo during system boot up.
+  * glow: features a pie chart as progress indicator.
+  * script: features a simple base theme.
+  * solar: features a blue flamed sun with animated solar flares.
+  * spinfinity: features a centered logo and animated spinner that spins in the
+    shape of an infinity sign.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
+Package: plymouth-x11
+Source: plymouth
+Version: 22.02.122-3ubuntu2
+Architecture: arm64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 89
+Depends: plymouth (= 22.02.122-3ubuntu2), libc6 (>= 2.17), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.21.4), libplymouth5 (>= 0.9.3)
+Recommends: plymouth-theme-spinner | plymouth-theme
+Suggests: gdm
+Filename: pool/noble/p/plymouth/plymouth-x11_22.02.122-3ubuntu2_arm64.deb
+Size: 8408
+MD5sum: a5d184c6b09ab5952be3d4137f5fb694
+SHA1: 8bee13e411e7f57db7a10f10348210aa5cfca86e
+SHA256: f7eab2de7da0b0b1c42e8b00391aa13c261e4e0e3518b90da072320dec6a043e
+Section: misc
+Priority: optional
+Homepage: https://www.freedesktop.org/wiki/Software/Plymouth
+Description: boot animation, logger and I/O multiplexer - X11 renderer
+ Plymouth provides a boot-time I/O multiplexing framework - the most obvious
+ use for which is to provide an attractive graphical animation in place of
+ the text messages that normally get shown during boot. (The messages are
+ instead redirected to a logfile for later viewing.) However, in event-driven
+ boot systems Plymouth can also usefully handle user interaction such as
+ password prompts for encrypted file systems.
+ .
+ This package contains the X11 renderer for a graphical boot splash.
+Original-Maintainer: Laurent Bigonville <bigon@debian.org>
+
 Package: switch-alsa-ucm2
 Version: 1.0-1+24.04
 Architecture: all
@@ -1501,15 +1763,15 @@ Homepage: http://developer.nvidia.com/jetson
 Description: Switch L4T Kernel Headers Package
 
 Package: switch-l4t-configs
-Version: 1.5-11+24.04
+Version: 1.5-12+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-11+24.04_all.deb
-Size: 520340
-MD5sum: d7fbbfd5b31ab4681566579cb4f2ae97
-SHA1: 4b26dbb360a7aa3aa0281b0e69de8662fc31557c
-SHA256: b2446678a0d4f5f5df68df83b6488947fcb1656425a6bf4a278e7e3d5697e0e2
+Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-12+24.04_all.deb
+Size: 520308
+MD5sum: b56916ff9bda878cdd6e1056c1987dd6
+SHA1: eef325cb0ba488f6239c41d45ac7552f0a925ab0
+SHA256: dd81d8134d3bab52c56944e84e318c021da6cc45d55238eed239c165de642029
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
