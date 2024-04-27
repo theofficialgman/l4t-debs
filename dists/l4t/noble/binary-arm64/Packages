@@ -1649,15 +1649,15 @@ Description: Switch L4T Bootstack and Kernel Support
 Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-dconf-customizations
-Version: 1.0-3
+Version: 1.0-4
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: dconf-cli
-Filename: pool/noble/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-3_all.deb
-Size: 2546
-MD5sum: ce442dfaae65a3ddc9bbc1c9997f55cf
-SHA1: a45b6d4e794915e5394f79feccec8072bd3126a0
-SHA256: f3ec5d935b191b9e2381a71c658156ed8b90f8f8a2729c3b67f9a3af14bd3317
+Filename: pool/noble/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-4_all.deb
+Size: 8700
+MD5sum: 088fd1eea197afe0f8165ce251ea758a
+SHA1: 2de3f8bbb4eb628731d9434cb52a5f213d9e9071
+SHA256: 227d01868872f6416b30d0454b32f9aa7371ae532bbcf256878a1619ceddffe6
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot/
@@ -1729,16 +1729,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-6
+Version: 1.0-7
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, plasma-discover-backend-flatpak, switch-sddm-rule
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-6_arm64.deb
-Size: 2878
-MD5sum: de0aab496dc3e3baba7c1d9c4ccae4fe
-SHA1: 450d7df23d6fe717b7092fcff29b4f5ee4d1b20d
-SHA256: b4aff778752831a04e144e679553472580dd15fa4a4166b853cc61fd52677b58
+Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-7_arm64.deb
+Size: 4932
+MD5sum: a3941df2e1192be0838627fd61e0946b
+SHA1: beedc085c6f7b397332816731435fcda21a7a592
+SHA256: ea59deb53e194fe6b62915ab74f01922e96f5e22879038a022af35ea73f1bde8
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
