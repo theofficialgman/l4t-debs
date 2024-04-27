@@ -114,17 +114,18 @@ Description: Documentation of the FFmpeg multimedia framework
 Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
 Package: joycond
-Version: 0.6-0
+Version: 0.6-1
 Architecture: arm64
 Maintainer: Daniel J. Ogorchock, CTCaer
 Depends: libevdev2, libudev1
-Filename: pool/noble/main/j/joycond/joycond_0.6-0_arm64.deb
-Size: 39072
-MD5sum: 6bf31754ad8b4a5a14b24dbfd0b8cb04
-SHA1: 11f36870bd32706413452491cf72f20b0eabf4e1
-SHA256: 8b715d42d62364add01da52a1cb77d0703d50d0b8ab73f03f086e69db8fcc010
+Filename: pool/noble/main/j/joycond/joycond_0.6-1_arm64.deb
+Size: 44970
+MD5sum: 62adc2704062d0121e61fae13e1c0a7b
+SHA1: c813760dc19b565c1659d7734bba96c57ad4a7f9
+SHA256: efe658dc4b27e88bf7867e1a9cc43607da708408d49057b92aa7e277b7825ce6
 Priority: important
 Description: Pairs joy-cons together into a virtual controller
+Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: libavcodec-dev
 Source: ffmpeg
@@ -1094,17 +1095,17 @@ Description: Xlib/XCB interface library
  https://gitlab.freedesktop.org/xorg/lib/libX11
 
 Package: nintendo-switch-meta
-Version: 1.0-8+24.04~2
+Version: 1.0-9+24.04
 Architecture: arm64
 Essential: yes
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-dconf-customizations, joycond, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
 Recommends: switch-gnome | switch-kde | switch-unity
-Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-8+24.04~2_arm64.deb
-Size: 2004
-MD5sum: 43c4ff01488c71ab477d741c5e36a5e6
-SHA1: 422198fe79768c457448bb9ff6160813c9d8aafa
-SHA256: c550dc8c37c00008b631ad5f008e8f296fa1b400e384a256a23263cb3a2d28bd
+Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-9+24.04_arm64.deb
+Size: 2006
+MD5sum: 9982c73934ee2ed375322dec776a70ab
+SHA1: 954ced0dad39307d181fc733e18697b31361f742
+SHA256: 6d500be058a29567318b4faad541f92d9b75aaf29c25ced0692240d030b35ee4
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot

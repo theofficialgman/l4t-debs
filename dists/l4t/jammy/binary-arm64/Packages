@@ -553,17 +553,18 @@ Homepage: https://github.com/theofficialgman/improved-osk-gnome-ext/tree/gnome_4
 Description: improved onscreen keyboard for gnome
 
 Package: joycond
-Version: 0.6-0
+Version: 0.6-1
 Architecture: arm64
 Maintainer: Daniel J. Ogorchock, CTCaer
 Depends: libevdev2, libudev1
-Filename: pool/jammy/main/j/joycond/joycond_0.6-0_arm64.deb
-Size: 39072
-MD5sum: 6bf31754ad8b4a5a14b24dbfd0b8cb04
-SHA1: 11f36870bd32706413452491cf72f20b0eabf4e1
-SHA256: 8b715d42d62364add01da52a1cb77d0703d50d0b8ab73f03f086e69db8fcc010
+Filename: pool/jammy/main/j/joycond/joycond_0.6-1_arm64.deb
+Size: 44970
+MD5sum: 62adc2704062d0121e61fae13e1c0a7b
+SHA1: c813760dc19b565c1659d7734bba96c57ad4a7f9
+SHA256: efe658dc4b27e88bf7867e1a9cc43607da708408d49057b92aa7e277b7825ce6
 Priority: important
 Description: Pairs joy-cons together into a virtual controller
+Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: kscreen
 Version: 4:5.24.7-0ubuntu0.1l4t
@@ -1899,16 +1900,16 @@ Original-Vcs-Browser: https://salsa.debian.org/glibc-team/glibc
 Original-Vcs-Git: https://salsa.debian.org/glibc-team/glibc.git
 
 Package: nintendo-switch-meta
-Version: 1.0-8
+Version: 1.0-9
 Architecture: arm64
 Essential: yes
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-gnome | switch-kde, switch-dconf-customizations, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
-Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-8_arm64.deb
-Size: 1978
-MD5sum: d87098eeab73c42fd7ad81f42bf99ec2
-SHA1: 98604eec215299fdb382f20c34db60fbfc750e7a
-SHA256: 268689996d48febb5a8334ad76ff7b1c9a57bbe68b43529986425197edbd0124
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-gnome | switch-kde, switch-dconf-customizations, joycond, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
+Filename: pool/jammy/n/nintendo-switch-meta/nintendo-switch-meta_1.0-9_arm64.deb
+Size: 1994
+MD5sum: d15843cf5b93c8dcf7404759cf307396
+SHA1: 1ff427ea9e38af8bdeabcb2f006f7cec5e82cd28
+SHA256: 4f0e893cc04960b9c8acecd94fed5dbe540ca655c8a4b9c00784526fd6a80dae
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
