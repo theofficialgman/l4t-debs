@@ -1095,17 +1095,17 @@ Description: Xlib/XCB interface library
  https://gitlab.freedesktop.org/xorg/lib/libX11
 
 Package: nintendo-switch-meta
-Version: 1.0-9+24.04
+Version: 1.0-10+24.04
 Architecture: arm64
 Essential: yes
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-dconf-customizations, joycond, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-multimedia, switch-l4t-repo
-Recommends: switch-gnome | switch-kde | switch-unity
-Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-9+24.04_arm64.deb
-Size: 2006
-MD5sum: 9982c73934ee2ed375322dec776a70ab
-SHA1: 954ced0dad39307d181fc733e18697b31361f742
-SHA256: 6d500be058a29567318b4faad541f92d9b75aaf29c25ced0692240d030b35ee4
+Depends: switch-dock-handler, switch-alsa-ucm2, switch-touch-rules, switch-l4t-configs, switch-dconf-customizations, joycond, switch-joystick-mouse, switch-bsp, switch-flatpak | switch-flatpak-32-7, switch-l4t-repo
+Recommends: switch-gnome | switch-kde | switch-unity, switch-multimedia
+Filename: pool/noble/n/nintendo-switch-meta/nintendo-switch-meta_1.0-10+24.04_arm64.deb
+Size: 2010
+MD5sum: f483015aed09c3c81eb0a4fed3859217
+SHA1: b3eecc408c3cd93126b756f6e1394e3476e92f24
+SHA256: 304859e18f1c967d5392c490e70d28d3ed4abc6cb4cb5a1383ceb548dd789968
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
