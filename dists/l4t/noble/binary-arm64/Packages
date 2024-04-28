@@ -1649,15 +1649,15 @@ Description: Switch L4T Bootstack and Kernel Support
 Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-dconf-customizations
-Version: 1.0-4
+Version: 1.0-5
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: dconf-cli
-Filename: pool/noble/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-4_all.deb
-Size: 8700
-MD5sum: 088fd1eea197afe0f8165ce251ea758a
-SHA1: 2de3f8bbb4eb628731d9434cb52a5f213d9e9071
-SHA256: 227d01868872f6416b30d0454b32f9aa7371ae532bbcf256878a1619ceddffe6
+Filename: pool/noble/main/s/switch-dconf-customizations/switch-dconf-customizations_1.0-5_all.deb
+Size: 8780
+MD5sum: 0520fcfcc08b8bc2c9de6a7f5e0c6bc3
+SHA1: 745b0292d24a26b6e5c5c4f7e2177bda72ee0ada
+SHA256: 4ad6d5921f3752b221b145c6da11bafca041820a71a19ee48862d0d2a0fd5635
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot/
@@ -1729,16 +1729,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-7
+Version: 1.0-8
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, plasma-discover-backend-flatpak, switch-sddm-rule
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-7_arm64.deb
-Size: 4932
-MD5sum: a3941df2e1192be0838627fd61e0946b
-SHA1: beedc085c6f7b397332816731435fcda21a7a592
-SHA256: ea59deb53e194fe6b62915ab74f01922e96f5e22879038a022af35ea73f1bde8
+Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-8_arm64.deb
+Size: 4952
+MD5sum: c1086a7f4d9a0dae1c70a4dcedd21f9c
+SHA1: ee40004f53dbf450b9ab6960de09b519740cafb2
+SHA256: 4cc77087927d65abbb3c619f6651c52fd0dbb9b52043282c458c036491a50980
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1847,16 +1847,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Udev rules to rotate touchscreen on the Nintendo Switch
 
 Package: switch-unity
-Version: 1.0-3
+Version: 1.0-4
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: unity, lightdm, onboard, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
 Conflicts: gnome-software-plugin-snap
-Filename: pool/noble/s/switch-unity/switch-unity_1.0-3_arm64.deb
-Size: 2008
-MD5sum: 370520701e3fb7bb1db26395976d9fb7
-SHA1: aa4b6cba7495eb70847b044b2f7a434c1226a2ba
-SHA256: 10cad55b4f46c582249e1627f575806f06bfea4ba2a7b5080c127737c7287169
+Filename: pool/noble/s/switch-unity/switch-unity_1.0-4_arm64.deb
+Size: 2014
+MD5sum: a87aea4d170f82e669b5db39e81d38aa
+SHA1: 0a31f1fdc489f84189415ba3e74118b3e2144b84
+SHA256: b2b618ced264a5e7c00619895fc6534c16df837404e985798041481841ee42e2
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
