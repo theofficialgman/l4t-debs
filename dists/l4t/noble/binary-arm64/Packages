@@ -1729,16 +1729,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-9
+Version: 1.0-10
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, sddm, switch-sddm-rule, onboard, plasma-discover-backend-flatpak, fuse3, libfuse2
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-9_arm64.deb
-Size: 4998
-MD5sum: a29a42b48b044f8ef050e70d3aa93058
-SHA1: 176921ecf8ae6242d9b76c6b172ec99e82549666
-SHA256: b21bf2f3950d94d911b97841c80fec72b0c6ef2f9f8fac554326f91e94c105fe
+Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-10_arm64.deb
+Size: 5088
+MD5sum: 274534f1ce01679add973eaa9d6936ac
+SHA1: 1fb305f52d8694420f97e52f7000db0bce11250a
+SHA256: b74cac881ca4e9f752efd6a42eed782e33e779238d10d51c312b89940b78ea29
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1847,16 +1847,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Udev rules to rotate touchscreen on the Nintendo Switch
 
 Package: switch-unity
-Version: 1.0-6
+Version: 1.0-7
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: unity, lightdm, onboard, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
 Conflicts: gnome-software-plugin-snap
-Filename: pool/noble/s/switch-unity/switch-unity_1.0-6_arm64.deb
-Size: 2070
-MD5sum: ffc003d507f3b1c6bc03914ceda687c4
-SHA1: b6f783f419a3f6366841c2ece3040ae871e3f730
-SHA256: bab48451186271874c2879b1f58c79dc209c0ef1e5fb126e09a1d1db0524da3b
+Filename: pool/noble/s/switch-unity/switch-unity_1.0-7_arm64.deb
+Size: 2158
+MD5sum: 5dba77e1b04747a22a540aa2e1c6b7da
+SHA1: 86d8161f139c9ed23aa9c3f4a126f28e8d9bf22f
+SHA256: c30abd8795dfb456cda759b6725546e15e642f9ae028c1b2216a730ddac8add2
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
