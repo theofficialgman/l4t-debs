@@ -1847,16 +1847,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Udev rules to rotate touchscreen on the Nintendo Switch
 
 Package: switch-unity
-Version: 1.0-4
+Version: 1.0-5
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: unity, lightdm, onboard, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
 Conflicts: gnome-software-plugin-snap
-Filename: pool/noble/s/switch-unity/switch-unity_1.0-4_arm64.deb
-Size: 2014
-MD5sum: a87aea4d170f82e669b5db39e81d38aa
-SHA1: 0a31f1fdc489f84189415ba3e74118b3e2144b84
-SHA256: b2b618ced264a5e7c00619895fc6534c16df837404e985798041481841ee42e2
+Filename: pool/noble/s/switch-unity/switch-unity_1.0-5_arm64.deb
+Size: 2040
+MD5sum: c1d1724fb1af7fd58b4306d2ec6d884c
+SHA1: c920a4fc1e185a8acf6b9779c04667a5060fe26e
+SHA256: 3ad7c51b70edfba59db811620d0ee9edb52d4bb0e3781572b02e9e05466b2e5d
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
