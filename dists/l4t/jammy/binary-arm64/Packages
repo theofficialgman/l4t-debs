@@ -194,20 +194,20 @@ Description: APT configuration snippet to enable large HiDPI icon downloads
  decide to fetch them on-demand from a web location.
 
 Package: chromium-browser
-Version: 9:124.0.6367.60-1
+Version: 9:124.0.6367.118-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Installed-Size: 319316
+Installed-Size: 319311
 Pre-Depends: dpkg (>= 1.14.0)
 Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.2.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.17), libcairo2 (>= 1.6.0), libcups2 (>= 1.6.0), libcurl3-gnutls | libcurl3-nss | libcurl4 | libcurl3, libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.75), libexpat1 (>= 2.1~beta3), libgbm1 (>= 17.1.0~rc2), libglib2.0-0 (>= 2.39.4), libgtk-3-0 (>= 3.9.10) | libgtk-4-1, libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.35), libpango-1.0-0 (>= 1.14.0), libu2f-udev, libvulkan1, libx11-6 (>= 2:1.4.99.1), libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.4-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxrandr2, wget, xdg-utils (>= 1.0.2)
 Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
-Filename: pool/jammy/main/c/chromium-browser/chromium-browser_9_124.0.6367.60-1_arm64.deb
-Size: 93982456
-MD5sum: 5806573a8116c506bb313074dd8fa45b
-SHA1: 214c068d86b2183debfa207e41a30be0a45028ba
-SHA256: ad76a2d92ba6a102d25aff46d9e50756a46ef0d62818743c1d54750e8f2f3b05
+Filename: pool/jammy/main/c/chromium-browser/chromium-browser_9_124.0.6367.118-1_arm64.deb
+Size: 94015780
+MD5sum: 213b2424cd9c129bbb0a8b84d558219c
+SHA1: 334495a4ffe3b28578de574a91e9b9f82af1798c
+SHA256: db696aa8ab29d0c2e7cfe3bd4610750e3dcb73be2e41247df67dfcc0131d71ad
 Section: web
 Priority: optional
 Description: The web browser from Chromium.org
