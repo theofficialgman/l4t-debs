@@ -1221,15 +1221,15 @@ Homepage: https://gitlab.com/switchroot/
 Description: Application configs for the Nintendo Switch
 
 Package: switch-dock-handler
-Version: 2.1-7
+Version: 2.1-8
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
-Filename: pool/jammy/main/s/switch-dock-handler/switch-dock-handler_2.1-7_all.deb
-Size: 7146
-MD5sum: d3c0e0f7147c9e3e9cb162c6dd7eb4c9
-SHA1: 2b472c7a90703c36e04bcba1bec73964a31e4706
-SHA256: 62be1797bfaeeab81d9116a08344b12e7fb3c41006fdaf33c15a362c3a9091a6
+Filename: pool/jammy/main/s/switch-dock-handler/switch-dock-handler_2.1-8_all.deb
+Size: 7142
+MD5sum: 056ac16c1711470ff1ec2ee87f026617
+SHA1: 446be8433ce165e810003c08bcea6aa0a845bdc0
+SHA256: b8d16088d696402723607d1f93e943bccbe520d6077c09b6aaa9d5ebcdf7662a
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
