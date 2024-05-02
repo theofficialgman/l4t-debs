@@ -1616,6 +1616,27 @@ Description: boot animation, logger and I/O multiplexer - X11 renderer
  This package contains the X11 renderer for a graphical boot splash.
 Original-Maintainer: Laurent Bigonville <bigon@debian.org>
 
+Package: qt6-gtk2-platformtheme
+Version: 0.2-1+24.04
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0t64 (>= 2.12.0), libgtk2.0-0t64 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt6core6t64 (>= 6.4.0), libqt6gui6t64 (>= 6.1.2), libqt6widgets6t64 (>= 6.1.2), libstdc++6 (>= 5), libx11-6, qt6-base-abi (= 6.4.2)
+Filename: pool/noble/q/qt6-gtk2-platformtheme/qt6-gtk2-platformtheme_0.2-1+24.04_arm64.deb
+Size: 106280
+MD5sum: 34d907221317ff960629f6332f4ebe14
+SHA1: 847cfa0ece457c7d0ada08a286b355c09b65f82b
+SHA256: a77fe72397edf39688c4a737b5ffffd55ead23ebeee5ad4f00b1ce298beca311
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/trialuser02/qt6gtk2
+Description: Qt 6 extra widget styles - GTK+ 2 Platform theme
+ Qt is a cross-platform C++ application framework. Qt's primary feature
+ is its rich set of widgets that provide standard GUI functionality.
+ .
+ This package contains the GTK+ 2 style and platform theme. Export
+ QT_QPA_PLATFORMTHEME=gtk2 to enable it for all Qt applications.
+
 Package: switch-alsa-ucm2
 Version: 1.0-1+24.04
 Architecture: all
@@ -1696,16 +1717,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
 Package: switch-gnome
-Version: 1.0-6+24.04~0
+Version: 1.0-6+24.04~1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: gnome-shell, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
+Depends: gnome-shell, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, qt6-gtk2-platformtheme, fuse3, libfuse2
 Conflicts: gnome-software-plugin-snap
-Filename: pool/noble/s/switch-gnome/switch-gnome_1.0-6+24.04~0_arm64.deb
-Size: 1884
-MD5sum: 1d2fbd18756b5102700dec8e4501f426
-SHA1: 9d843d0700320f0d7a014cc1231d9e016bc8109e
-SHA256: 1be1dab2b791d238d139a2e455262abb811a36a79f25455aa22f0ac1bdef1fcf
+Filename: pool/noble/s/switch-gnome/switch-gnome_1.0-6+24.04~1_arm64.deb
+Size: 1890
+MD5sum: f9a4680300adfbe1873400803c9cfe5f
+SHA1: 3293d19aa78a3fd80ef221a9ca9840491f90939e
+SHA256: fc1e98e7140eec4406ed3d90ff41863143bf8164217647edd00f65c2da82fd18
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1847,16 +1868,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Udev rules to rotate touchscreen on the Nintendo Switch
 
 Package: switch-unity
-Version: 1.0-7
+Version: 1.0-8
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: unity, lightdm, onboard, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, fuse3, libfuse2
+Depends: unity, lightdm, onboard, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, qt6-gtk2-platformtheme, fuse3, libfuse2
 Conflicts: gnome-software-plugin-snap
-Filename: pool/noble/s/switch-unity/switch-unity_1.0-7_arm64.deb
-Size: 2158
-MD5sum: 5dba77e1b04747a22a540aa2e1c6b7da
-SHA1: 86d8161f139c9ed23aa9c3f4a126f28e8d9bf22f
-SHA256: c30abd8795dfb456cda759b6725546e15e642f9ae028c1b2216a730ddac8add2
+Filename: pool/noble/s/switch-unity/switch-unity_1.0-8_arm64.deb
+Size: 2166
+MD5sum: f06c9d1d34a64b035e99f49ad460b45a
+SHA1: 3898afd20466eb21b7d658dfe7b5a7c618344142
+SHA256: f0b632fb43c03e300dce17a5b4e98f125e7cc67f1ed00c721c94c49819779927
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
