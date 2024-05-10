@@ -1221,20 +1221,19 @@ Homepage: https://gitlab.com/switchroot/
 Description: Application configs for the Nintendo Switch
 
 Package: switch-dock-handler
-Version: 2.1-8
+Version: 2.2-1
 Architecture: all
-Maintainer: CTCaer <ctcaer@gmail.com>
+Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
-Filename: pool/jammy/main/s/switch-dock-handler/switch-dock-handler_2.1-8_all.deb
-Size: 7142
-MD5sum: 056ac16c1711470ff1ec2ee87f026617
-SHA1: 446be8433ce165e810003c08bcea6aa0a845bdc0
-SHA256: b8d16088d696402723607d1f93e943bccbe520d6077c09b6aaa9d5ebcdf7662a
+Filename: pool/jammy/main/s/switch-dock-handler/switch-dock-handler_2.2-1_all.deb
+Size: 7362
+MD5sum: c4ae2c9d9c6717a16d00bd83a9734364
+SHA1: b96c1ee6b859a01990942b1273ca3e2f9b7d8b58
+SHA256: 03e74b6e4b4cf73ce9868c1ef27b4afbed0da7329161f870d14ad817cb599296
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Scripts to switch display and audio source when docked
-Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-joystick-mouse
 Version: 1.2-1

@@ -1685,20 +1685,19 @@ Homepage: https://gitlab.com/switchroot/
 Description: Application configs for the Nintendo Switch
 
 Package: switch-dock-handler
-Version: 2.1-8
+Version: 2.2-1
 Architecture: all
-Maintainer: CTCaer <ctcaer@gmail.com>
+Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
-Filename: pool/noble/main/s/switch-dock-handler/switch-dock-handler_2.1-8_all.deb
-Size: 7142
-MD5sum: 056ac16c1711470ff1ec2ee87f026617
-SHA1: 446be8433ce165e810003c08bcea6aa0a845bdc0
-SHA256: b8d16088d696402723607d1f93e943bccbe520d6077c09b6aaa9d5ebcdf7662a
+Filename: pool/noble/main/s/switch-dock-handler/switch-dock-handler_2.2-1_all.deb
+Size: 7362
+MD5sum: c4ae2c9d9c6717a16d00bd83a9734364
+SHA1: b96c1ee6b859a01990942b1273ca3e2f9b7d8b58
+SHA256: 03e74b6e4b4cf73ce9868c1ef27b4afbed0da7329161f870d14ad817cb599296
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Scripts to switch display and audio source when docked
-Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-flatpak
 Version: 1.0-5
@@ -1717,16 +1716,16 @@ Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Flatpak Support
 
 Package: switch-gnome
-Version: 1.0-6+24.04~1
+Version: 1.0-6+24.04
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: gnome-shell, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, qt6-gtk2-platformtheme, fuse3, libfuse2
+Depends: gnome-shell, gnome-software-plugin-flatpak, qt5-gtk2-platformtheme, qt6-gtk2-platformtheme, fuse3, libfuse2, wireplumber, pipewire, pipewire-audio
 Conflicts: gnome-software-plugin-snap
-Filename: pool/noble/s/switch-gnome/switch-gnome_1.0-6+24.04~1_arm64.deb
-Size: 1890
-MD5sum: f9a4680300adfbe1873400803c9cfe5f
-SHA1: 3293d19aa78a3fd80ef221a9ca9840491f90939e
-SHA256: fc1e98e7140eec4406ed3d90ff41863143bf8164217647edd00f65c2da82fd18
+Filename: pool/noble/s/switch-gnome/switch-gnome_1.0-6+24.04_arm64.deb
+Size: 1906
+MD5sum: 564e810e137966ddd4c51b5cfc4c4f22
+SHA1: 005ade5a7673c21fc885c055422420bcfa494ea2
+SHA256: d81acf84b963f8c8b981d960caa4fca46d9447c33e38563aae36969f5ce543a6
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1750,16 +1749,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-10
+Version: 1.0-10+24.04
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: plasma-desktop, sddm, switch-sddm-rule, onboard, plasma-discover-backend-flatpak, fuse3, libfuse2
+Depends: plasma-desktop, sddm, switch-sddm-rule, onboard, plasma-discover-backend-flatpak, fuse3, libfuse2, wireplumber, pipewire, pipewire-audio
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/noble/main/s/switch-kde/switch-kde_1.0-10_arm64.deb
-Size: 5088
-MD5sum: 274534f1ce01679add973eaa9d6936ac
-SHA1: 1fb305f52d8694420f97e52f7000db0bce11250a
-SHA256: b74cac881ca4e9f752efd6a42eed782e33e779238d10d51c312b89940b78ea29
+Filename: pool/noble/s/switch-kde/switch-kde_1.0-10+24.04_arm64.deb
+Size: 5042
+MD5sum: 48467dc40d53b59fd8f0307ca15f1e0d
+SHA1: 18417af18c3b0eb9321b7d571fad0cd631dd2ce1
+SHA256: fc039816fb7b0b79fa44918071e872e9d220e4ac5bff6227b1171100972c42a0
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
