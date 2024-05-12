@@ -2569,17 +2569,16 @@ Description: Xorg X server - development files
 Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 
 Package: xserver-xorg-input-joystick
-Version: 2:1.6.4-1build3
+Version: 2:1.6.4-1.1
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 63
 Depends: libc6 (>= 2.17), xorg-input-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
 Provides: xorg-driver-input
-Filename: pool/jammy/main/x/xserver-xorg-input-joystick/xserver-xorg-input-joystick_1.6.4-1build3_arm64.deb
-Size: 21020
-MD5sum: 1d318ad0a05cad1034eb13f4330d0106
-SHA1: 0384a28f5f2503af195432d4f9977cfdeb0ac9e1
-SHA256: 401643d301d84c8a3c7156aa75e0b2af6bd1564e55c29e92f7f8b9dea1f935df
+Filename: pool/jammy/main/x/xserver-xorg-input-joystick/xserver-xorg-input-joystick_1.6.4-1.1_arm64.deb
+Size: 101716
+MD5sum: 56e174bc72fd670fe2551310f503ef63
+SHA1: 1da9306797a015dcd9e025a196f03e644969d1b0
+SHA256: e16a9ca3000b6411269f3335df36601b4bd3910466f853fc0452404ccd80fda0
 Section: x11
 Priority: optional
 Description: X.Org X server -- joystick input driver
