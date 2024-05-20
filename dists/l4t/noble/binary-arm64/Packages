@@ -1237,10 +1237,10 @@ Installed-Size: 276
 Pre-Depends: nvidia-l4t-ccp-t210ref
 Depends: libc6, libstdc++6, nvidia-l4t-core (= 32.3.1-20191209225816)
 Filename: pool/noble/main/n/nvidia-l4t-init/nvidia-l4t-init_32.3.1-20191209225816_arm64.deb
-Size: 44178
-MD5sum: fb2f376d5cc4c162b77bf1ec594d5adf
-SHA1: c5929813b1027fc88ebb1eef153e991dd603bcd2
-SHA256: 6f85d05b74dd90126e1ab1a247fbebd71afb1499f2f006439903ce593e925be2
+Size: 44082
+MD5sum: 42118d40c660f7bcadf1ab4b99006232
+SHA1: b28138764a4dbcf4fdf0894fdd268031ea49502c
+SHA256: 32ece6e59223974dfa76d04333d5d163cc1061838df95137a05bbb539430633e
 Section: admin
 Priority: standard
 Homepage: http://developer.nvidia.com/jetson

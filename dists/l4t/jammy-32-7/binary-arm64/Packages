@@ -110,10 +110,10 @@ Installed-Size: 16689
 Pre-Depends: nvidia-l4t-core (>> 32.7-0), nvidia-l4t-core (<< 32.8-0)
 Depends: libc6, libstdc++6
 Filename: pool/jammy-32-7/main-32-7/n/nvidia-l4t-init/nvidia-l4t-init_32.7.4-20230608212426_arm64.deb
-Size: 59718
-MD5sum: b58ccd2973c7c4aede14e3ada2028651
-SHA1: cd1d5f7384993fe1691fc1c33ff90dc9c767237c
-SHA256: a2cc0cb626f7900f7d8d04ae6acd15a2e000c3ab026248508d8c8485e76ab77e
+Size: 59688
+MD5sum: c0ef1c2a9e6f4a60ddd4e8d6c7fc77d5
+SHA1: f58e3a90c86637ff58ca2914e7af81f6450e6962
+SHA256: a9042ce0559cc872928f45a11701fc121e51712c55b303e89c47fdfa06007dc7
 Section: admin
 Priority: standard
 Homepage: http://developer.nvidia.com/jetson
