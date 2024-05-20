@@ -1,5 +1,5 @@
 Package: nvidia-bsp-32-7
-Version: 1.0-9
+Version: 1.0-10
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: nvidia-l4t-configs (= 32.7.4-20230608212426), nvidia-l4t-init (= 32.7.4-20230608212426), nvidia-l4t-firmware (= 32.7.4-20230608212426), nvidia-l4t-core (= 32.7.4-20230608212426), nvidia-l4t-3d-core (= 32.7.4-20230608212426), nvidia-l4t-libvulkan (= 32.7.4-20230608212426), nvidia-l4t-cuda (= 32.7.4-20230608212426), nvidia-l4t-multimedia (= 32.7.4-20230608212426), nvidia-l4t-multimedia-utils (= 32.7.4-20230608212426), nvidia-l4t-oem-config (= 32.7.4-20230608212426), notify-osd
@@ -7,11 +7,11 @@ Conflicts: nvidia-l4t-tools, nvidia-bsp-32-3, switch-flatpak, switch-bsp (<< 5.1
 Breaks: nvidia-l4t-firmware (<< 32.7.4-20230608212426)
 Replaces: nvidia-l4t-tools, nvidia-bsp-32-3
 Provides: nvidia-l4t-tools (= 32.7.4-20230608212426)
-Filename: pool/jammy-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-9_all.deb
-Size: 2168
-MD5sum: 88b4612ed0a5dff6e7def4e2373ffe3e
-SHA1: be2a3ba82e8f17cf628fc31494c101bde59ac08b
-SHA256: 11b0c32bb98cf79382a2f2fab323163dc8495e17764e0c3ad63627bf2002cd22
+Filename: pool/jammy-32-7/main-32-7/n/nvidia-bsp-32-7/nvidia-bsp-32-7_1.0-10_all.deb
+Size: 2204
+MD5sum: c357da6d10cd37e24b38b34247da8285
+SHA1: 714c938ea6da405049e34226c84ae864ec70dcfb
+SHA256: f27eb7f2f6486a431b73d5ae38464cdf1609d86142b4a41e6d7cee86ad84fefb
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
