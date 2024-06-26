@@ -58,17 +58,17 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2628
 Depends: libavcodec60 (>= 7:6.1), libavdevice60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (>= 7:6.0), libavutil58 (>= 7:6.0), libc6 (>= 2.35), libpostproc57 (>= 7:6.0), libsdl2-2.0-0 (>= 2.0.12), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0)
 Suggests: ffmpeg-doc
-Filename: pool/noble/f/ffmpeg/ffmpeg_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 1890730
-MD5sum: 7add41edaacda1ad85575e1eb513097b
-SHA1: 1e9703d37a9804e4a7ae7dcc44b1a720048187dc
-SHA256: 7348ea5d142851dc51a09baee2bd323501b9454b53843a80171e6f4fc27701fa
+Filename: pool/noble/f/ffmpeg/ffmpeg_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 1890610
+MD5sum: 3f38d9f1f5d33dd5d3ce7d625b89f4c0
+SHA1: bb4b05054fbf60816e63037811eb3d2b7142bc1e
+SHA256: 8306f4d8f7ddf324e068efc866c607758d120c098c672d53c7794a9f82c15fdc
 Section: video
 Priority: optional
 Multi-Arch: foreign
@@ -88,16 +88,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: ffmpeg-doc
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 36147
 Depends: libjs-jquery, libjs-bootstrap
-Filename: pool/noble/f/ffmpeg/ffmpeg-doc_6.1.1-3ubuntu5l4t_all.deb
-Size: 2084812
-MD5sum: b1b82c28dbb28680593767945a9c9c0c
-SHA1: a2821b436cb0ee07e1d8d7e87ee902d70a287d9b
-SHA256: 4c60d7a56201ab6fae407e290ea728260036f0cf11ce1ce10e18c0d9791f3f6e
+Filename: pool/noble/f/ffmpeg/ffmpeg-doc_6.1.1-3ubuntu5l4t2_all.deb
+Size: 2084630
+MD5sum: c673082c670e4c64eaccfaa5ab69d0f0
+SHA1: 3f8628058aeb9db538ecc4302cdfc17e3d3d3e29
+SHA256: 27b013f91f0f3fd50cede5431cd45966c28d0b39e8b367643412192be29cfbc9
 Section: doc
 Priority: optional
 Multi-Arch: foreign
@@ -129,16 +129,16 @@ Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: libavcodec-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 20791
-Depends: libavcodec60 (= 9:6.1.1-3ubuntu5l4t), libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libswresample-dev (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavcodec-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 6491224
-MD5sum: a17157d39f73a12c79b7546af0921c59
-SHA1: dd362acfb00a7a2de60e5eef501d8899254b5298
-SHA256: d2268cdf3cb7b9dce63b4cbbfcabb555c8b9a8a41a04d57e261d1c4da4091370
+Installed-Size: 20793
+Depends: libavcodec60 (= 9:6.1.1-3ubuntu5l4t2), libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libswresample-dev (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavcodec-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 6489658
+MD5sum: 20f9657435d82e44b108391460156a48
+SHA1: 18a73fcd44020da4045c3a6cdd1de8c797e7eda9
+SHA256: 433690be7036825a32bef5ee6939db7e18001e37b589fd1aeda4bd9c0f1ee492
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -162,16 +162,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavcodec-extra
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 57
-Depends: libavcodec-extra60 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavcodec-extra_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 24404
-MD5sum: 610cfb2b6c9e384f124c9acccad6a7e8
-SHA1: 052cda7c4900621a7dd9c1b333fbd2d534f52eb6
-SHA256: d403ff402549d197f3cf238204fa56c5a69d93167e27f7fa8a08422e540e3798
+Depends: libavcodec-extra60 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavcodec-extra_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 24392
+MD5sum: a37c07bbe23aa22efcd05fb9a9c1dec5
+SHA1: 916dadc96f730168d394de036349732aa81e42cc
+SHA256: a8eb4e93b7395e50fe3fa2d725c70f309386ed931339c220db2415233f0225cf
 Section: metapackages
 Priority: optional
 Multi-Arch: same
@@ -189,19 +189,19 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavcodec-extra60
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Installed-Size: 14160
-Depends: libaom3 (>= 3.2.0), libaribb24-0t64 (>= 1.0.3), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libva2 (>= 2.9.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Installed-Size: 14224
+Depends: libaom3 (>= 3.2.0), libaribb24-0t64 (>= 1.0.3), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopencore-amrnb0 (>= 0.1.6), libopencore-amrwb0 (>= 0.1.6), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libva2 (>= 2.9.0), libvo-amrwbenc0 (>= 0.1.3), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
 Conflicts: libavcodec60
-Provides: libavcodec60 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavcodec-extra60_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 5801816
-MD5sum: 09b694a2535acee9db3e56d234e4d3bd
-SHA1: 98e1436070c695df941bc16bc7959c30a6e9eeb6
-SHA256: 44bd729c9b5a5d20fdbac3d679e7e75ca53851fce8c81d40e79f476095f10d81
+Provides: libavcodec60 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavcodec-extra60_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 5805752
+MD5sum: b5e03d61217283d72dcf33db626ede7d
+SHA1: 6c375ec796b0c341f6db9cf76e7696016897c53c
+SHA256: c73530bd3ff5182e869a9834589b057b3654186475d2e719de0674eb93bf3390
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -235,17 +235,17 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavcodec60
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 14224
-Depends: libaom3 (>= 3.2.0), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
+Depends: libaom3 (>= 3.2.0), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libc6 (>= 2.35), libcairo2 (>= 1.2.4), libcodec2-1.2 (>= 1.2.0), libdav1d7 (>= 1.1.0), libglib2.0-0t64 (>= 2.12.0), libgsm1 (>= 1.0.18), libjxl0.7 (>= 0.7.0), liblzma5 (>= 5.1.1alpha+20120614), libmp3lame0 (>= 3.100), libopenjp2-7 (>= 2.0.0), libopus0 (>= 1.1), librav1e0 (>= 0.5.1), librsvg2-2 (>= 2.52.5), libshine3 (>= 3.1.0), libsnappy1v5 (>= 1.1.10), libspeex1 (>= 1.2~), libsvtav1enc1d1 (>= 1.7.0+dfsg), libswresample4 (>= 7:6.0), libtheora0 (>= 1.0), libtwolame0 (>= 0.3.10), libv4l-0t64 (>= 0.5.0), libva2 (>= 2.9.0), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvpx9 (>= 1.12.0), libwebp7 (>= 1.3.2), libwebpmux3 (>= 1.3.2), libx264-164 (>= 2:0.164.3108+git31e19f9), libx265-199 (>= 3.5), libxvidcore4 (>= 1.2.2), libzvbi0t64 (>= 0.2.35), zlib1g (>= 1:1.2.0)
 Suggests: libcuda1, libnvcuvid1, libnvidia-encode1
-Filename: pool/noble/f/ffmpeg/libavcodec60_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 5795936
-MD5sum: 9d8f42c8fe447fac831e7bb200bc34ae
-SHA1: f6566962c5912322fe7fc65dc450ecca28b9008a
-SHA256: b0520bab88c5dea2441cf589af2bdd0c88d7bf195811b0c0dcc9e52223df324a
+Filename: pool/noble/f/ffmpeg/libavcodec60_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 5798086
+MD5sum: 827248ade0d27b51835efde61b1486a8
+SHA1: c4685e9a4be6a7d927f2fe830a6a45a24e0f159a
+SHA256: 87c18991a69deab7e6a62b16cc62a17761e68be52c10b2bcf9f04470959d4c1c
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -269,16 +269,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavdevice-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 429
-Depends: libavcodec-dev (= 9:6.1.1-3ubuntu5l4t), libavdevice60 (= 9:6.1.1-3ubuntu5l4t), libavfilter-dev (= 9:6.1.1-3ubuntu5l4t), libavformat-dev (= 9:6.1.1-3ubuntu5l4t), libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libpostproc-dev (= 9:6.1.1-3ubuntu5l4t), libswscale-dev (= 9:6.1.1-3ubuntu5l4t), libswresample-dev (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavdevice-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 106696
-MD5sum: 5d3836fd1454705a71d6a6715dbf8c0a
-SHA1: 785f09e4ead4b81b6646491ab79ea80d882d9ff0
-SHA256: 7ad7ae2801c492e2f26e5a5bab213358aa1d3aec84be8c7e76dac5f07c646a7c
+Depends: libavcodec-dev (= 9:6.1.1-3ubuntu5l4t2), libavdevice60 (= 9:6.1.1-3ubuntu5l4t2), libavfilter-dev (= 9:6.1.1-3ubuntu5l4t2), libavformat-dev (= 9:6.1.1-3ubuntu5l4t2), libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libpostproc-dev (= 9:6.1.1-3ubuntu5l4t2), libswscale-dev (= 9:6.1.1-3ubuntu5l4t2), libswresample-dev (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavdevice-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 106694
+MD5sum: 8f58a68101999a31459af69b8b0db538
+SHA1: c3ab2bd6332a1e825eaffedbc31853e58f72f1a2
+SHA256: 2e07161f794c789686cb438607fa2bfb26cd54e0dce2eaa3d5435c5b92e413da
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -298,16 +298,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavdevice60
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 321
-Depends: libasound2t64 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (= 9:6.1.1-3ubuntu5l4t), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libdc1394-25 (>= 2.2.6), libdrm2 (>= 2.4.101), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12), libv4l-0t64 (>= 0.5.0), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
-Filename: pool/noble/f/ffmpeg/libavdevice60_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 90446
-MD5sum: 91a759d0193d384bf691a7537e88baa4
-SHA1: 3c07208bdd6f9a71ef59bb3dbd0a2a89f71106ca
-SHA256: d7d1373dce3bf164d6926d905f9e0628f3d8fa38f1137953ff7170ac15c3b6f7
+Depends: libasound2t64 (>= 1.0.16), libavc1394-0 (>= 0.5.3), libavcodec60 (>= 7:6.0), libavfilter9 (>= 7:6.0), libavformat60 (= 9:6.1.1-3ubuntu5l4t2), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcdio-cdda2t64 (>= 10.2+2.0.0), libcdio-paranoia2t64 (>= 10.2+2.0.0), libdc1394-25 (>= 2.2.6), libdrm2 (>= 2.4.101), libgl1, libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libopenal1 (>= 1.14), libpulse0 (>= 0.99.1), libraw1394-11 (>= 2.1.2), libsdl2-2.0-0 (>= 2.0.12), libv4l-0t64 (>= 0.5.0), libx11-6, libxcb-shape0, libxcb-shm0, libxcb-xfixes0, libxcb1, libxext6, libxv1
+Filename: pool/noble/f/ffmpeg/libavdevice60_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 90442
+MD5sum: fc362bebdb85f34891636dd4e5cf1208
+SHA1: a7adf007163bddeface4f089a6ded33070cce99e
+SHA256: c39a71ffb9f54055b4fcf6a7d8593879b0c5d7afa43b50ea62341b5614352eb3
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -327,16 +327,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavfilter-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 8645
-Depends: libavcodec-dev (= 9:6.1.1-3ubuntu5l4t), libavfilter9 (= 9:6.1.1-3ubuntu5l4t), libavformat-dev (= 9:6.1.1-3ubuntu5l4t), libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libpostproc-dev (= 9:6.1.1-3ubuntu5l4t), libswresample-dev (= 9:6.1.1-3ubuntu5l4t), libswscale-dev (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavfilter-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 2220320
-MD5sum: 5c99499e7b2fab0f34680306a426982e
-SHA1: 192f77f3192fe9392b8cca9354084640a536872c
-SHA256: e136ee69c5cd5e631910b79328827097a2174f80b2525d9d16f619e28f92ff3d
+Depends: libavcodec-dev (= 9:6.1.1-3ubuntu5l4t2), libavfilter9 (= 9:6.1.1-3ubuntu5l4t2), libavformat-dev (= 9:6.1.1-3ubuntu5l4t2), libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libpostproc-dev (= 9:6.1.1-3ubuntu5l4t2), libswresample-dev (= 9:6.1.1-3ubuntu5l4t2), libswscale-dev (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavfilter-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 2220238
+MD5sum: bf298749953f2cda0d8f9d5b05fed406
+SHA1: 2ed8139cc13361624764f357923f17aa551025ca
+SHA256: 2d39577e7eb83e0ed7541fdf261e56d85e4139e8a06fa51167bba45501e9a209
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -355,16 +355,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavfilter-extra
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 57
-Depends: libavfilter-extra9 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavfilter-extra_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 24394
-MD5sum: c5b49c89acf0785f1806aa781cb780d9
-SHA1: c6767ab6e0eef3848a8c9c9164da05532ecb4b1a
-SHA256: ecf9730ef6966af8ebcedc549bf4a42315c6145d6eaeeaac6ac789992a3a5e5c
+Depends: libavfilter-extra9 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavfilter-extra_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 24392
+MD5sum: 12379dc6c0c3dae613ecdbddc431bd83
+SHA1: 8de60671488ca9e6a530982f99ffb9a6686b9a1d
+SHA256: bd21fb2d3b019d82a85b350fd0015438f6b0324de086f8c35388df7b52a66de6
 Section: metapackages
 Priority: optional
 Multi-Arch: same
@@ -382,18 +382,18 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavfilter-extra9
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 12428
-Depends: libass9 (>= 1:0.15.0), libavcodec60 (= 9:6.1.1-3ubuntu5l4t), libavformat60 (>= 7:6.0), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 0.9.9), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo338 (>= 6.338.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libtesseract5 (>= 5.3.4), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Depends: libass9 (>= 1:0.15.0), libavcodec60 (= 9:6.1.1-3ubuntu5l4t2), libavformat60 (>= 7:6.0), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 0.9.9), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo338 (>= 6.338.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libtesseract5 (>= 5.3.4), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
 Conflicts: libavfilter9
-Provides: libavfilter9 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavfilter-extra9_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 4144662
-MD5sum: 7e79ea1c993ad41d0bab5975d8442c56
-SHA1: 52c5aa0363668ed2b874c9d035672737dd2ca208
-SHA256: d2da2918f3f30867cbf888f888e7a0cecda3fbbb5c75e01099b7ae5f81f69c64
+Provides: libavfilter9 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavfilter-extra9_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 4144664
+MD5sum: 2ee677ed5892e068786499e4d35ed416
+SHA1: c2837d3b514e31a21714ec3006d4c2b1f387e930
+SHA256: c1bab2596210ac9d91d5147198605d0b1d28a12908b61ae251e7e6400748051f
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -419,16 +419,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavfilter9
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 12492
-Depends: libass9 (>= 1:0.15.0), libavcodec60 (= 9:6.1.1-3ubuntu5l4t), libavformat60 (>= 7:6.0), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 0.9.9), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo338 (>= 6.338.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
-Filename: pool/noble/f/ffmpeg/libavfilter9_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 4097466
-MD5sum: d32d239710ff0010dbc449ceea5a01d0
-SHA1: 60a1ec29a6ffc9ab128cfa044569a5489ade11e9
-SHA256: d230037c0dda4a887ba720f77090c94631e5fea8c5347b529b5459df55ff4b53
+Depends: libass9 (>= 1:0.15.0), libavcodec60 (= 9:6.1.1-3ubuntu5l4t2), libavformat60 (>= 7:6.0), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libbs2b0 (>= 3.1.0+dfsg), libc6 (>= 2.38), libflite1 (>= 1.4-release-9~), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfribidi0 (>= 0.19.2), libharfbuzz0b (>= 0.9.9), liblilv-0-0 (>= 0.14.2~dfsg0), libmysofa1 (>= 0.7~), libplacebo338 (>= 6.338.1), libpocketsphinx3 (>= 0.8.0+real5prealpha+1), libpostproc57 (>= 7:6.0), librubberband2 (>= 3.3.0+dfsg), libsphinxbase3t64 (>= 0.8+5prealpha), libstdc++6 (>= 13.1), libswresample4 (>= 7:6.0), libswscale7 (>= 7:6.0), libva2 (>= 1.7.3), libvidstab1.1, libzimg2 (>= 0.3.1), libzmq5 (>= 3.2.3+dfsg), ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, zlib1g (>= 1:1.1.4)
+Filename: pool/noble/f/ffmpeg/libavfilter9_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 4096992
+MD5sum: 08208bf4318ff5899e1389a286c91dad
+SHA1: 97f939898fb51e8757d3bdbf069ea55a72e759e6
+SHA256: ae31b53abeaf468e2b77dd6362b834d3e3253f7909634d9d5b5d51d181d2a7b6
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -447,16 +447,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavformat-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 6002
-Depends: libavcodec-dev (= 9:6.1.1-3ubuntu5l4t), libavformat60 (= 9:6.1.1-3ubuntu5l4t), libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libswresample-dev (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavformat-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 1481354
-MD5sum: d95fccd761a6caa595df61a27e4b4bcd
-SHA1: 9245ed54486aaed58bcea4ff3d15202900ee40f9
-SHA256: 4209a5df7fb1689471659aec48068220e9979e1c42c7fea779f14f029d6f457b
+Depends: libavcodec-dev (= 9:6.1.1-3ubuntu5l4t2), libavformat60 (= 9:6.1.1-3ubuntu5l4t2), libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libswresample-dev (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavformat-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 1481338
+MD5sum: 01aba570764d25890094ae5a623f1367
+SHA1: 38c5ebf4d99198499eb7cc18dd51bd59cf15b2c9
+SHA256: 4004732d3c497170aefa228c8993c63897abdc8fa97007cd3d54fc0fd7204328
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -477,16 +477,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavformat-extra
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 57
-Depends: libavformat-extra60 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavformat-extra_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 24396
-MD5sum: 2abbbb4ffc711a6616bfe71849dada50
-SHA1: 1f400d534b418f9d3c7fd77d215934b76b55c27f
-SHA256: b9f2538ca82bcbc9e87be630a8083b8211394c311f55d60e6e6c84bddd20f719
+Depends: libavformat-extra60 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavformat-extra_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 24390
+MD5sum: cf28c46c6ed088b5529037ce16bc3e5b
+SHA1: ee708639e61503608ec9cdcf21e3846373ff6bea
+SHA256: ba53ca5e8d7b69df7aac53f759db412559cfffbbc5fce0f61eb2b39e2876f9de
 Section: metapackages
 Priority: optional
 Multi-Arch: same
@@ -504,18 +504,18 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavformat-extra60
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2955
-Depends: libavcodec60 (= 9:6.1.1-3ubuntu5l4t), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsmbclient0 (>= 2:4.0.3+dfsg1), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Depends: libavcodec60 (= 9:6.1.1-3ubuntu5l4t2), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsmbclient0 (>= 2:4.0.3+dfsg1), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
 Conflicts: libavformat60
-Provides: libavformat60 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavformat-extra60_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 1198622
-MD5sum: 720fe3e216dd425454eabc7821893ba0
-SHA1: 1a288711369f0f2db7f9a322414caf54736e2a11
-SHA256: 42f728a24a83d4e591b5b5d588dbee206e17877d3321768a3dca5072fa8c01db
+Provides: libavformat60 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavformat-extra60_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 1198648
+MD5sum: 5d827624c5251f640e13bc379e333c13
+SHA1: 45c6f71acfc894d51991d6c711dbe716ac2e523f
+SHA256: 8f2e123980c681a42843c27df758be3130bedb69d1ca42ee1fb945e516e638fe
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -543,16 +543,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavformat60
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2952
-Depends: libavcodec60 (= 9:6.1.1-3ubuntu5l4t), libavutil58 (= 9:6.1.1-3ubuntu5l4t), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
-Filename: pool/noble/f/ffmpeg/libavformat60_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 1197984
-MD5sum: 90a3555ac8f515d9ebb21717b8db2fed
-SHA1: 8eaa617c398cc34cf84130c547088a2841e5d9e9
-SHA256: 81d5d798271614cb58accbc4443661b8b214e9d88f03edf7423cc3ae967deb19
+Depends: libavcodec60 (= 9:6.1.1-3ubuntu5l4t2), libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libbluray2 (>= 1:0.2.2), libbz2-1.0, libc6 (>= 2.38), libchromaprint1 (>= 1.3.2), libgme0 (>= 0.5.5), libgnutls30t64 (>= 3.8.1), libopenmpt0t64 (>= 0.3.0), librabbitmq4 (>= 0.6.0), librist4 (>= 0.2.6+dfsg), libsrt1.5-gnutls (>= 1.5.3), libssh-gcrypt-4 (>= 0.8.0), libxml2 (>= 2.7.4), libzmq5 (>= 4.0.1+dfsg), zlib1g (>= 1:1.2.0.2)
+Filename: pool/noble/f/ffmpeg/libavformat60_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 1197960
+MD5sum: 83ceadbb45e177a7b4a610f6761066ba
+SHA1: 8868e5be24d6cc282f3064847a93689549c47e70
+SHA256: fcde07ee982f92b123e8b373db32e7892b58f5310b8531d17e56d6f00aba570e
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -573,16 +573,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavutil-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 2264
-Depends: libavutil58 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libavutil-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 543244
-MD5sum: 1539c774c80b0d6e6944d0ecd646d7bd
-SHA1: 7cf51b1219336f87237e6204753e69effa4d1b7e
-SHA256: feab46de9b88062c59cda361be580998a22e5393fe616663b1fc6f31e5a4c4ff
+Depends: libavutil58 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libavutil-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 543118
+MD5sum: 86473be55c9e2a76d8526e881ba5f5ad
+SHA1: 2d3967126af457b0d9b74034f020cdaac14ada49
+SHA256: 88048f065089bef57c1b275f185d9dc5a49d1b007079c090fcbba8f29e71eb1c
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -605,16 +605,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libavutil58
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 1051
 Depends: libc6 (>= 2.38), libdrm2 (>= 2.4.66), libva-drm2 (>= 1.3), libva-x11-2 (>= 1.3), libva2 (>= 2.1.0), libvdpau1 (>= 0.2), libx11-6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1
-Filename: pool/noble/f/ffmpeg/libavutil58_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 386404
-MD5sum: a4fce60623c41dea4d3290f8f12a3ba5
-SHA1: 05a3d86441437f4f8016c854eaf3eff368952ba4
-SHA256: 1c1ee0ab982511c62a3a1ea26c724324088564a308448b2954c86d3109391d0e
+Filename: pool/noble/f/ffmpeg/libavutil58_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 386376
+MD5sum: 3f038ff3039c14e94ecbb2a9f914f9be
+SHA1: ea0faa74d419c994cafef2e3c0262f2c477b325c
+SHA256: 44e3278656eeff3daa39cd1b79322f2e61dfe4df3d846d6c069937fce6da7d25
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -710,16 +710,16 @@ Original-Maintainer: Laurent Bigonville <bigon@debian.org>
 
 Package: libpostproc-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 125
-Depends: libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libpostproc57 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libpostproc-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 50072
-MD5sum: 19de22d361087bffb8157e84ca138889
-SHA1: fb3e9045eaf78b3bfb8520079b5aae14938f5ef4
-SHA256: 6fb8d4fce3d3635bddd7a5c39c99713d29181ceb33d9b05c381a29e80d0473e0
+Depends: libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libpostproc57 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libpostproc-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 50056
+MD5sum: 3debcd4023fc046058bf0f4f7201d32a
+SHA1: d0b47060760a6e17bec1db55bf77c99c7c269cf2
+SHA256: d2497349ec96471e400a9d2e95238815ae1f2d40d305569ac17e91ef4fa1323c
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -737,16 +737,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libpostproc57
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 132
 Depends: libavutil58 (>= 7:6.0), libc6 (>= 2.17)
-Filename: pool/noble/f/ffmpeg/libpostproc57_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 49262
-MD5sum: 09b76ec29159890f86ab8cd16166096f
-SHA1: 3354851caa19e0226f18b97058707c45bafbcbeb
-SHA256: ed57072037314afd3e03b4d72dd334fc22e09de1f95ca9f0b422a74ea3e45e11
+Filename: pool/noble/f/ffmpeg/libpostproc57_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 49258
+MD5sum: 45c516a985d5af8f527e9eb8cad2402b
+SHA1: ba951ff578bacc6c91414fdc057e4a867369f196
+SHA256: 8fa2ba75b789b7d486629c703d58e76f33016e57e30c37c0fc1ae08d04e8c19d
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -764,16 +764,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libswresample-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 267
-Depends: libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libswresample4 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libswresample-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 78834
-MD5sum: e691e5e5be587d3b2a415dab522baefb
-SHA1: 703650d2a88ee2e127a023b9aba45961f17b6e70
-SHA256: 62d313973b568511dd0c5e148b0fd46f81137ee939c7dc7ba2b2d11664560a2a
+Depends: libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libswresample4 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libswresample-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 78824
+MD5sum: ec9dc6ff17c917434e42583218d3ea21
+SHA1: 2f3731d155e00f339733c612bacc9e50ab67a93a
+SHA256: 2efcd5e4b6a26f1a1eebd823e99d21ba57641ed1baef0cd2b0497c819c5103f0
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -808,16 +808,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libswresample4
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 197
 Depends: libavutil58 (>= 7:6.1), libc6 (>= 2.29), libsoxr0 (>= 0.1.0)
-Filename: pool/noble/f/ffmpeg/libswresample4_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 66654
-MD5sum: 9c0a7e2b23c7f8b97bb8991df03b9789
-SHA1: fed038a6b83daa7d07ab67ddae68111b9e15e778
-SHA256: 507a6df1b1ce0efa8ee4cb9cd8d652a3fda9c3f5e2bab9aae53f899d7930c541
+Filename: pool/noble/f/ffmpeg/libswresample4_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 66624
+MD5sum: ef8440b00ec64cd2d8f96340b686f679
+SHA1: 09f538b437a319f30f3da0da5f5775949e2822af
+SHA256: 1e6df0fe2979f5ccf17da2c8b2a54d6a0674c07844b4066df0df77d10cb22a6a
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -852,16 +852,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libswscale-dev
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 774
-Depends: libavutil-dev (= 9:6.1.1-3ubuntu5l4t), libswscale7 (= 9:6.1.1-3ubuntu5l4t)
-Filename: pool/noble/f/ffmpeg/libswscale-dev_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 207698
-MD5sum: 8767ccc37449e1e743d1cdce9e074539
-SHA1: d8645192e866e5b8b55017ff0d3228943fed8d97
-SHA256: 72383bdfe5caae88d2afb01a3a4265664e9911fba58cad4492a48e407e6531f3
+Depends: libavutil-dev (= 9:6.1.1-3ubuntu5l4t2), libswscale7 (= 9:6.1.1-3ubuntu5l4t2)
+Filename: pool/noble/f/ffmpeg/libswscale-dev_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 207682
+MD5sum: 4ad790f68c619ab16a59f28211c32ee9
+SHA1: f2a50586187194132fb8ac64e312006db58691e7
+SHA256: 29af3e14ce0fb8c050c7f46104183e59f243e63d935b8816b944a08ecd9c3b46
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -890,16 +890,16 @@ Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debi
 
 Package: libswscale7
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: arm64
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 581
-Depends: libavutil58 (= 9:6.1.1-3ubuntu5l4t), libc6 (>= 2.34)
-Filename: pool/noble/f/ffmpeg/libswscale7_6.1.1-3ubuntu5l4t_arm64.deb
-Size: 184164
-MD5sum: 47cb16781a203a7ca96c687629efe1d4
-SHA1: fe470f7ae0a4eecfa2d7338b8151ab9c0ffc2e21
-SHA256: ecc8b0a291a3fd28ff63127ec4bc60407b9c54c23d55563c14262a57852809dd
+Depends: libavutil58 (= 9:6.1.1-3ubuntu5l4t2), libc6 (>= 2.34)
+Filename: pool/noble/f/ffmpeg/libswscale7_6.1.1-3ubuntu5l4t2_arm64.deb
+Size: 184140
+MD5sum: c9704be6c3430927f78351bcb83a901b
+SHA1: 768b0ffe0feb02a98cf741157557c30a43a7a4f7
+SHA256: 1dd2224841282d26e6a0eb7ca859355b118319545a9266b5c693abfc47d2fe17
 Section: libs
 Priority: optional
 Multi-Arch: same

@@ -13,16 +13,16 @@ Description: transitional dummy package
 
 Package: ffmpeg-doc
 Source: ffmpeg
-Version: 9:6.1.1-3ubuntu5l4t
+Version: 9:6.1.1-3ubuntu5l4t2
 Architecture: all
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Installed-Size: 36147
 Depends: libjs-jquery, libjs-bootstrap
-Filename: pool/noble/f/ffmpeg/ffmpeg-doc_6.1.1-3ubuntu5l4t_all.deb
-Size: 2084812
-MD5sum: b1b82c28dbb28680593767945a9c9c0c
-SHA1: a2821b436cb0ee07e1d8d7e87ee902d70a287d9b
-SHA256: 4c60d7a56201ab6fae407e290ea728260036f0cf11ce1ce10e18c0d9791f3f6e
+Filename: pool/noble/f/ffmpeg/ffmpeg-doc_6.1.1-3ubuntu5l4t2_all.deb
+Size: 2084630
+MD5sum: c673082c670e4c64eaccfaa5ab69d0f0
+SHA1: 3f8628058aeb9db538ecc4302cdfc17e3d3d3e29
+SHA256: 27b013f91f0f3fd50cede5431cd45966c28d0b39e8b367643412192be29cfbc9
 Section: doc
 Priority: optional
 Multi-Arch: foreign
