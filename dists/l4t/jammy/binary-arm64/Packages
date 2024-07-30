@@ -194,7 +194,7 @@ Description: APT configuration snippet to enable large HiDPI icon downloads
  decide to fetch them on-demand from a web location.
 
 Package: chromium-browser
-Version: 9:126.0.6478.182-1
+Version: 9:126.0.6478.226-1
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Installed-Size: 309288
@@ -203,11 +203,11 @@ Depends: ca-certificates, fonts-liberation, libasound2 (>= 1.0.17), libatk-bridg
 Breaks: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Replaces: chromium-browser-l10n (<< 9:119.0.6045.105-1), chromium-chromedriver (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg-extra (<< 9:119.0.6045.105-1), chromium-codecs-ffmpeg (<< 9:119.0.6045.105-1)
 Provides: www-browser, chromium-browser-l10n, chromium-codecs-ffmpeg-extra
-Filename: pool/jammy/main/c/chromium-browser/chromium-browser_9:126.0.6478.182-1_arm64.deb
-Size: 94094744
-MD5sum: c80afeae28b4185233925a25a47ce028
-SHA1: f519a5a99e8c98f8a5ed8d1fcbbcba494905d85d
-SHA256: 746e4f20c87b2444670a5e92ab00d1de4d51543d1360c76b3b6fd2dc320403b1
+Filename: pool/jammy/main/c/chromium-browser/chromium-browser_9:126.0.6478.226-1_arm64.deb
+Size: 94084000
+MD5sum: c08697a3f4c0068dce32e126e01152f6
+SHA1: 4ade1828165cdaae05907440b571575350d78048
+SHA256: d95771aa49a2030ed1911c268fb9d80b0419cff5022e7664c7503fac3417a378
 Section: web
 Priority: optional
 Description: The web browser from Chromium.org
