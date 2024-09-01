@@ -1653,16 +1653,18 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-19+24.04
+Version: 5.1.2-20+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
-Suggests: switch-kernel-headers
-Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-19+24.04_all.deb
-Size: 30349680
-MD5sum: a8a07038dddfb0fe6ff60b3f26cd1781
-SHA1: 4c3648900742fffb96e512761abd667b748c8d47
-SHA256: 947a3aa054d97e0b2ab7f715dd24685cb0024bbf85ba4d1fbb9f9985a350a0ff
+Breaks: switch-kernel-headers
+Replaces: switch-kernel-headers
+Provides: switch-kernel-headers, linux-headers
+Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-20+24.04_all.deb
+Size: 41173398
+MD5sum: e897677da1e04f64a60ff9e9c1ac359b
+SHA1: 494779e19f73408710701e397cf58cdbc8895db6
+SHA256: 6d257227f4b145064d73d94a9268eacc932f7f3fbb7ba0c6e224f34e53b7b23c
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -1763,25 +1765,6 @@ Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Metapackage for KDE only Nintendo Switch configuration packages
-
-Package: switch-kernel-headers
-Version: 4.9-l4t-5.0.0-2
-Architecture: arm64
-Maintainer: NVIDIA Corporation
-Installed-Size: 105698
-Pre-Depends: nvidia-l4t-ccp-t210ref
-Conflicts: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
-Breaks: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
-Replaces: nvidia-l4t-kernel-headers, nvidia-l4t-kernel, nvidia-l4t-kernel-dtbs
-Filename: pool/noble/main/s/switch-kernel-headers/switch-kernel-headers_4.9-l4t-5.0.0-2_arm64.deb
-Size: 15648056
-MD5sum: abf67acf8b70bc2752ce8e6b1596a2aa
-SHA1: 4e1e9560b5e56c0f3198282674668c7073f87842
-SHA256: c6c111870f4d66884cef68b21bbbcfde508a4095506afd0fdbd8eedc808bb143
-Section: embedded
-Priority: standard
-Homepage: http://developer.nvidia.com/jetson
-Description: Switch L4T Kernel Headers Package
 
 Package: switch-l4t-configs
 Version: 1.5-17+24.04
