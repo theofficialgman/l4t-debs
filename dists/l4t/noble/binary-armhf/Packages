@@ -227,48 +227,46 @@ Description: L4T BSP 32.3.1 Meta Package
 
 Package: onboard-common
 Source: onboard
-Version: 1.4.1-5ubuntu6l4t
+Version: 1.4.2-1
 Architecture: all
-Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 3321
+Maintainer: Uwe Niethammer <uwe@dr-niethammer.de>
+Installed-Size: 3384
 Depends: python3
 Breaks: onboard (<< 1.3.0-1~)
 Replaces: onboard (<< 1.3.0-1~)
-Filename: pool/noble/o/onboard/onboard-common_1.4.1-5ubuntu6l4t_all.deb
-Size: 597510
-MD5sum: bf6deaab1c7d3568a4d77bc099ac766b
-SHA1: 34e9a53972e3f8beac87101021c686b1dd7b2b62
-SHA256: 84285c97d4d481445c9eb82aa4ad31924baef7f9bacfd835d6f20b0cdf5e35e7
+Filename: pool/noble/o/onboard/onboard-common_1.4.2-1_all.deb
+Size: 612738
+MD5sum: 881997db36077852be4027e2e3f52a34
+SHA1: 2c2301f546e6d86a3840c889664211b2c308cfe2
+SHA256: 70accadebdc457906712b9c9b3686afdb271d847e875d5b433bebf5aeac4efc7
 Section: gnome
 Priority: optional
-Homepage: https://launchpad.net/onboard
+Homepage: https://github.com/theofficialgman/onboard
 Description: Simple On-screen Keyboard (common files)
- On-screen Keyboard (OSK) with macros, easy layout creation and word
- suggestion.
+ On-screen Keyboard with macros, easy layout creation and word suggestion.
  .
  This package ships the architecture independent files of the onboard
  on-screen keyboard.
 
 Package: onboard-data
 Source: onboard
-Version: 1.4.1-5ubuntu6l4t
+Version: 1.4.2-1
 Architecture: all
-Maintainer: Debian+Ubuntu MATE Packaging Team <debian-mate@lists.debian.org>
-Installed-Size: 20350
-Depends: onboard (<< 1.4.1-5ubuntu6l4t.1), onboard (>= 1.4.1-5ubuntu6l4t)
+Maintainer: Uwe Niethammer <uwe@dr-niethammer.de>
+Installed-Size: 25500
+Depends: onboard (<< 1.4.2-1.1), onboard (>= 1.4.2-1)
 Breaks: onboard-prediction-data (<< 0.99.0~alpha1~tr1531)
 Replaces: onboard-prediction-data (<< 0.99.0~alpha1~tr1531)
-Filename: pool/noble/o/onboard/onboard-data_1.4.1-5ubuntu6l4t_all.deb
-Size: 4234358
-MD5sum: c081b8df9d4ba86d80a1b1c8c215411b
-SHA1: 9c26d498e634f9aafefd41296b687298178dc975
-SHA256: d955221b6f1dfc68b3f909df64c7b7abfe75a1212991f7d920c43d006ae091df
+Filename: pool/noble/o/onboard/onboard-data_1.4.2-1_all.deb
+Size: 5256620
+MD5sum: 433a75c5132419a403e99549dbb54f2d
+SHA1: f99307a06227e480ef33bea1eec0ba8f1de55e8f
+SHA256: ebdf35aad28f5b0004b08a90eabfa7efc547572a4e607cf5356ad4f5a92dbea2
 Section: gnome
 Priority: optional
-Homepage: https://launchpad.net/onboard
+Homepage: https://github.com/theofficialgman/onboard
 Description: Language model files for the word suggestion feature of Onboard
- On-screen Keyboard (OSK) with macros, easy layout creation and word
- suggestion.
+ On-screen Keyboard with macros, easy layout creation and word suggestion.
  .
  This package installs default language model files for various languages.
  The word suggestion feature of Onboard uses these files (and if available
