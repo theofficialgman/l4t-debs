@@ -926,6 +926,23 @@ Description: FFmpeg library for image scaling and various conversions - runtime 
  This package contains the runtime files.
 Original-Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
 
+Package: libwidevinecdm0
+Source: widevine
+Version: 4.10.2662.3+1
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: libc6 (>= 2.34), libnspr4 (>= 2:4.9-2~)
+Filename: pool/noble/main/l/libwidevinecmd0/libwidevinecdm0_4.10.2662.3+1_arm64.deb
+Size: 7784554
+MD5sum: 511fa2486229b0ede598daac581de3b6
+SHA1: 109c90a55515c5f50553981f7ccae2df1292f04d
+SHA256: 0d0cc9917686987161a61620c4b2f5c10b2648bc70feff6cac789bf4a41c2680
+Section: libs
+Priority: optional
+Homepage: https://www.widevine.com/
+Description: Widevine CDM
+ Widevine is a proprietary digital rights management (DRM) technology
+
 Package: libx11-6
 Source: libx11
 Version: 2:1.8.7-1-l4t
@@ -1802,15 +1819,15 @@ Homepage: https://github.com/theofficialgman/l4t-debs
 Description: L4T Apt Repo and Key
 
 Package: switch-multimedia
-Version: 1.0-1+24.04~0
+Version: 1.1-1+24.04
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
-Depends: mpv, smplayer, smplayer-themes, yt-dlp
-Filename: pool/noble/s/switch-multimedia/switch-multimedia_1.0-1+24.04~0_arm64.deb
-Size: 1882
-MD5sum: faca52b3b1671f139d4cea1e687b2f39
-SHA1: 3c573f4dc375447319ccc3d6654b05d47fa989cf
-SHA256: b83114d993bb209152a554b7cacac964a1bb1dc62b0a9f91661a8e26363b1a2f
+Depends: mpv, smplayer, smplayer-themes, yt-dlp, libwidevinecdm0
+Filename: pool/noble/s/switch-multimedia/switch-multimedia_1.1-1+24.04_arm64.deb
+Size: 1896
+MD5sum: d8f9bd426c04f89943ce8e1803f3e7f9
+SHA1: 3dd02f991131941e386db7463c81473ff54d72ef
+SHA256: ffb4b55bc496c1cfe0b1c4b3066ab71fb69737f756435c8f9350631f295af099
 Section: graphics
 Priority: extra
 Homepage: https://gitlab.com/switchroot
