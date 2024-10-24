@@ -252,6 +252,40 @@ SHA256: 141b0efaef557d3f2fc6255c49f2c75952ef615f76d748437312785952e52cc9
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
+Package: cuda-cudart-10-0
+Source: cuda
+Version: 10.0.326-1
+Architecture: arm64
+Maintainer: cudatools <cudatools@nvidia.com>
+Installed-Size: 403
+Depends: cuda-license-10-0
+Filename: pool/jammy/main/c/cuda-cudart/cuda-cudart-10-0_10.0.326-1_arm64.deb
+Size: 88556
+MD5sum: 5d9542dcad94cf08de528e8471572192
+SHA1: 6299f95cc97a2d5bbb3df85a017475b25a46c22e
+SHA256: 68cc369f06243fb7a94c1f5b1812f51781861a01ad57fe82401d6cafdce8669a
+Section: multiverse/devel
+Priority: optional
+Description: CUDA Runtime native Libraries
+ CUDA Runtime native Libraries
+
+Package: cuda-license-10-0
+Source: cuda
+Version: 10.0.326-1
+Architecture: arm64
+Maintainer: cudatools <cudatools@nvidia.com>
+Installed-Size: 75
+Filename: pool/jammy/main/c/cuda-license/cuda-license-10-0_10.0.326-1_arm64.deb
+Size: 16242
+MD5sum: ac8da42cf60e113efd4c789d0d843f91
+SHA1: 6dae03b0d649017a2fe694c037ac79d9741c79ae
+SHA256: e94859f9f764bdbd6d2416a1e6451b5df0cc8fedecfdd70e777812528e060cc0
+Section: multiverse/devel
+Priority: optional
+Multi-Arch: foreign
+Description: CUDA licenses
+ Contains the license agreements (EULA) required for using the CUDA tools.
+
 Package: ffmpeg
 Version: 9:4.4.2-0ubuntu0.22.04.1l4t2
 Architecture: arm64

@@ -1,3 +1,19 @@
+Package: cuda-cudart-10-2
+Source: cuda-cudart
+Version: 10.2.300-1
+Architecture: arm64
+Maintainer: cudatools <cudatools@nvidia.com>
+Installed-Size: 558
+Filename: pool/noble-32-7/main-32-7/c/cuda-cudart/cuda-cudart-10-2_10.2.300-1_arm64.deb
+Size: 125174
+MD5sum: 426eb13ad090c55d619504cc0805f719
+SHA1: 08036ef3f656f4144c4da6a237fa120ae9528d77
+SHA256: e3cd683965f7b2e4a13b27c58754443185dcc545d0f989e52c224840cfde48d1
+Section: multiverse/devel
+Priority: optional
+Description: CUDA Runtime native Libraries
+ CUDA Runtime native Libraries
+
 Package: nvidia-bsp-32-7
 Version: 1.0-10
 Architecture: all
