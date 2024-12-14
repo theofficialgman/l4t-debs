@@ -1815,15 +1815,15 @@ Homepage: https://gitlab.com/switchroot
 Description: Metapackage for KDE only Nintendo Switch configuration packages
 
 Package: switch-l4t-configs
-Version: 1.5-17+24.04
+Version: 1.5-18+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Depends: yad, libhidapi-hidraw0, imagemagick
-Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-17+24.04_all.deb
-Size: 520976
-MD5sum: 0ac093f92a64c0a620697897e3d893e2
-SHA1: 5dc05c2d852f623072a035de7461a3a9aaf6d7d5
-SHA256: a76c2d47e56d629eff1bce707b3c834819207b8b6bcc128d5f1609e1df0759a6
+Filename: pool/noble/s/switch-l4t-configs/switch-l4t-configs_1.5-18+24.04_all.deb
+Size: 521184
+MD5sum: 9ad35d3024b8f06fa3d47e3ff48ed3b8
+SHA1: 3f36abc7fc3eb4cbc11abdbddee7b43166f76a92
+SHA256: bbd4a46c1cfbef0f93c1fb88c92c7b98d61d21bdaf2ed955b514fe1898a4acc5
 Section: embedded
 Priority: required
 Description: L4T Configs for Nintendo Switch
