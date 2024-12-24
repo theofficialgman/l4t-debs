@@ -1799,16 +1799,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-10+24.04
+Version: 1.0-10+24.04~juniperdev
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, sddm, switch-sddm-rule, onboard, plasma-discover-backend-flatpak, fuse3, libfuse2, wireplumber, pipewire, pipewire-audio
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/noble/s/switch-kde/switch-kde_1.0-10+24.04_arm64.deb
-Size: 5042
-MD5sum: 48467dc40d53b59fd8f0307ca15f1e0d
-SHA1: 18417af18c3b0eb9321b7d571fad0cd631dd2ce1
-SHA256: fc039816fb7b0b79fa44918071e872e9d220e4ac5bff6227b1171100972c42a0
+Filename: /home/juniper/Repositories/l4t-debs/pool/noble/s/switch-kde/switch-kde_1.0-10+24.04_arm64~juniperdev.deb
+Size: 5308
+MD5sum: 9dbdae17f4afe710f8c95ff690a155e7
+SHA1: 62ff8b16bc18eaf784ba646951b277f248ff646b
+SHA256: f07e5a5b100b3f85320d4d8993e31b1e4065f2ad0a6575f2391115bc7ce74fac
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
