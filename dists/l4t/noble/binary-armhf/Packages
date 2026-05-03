@@ -289,18 +289,18 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-26+24.04
+Version: 5.1.2-31+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
-Breaks: switch-kernel-headers
+Breaks: switch-kernel-headers, switch-kde (<< 1.0-11), switch-unity (<< 1.0-9), switch-touch-rules (<< 2.0), switch-dock-handler (<< 3.0-1)
 Replaces: switch-kernel-headers
 Provides: switch-kernel-headers, linux-headers
-Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-26+24.04_all.deb
-Size: 41662918
-MD5sum: a8d250005681a8bfa7512373bdae5c75
-SHA1: 3ffca2279f64b5906bb92a3d7178573aeffb5d6d
-SHA256: e70fc3958a22c0db3911e324f29f476cda6e4558c72d96f496dbb44fd18fe249
+Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-31+24.04_all.deb
+Size: 41664428
+MD5sum: 298509bc8d892d43a9ccb02c3c342c96
+SHA1: 1e764bf726fcdd1ddce21de2ec21d501816a4603
+SHA256: 40cf04ff3efff571c0ca031754831e5d84d08e0f5714eb16bcd46758e72e25fa
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -323,15 +323,15 @@ Homepage: https://gitlab.com/switchroot/
 Description: Application configs for the Nintendo Switch
 
 Package: switch-dock-handler
-Version: 2.2-1
+Version: 3.0-2
 Architecture: all
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: x11-xserver-utils, pulseaudio-utils, v4l-utils
-Filename: pool/noble/main/s/switch-dock-handler/switch-dock-handler_2.2-1_all.deb
-Size: 7362
-MD5sum: c4ae2c9d9c6717a16d00bd83a9734364
-SHA1: b96c1ee6b859a01990942b1273ca3e2f9b7d8b58
-SHA256: 03e74b6e4b4cf73ce9868c1ef27b4afbed0da7329161f870d14ad817cb599296
+Filename: pool/noble/main/s/switch-dock-handler/switch-dock-handler_3.0-2_all.deb
+Size: 7228
+MD5sum: 797db6bbe1cbf7be99358d0857532e83
+SHA1: 74ba16e282617a6bbf703845f730089150cd6a1d
+SHA256: 68b01354e9f61b788db9ad5aec210f2e623ce77cf259beda6ec484df40ee9797
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
@@ -407,20 +407,20 @@ Homepage: https://gitlab.com/switchroot
 Description: Udev rules to allow sddm to initialize on Tegra Drivers
 
 Package: switch-touch-rules
-Version: 1.3-0ubuntu2
+Version: 2.0
 Architecture: all
-Maintainer: Billy Laws <blaws05@gmail.com>
+Maintainer: theofficialgman <dofficialgman@gmail.com>
 Installed-Size: 13
 Depends: udev, libinput10
-Filename: pool/noble/main/s/switch-touch-rules/switch-touch-rules_1.3-0ubuntu2_all.deb
-Size: 2388
-MD5sum: ee79178534c2ac7cd2725dbff34def39
-SHA1: f0467bab019df1bccfbc684b25b120ca45b83a83
-SHA256: c26386dce224b9a19c07969d9c61f252c21064d9821a7b98ffffcc09f57ec2f3
+Filename: pool/noble/main/s/switch-touch-rules/switch-touch-rules_2.0_all.deb
+Size: 718
+MD5sum: 996e276625683008fe3988e262c4d7d4
+SHA1: 166b81b18215f0b690c1341407826e50e14f3ed8
+SHA256: ed3cfa7d8d807b35ddbe8e6c3370d633bc8ad0c8cc41e48cba0a26d5bd5069d3
 Section: unknown
 Priority: optional
 Homepage: https://gitlab.com/switchroot
-Description: Udev rules to rotate touchscreen on the Nintendo Switch
+Description: Dummy deb that previously housed Udev rules to rotate touchscreen on the Nintendo Switch. No longer required with latest kernel.
 
 Package: xserver-xorg-core
 Source: xorg-server
