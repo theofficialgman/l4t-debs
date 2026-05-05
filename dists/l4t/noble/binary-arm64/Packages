@@ -1701,18 +1701,18 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-31+24.04
+Version: 5.1.2-32+24.04
 Architecture: all
 Maintainer: CTCaer <ctcaer@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Breaks: switch-kernel-headers, switch-kde (<< 1.0-11), switch-unity (<< 1.0-9), switch-touch-rules (<< 2.0), switch-dock-handler (<< 3.0-1)
 Replaces: switch-kernel-headers
 Provides: switch-kernel-headers, linux-headers
-Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-31+24.04_all.deb
-Size: 41664428
-MD5sum: 298509bc8d892d43a9ccb02c3c342c96
-SHA1: 1e764bf726fcdd1ddce21de2ec21d501816a4603
-SHA256: 40cf04ff3efff571c0ca031754831e5d84d08e0f5714eb16bcd46758e72e25fa
+Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-32+24.04_all.deb
+Size: 41666008
+MD5sum: ffd107f00ed9eddb56d3c0e6dc9a465f
+SHA1: b98899802a2f017d8ed3461de7687a930a698d59
+SHA256: 98b4fdb3c6adff0ea826698cb8c0a41ef620ea6f2dedec545af10bb0dcfa0c3e
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
