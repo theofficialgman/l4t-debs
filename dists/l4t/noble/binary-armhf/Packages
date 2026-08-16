@@ -289,23 +289,22 @@ Homepage: https://gitlab.com/switchroot
 Description: ALSA UCM2 configuration for the Nintendo Switch
 
 Package: switch-bsp
-Version: 5.1.2-33+24.04
+Version: 5.1.2-34+24.04
 Architecture: all
-Maintainer: CTCaer <ctcaer@gmail.com>
+Maintainer: theofficialgman <dofficialgman@gmail.com>
 Pre-Depends: nvidia-bsp-32-3 | nvidia-bsp-32-7
 Breaks: switch-kernel-headers, switch-kde (<< 1.0-11), switch-unity (<< 1.0-9), switch-touch-rules (<< 2.0), switch-dock-handler (<< 3.0-1)
 Replaces: switch-kernel-headers
 Provides: switch-kernel-headers, linux-headers
-Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-33+24.04_all.deb
-Size: 41663318
-MD5sum: 235342ec44da3fd04e3292ac07cd4eb9
-SHA1: 511e88f334ba45f66bd405b506ca7607ca3d7584
-SHA256: 64fbd5828592ff961dd56771215498db18eeb8a5ee43c2d1b8730a51fd914dcf
+Filename: pool/noble/s/switch-bsp/switch-bsp_5.1.2-34+24.04_all.deb
+Size: 41672158
+MD5sum: c706240109655733d010b353e4ac3731
+SHA1: 541c6ec02189cbe43957d64d1ba45af52c5ff0de
+SHA256: 3652c4303bf274e9148fde70ef6023c6cb3ade48b6d1170179d9caba6b975f4e
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Switch L4T Bootstack and Kernel Support
-Changed-By: theofficialgman <dofficialgman@gmail.com>
 
 Package: switch-dconf-customizations
 Version: 1.0-5
