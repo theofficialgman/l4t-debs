@@ -1912,6 +1912,21 @@ Priority: required
 Homepage: https://gitlab.com/switchroot
 Description: Metapackage for Unity only Nintendo Switch configuration packages
 
+Package: vk-layer-tegra-dc-present
+Version: 1.0-0
+Architecture: arm64
+Maintainer: theofficialgman <dofficialgman@gmail.com>
+Depends: libc6 (>= 2.34)
+Filename: pool/noble/main/v/vk-layer-tegra-dc-present/vk-layer-tegra-dc-present_1.0-0_arm64.deb
+Size: 259880
+MD5sum: bd6c6164962f764af9c4624a6a615274
+SHA1: 7fb53c4d85945c77ec82eb438ae7c0cea045d3fe
+SHA256: a6838f3c1b4bc5392e7e0a51d3fd292c78e2f07f00825b6c988ee24b97dd549f
+Section: embedded
+Priority: optional
+Homepage: https://github.com/theofficialgman/vk_layer_tegra_dc_present
+Description: vulkan implicit layer to workaround broken vulkan vsync on Nvidia Tegra/Jetson BSP
+
 Package: xserver-xorg-core
 Source: xorg-server
 Version: 2:1.20.13-1ubuntu1~20.04.8
