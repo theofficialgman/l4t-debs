@@ -2438,16 +2438,16 @@ Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
 
 Package: switch-kde
-Version: 1.0-11
+Version: 1.0-12
 Architecture: arm64
 Maintainer: theofficialgman <dofficialgman@gmail.com>
 Depends: plasma-desktop, sddm, switch-sddm-rule, onboard, plasma-discover-backend-flatpak, fuse3, libfuse2
 Conflicts: plasma-discover-backend-snap, plasma-discover-backend-fwupd
-Filename: pool/jammy/s/switch-kde/switch-kde_1.0-11_arm64.deb
-Size: 5332
-MD5sum: 9f8013bbfa2ea7a655eb3767b150b46b
-SHA1: 55b9b2b7ca6b171ef821a1ec3c05123630fb9f37
-SHA256: cdad45778625dbd9cab83d25df0529195169a975019dcc020878a070cf472afe
+Filename: pool/jammy/s/switch-kde/switch-kde_1.0-12_arm64.deb
+Size: 5360
+MD5sum: b232162fe012e940ef1d9e0d1c6121de
+SHA1: 11baf4b3766748fb8abcb81517c54da9441b73e6
+SHA256: 23b102f18361325f395177de405802e1d7ad9f6c6841c744ffe47848e5a18ccf
 Section: embedded
 Priority: required
 Homepage: https://gitlab.com/switchroot
